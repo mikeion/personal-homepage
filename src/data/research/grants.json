@@ -1,0 +1,15 @@
+{
+  "grants": [
+    {
+      "title": "GeT Support Project",
+      "grant_number": "NSF IUSE #1725837",
+      "amount": "$2.3 million",
+      "year_start": 2017,
+      "year_end": 2023,
+      "role": "Graduate Student Researcher",
+      "pi": ["Pat Herbst", "Amanda Brown"],
+      "areas": ["math-education", "ed-assessment"],
+      "status": "completed"
+    }
+  ]
+} 

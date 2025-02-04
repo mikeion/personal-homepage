@@ -1,0 +1,169 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+
+\geometry{letterpaper, margin=1in}
+
+\pagestyle{fancy}
+\fancyhead[L]{\textsc{Michael Ion}}
+\fancyhead[R]{\thepage}
+
+\begin{document}
+
+\begin{center}
+\textsc{\LARGE Michael Ion}\\[0.5em]
+\textit{Postdoctoral Research Fellow}\\[0.5em]
+School of Information\\
+University of Michigan\\
+Ann Arbor, MI 48109\\
+\href{mailto:mion@umich.edu}{mion@umich.edu}\\
+\href{https://www.michaelion.net}{www.michaelion.net}\\
+ORCID: \href{https://orcid.org/YOUR-ORCID}{YOUR-ORCID}
+\end{center}
+
+\section*{Education}
+{% for degree in education %}
+\textbf{ {{degree.type}} } { {{degree.field}} }\\
+{ {{degree.institution}} }, { {{degree.year}} }\\
+{% if degree.thesis %}
+Thesis: { {{degree.thesis.title}} }\\
+Committee: { {{degree.thesis.committee|join(', ')}} }
+{% endif %}
+\vspace{0.5em}
+{% endfor %}
+
+\section*{Professional Positions}
+{% for position in positions %}
+\begin{tabular}{@{}p{4.0in}p{1.0in}}
+\textbf{ {{position.title}} } & \multirow{2}{1.0in}{ {{position.dates}} }\\
+{ {{position.institution}} }, { {{position.location}} } \\
+{% if position.description %}
+\multicolumn{2}{@{}p{5.0in}}{ {{position.description}} }
+{% endif %}
+{% if position.responsibilities %}
+\multicolumn{2}{@{}p{5.0in}}{
+\begin{list1}
+{% for resp in position.responsibilities %}
+\item { {{resp}} }
+{% endfor %}
+\end{list1}}
+{% endif %}
+\end{tabular}
+\vspace{0.5em}
+{% endfor %}
+
+\section*{Publications}
+\subsection*{Refereed Journal Articles}
+{% for pub in publications.journal %}
+\begin{list3}
+\item { {{pub.authors|join(', ')}} } {% if pub.status != "published" %}({ {{pub.status}} }){% endif %}. 
+{ {{pub.title}} }. \textit{ {{pub.venue}} }{% if pub.doi %}, \href{https://doi.org/{ {{pub.doi}} }}{\texttt{doi:{ {{pub.doi}} }}}{% endif %}
+\end{list3}
+{% endfor %}
+
+\subsection*{Conference Proceedings}
+{% for pub in publications.conference %}
+\begin{list3}
+\item { {{pub.authors|join(', ')}} }. { {{pub.title}} }. In \textit{ {{pub.venue}} }{% if pub.pages %}, pp. { {{pub.pages}} }{% endif %}
+\end{list3}
+{% endfor %}
+
+\subsection*{Manuscripts in Preparation}
+{% for pub in publications.in_preparation %}
+\begin{list3}
+\item { {{pub.authors|join(', ')}} }. { {{pub.title}} }. { {{pub.status}} }
+\end{list3}
+{% endfor %}
+
+\section*{Grants and Fellowships}
+{% for grant in grants %}
+\begin{list3}
+\item \textbf{ {{grant.title}} } ({ {{grant.amount}} })\\
+{ {{grant.funder}} }, { {{grant.dates}} }\\
+Role: { {{grant.role}} }
+{% if grant.description %}
+\\ { {{grant.description}} }
+{% endif %}
+\end{list3}
+{% endfor %}
+
+\section*{Awards and Honors}
+{% for award in awards %}
+\begin{list3}
+\item { {{award.title}} }, { {{award.institution}} }, { {{award.year}} }
+{% if award.description %}
+\\ { {{award.description}} }
+{% endif %}
+\end{list3}
+{% endfor %}
+
+\section*{Presentations}
+\subsection*{Invited Talks}
+{% for talk in presentations.invited %}
+\begin{list3}
+\item { {{talk.title}} }. { {{talk.venue}} }, { {{talk.location}} }, { {{talk.date}} }
+\end{list3}
+{% endfor %}
+
+\subsection*{Conference Presentations}
+{% for talk in presentations.conference %}
+\begin{list3}
+\item { {{talk.title}} }. { {{talk.venue}} }, { {{talk.location}} }, { {{talk.date}} }
+\end{list3}
+{% endfor %}
+
+\section*{Teaching Experience}
+{% for course in teaching %}
+\begin{list3}
+\item \textbf{ {{course.title}} }\\
+{ {{course.institution}} }, { {{course.dates}} }\\
+{% if course.description %}
+{ {{course.description}} }
+{% endif %}
+{% if course.responsibilities %}
+\begin{list1}
+{% for resp in course.responsibilities %}
+\item { {{resp}} }
+{% endfor %}
+\end{list1}
+{% endif %}
+\end{list3}
+{% endfor %}
+
+\section*{Professional Service}
+\subsection*{Manuscript Review}
+{% for review in service.reviews %}
+\begin{list3}
+\item { {{review.journal}} }{% if review.count %} ({ {{review.count}} } manuscripts){% endif %}
+\end{list3}
+{% endfor %}
+
+\subsection*{Conference Organization}
+{% for conf in service.conferences %}
+\begin{list3}
+\item { {{conf.role}} }, { {{conf.conference}} }, { {{conf.year}} }
+\end{list3}
+{% endfor %}
+
+\subsection*{Mentoring}
+{% for mentee in service.mentoring %}
+\begin{list3}
+\item { {{mentee.name}} }, { {{mentee.level}} }, { {{mentee.dates}} }
+{% if mentee.project %}
+\\ Project: { {{mentee.project}} }
+{% endif %}
+\end{list3}
+{% endfor %}
+
+\section*{Professional Memberships}
+{% for membership in memberships %}
+\begin{list3}
+\item { {{membership.organization}} }{% if membership.dates %} ({ {{membership.dates}} }){% endif %}
+\end{list3}
+{% endfor %}
+
+\end{document} 

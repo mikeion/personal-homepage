@@ -1,0 +1,50 @@
+# LLM Configuration
+llm:
+  model: "mistral-7b-instruct"
+  max_tokens: 2000
+  temperature: 0.7
+
+# CV Contexts
+contexts:
+  - teaching
+  - industry
+  - research
+  - government
+  - grants
+  - custom
+
+# Export Formats
+formats:
+  - tex
+  - docx
+  - pdf
+
+# Section Templates
+sections:
+  education:
+    priority: 1
+    required: true
+  experience:
+    priority: 2
+    required: true
+  publications:
+    priority: 3
+    required: false
+  skills:
+    priority: 4
+    required: false
+  # Add more sections as needed
+
+# Field-Specific Templates
+fields:
+  academic:
+    emphasis:
+      - publications
+      - grants
+      - teaching
+  industry:
+    emphasis:
+      - technical_skills
+      - projects
+      - impact
+  # Add more fields as needed 

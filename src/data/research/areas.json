@@ -1,0 +1,60 @@
+{
+  "AI in Education": {
+    "id": "ai-education",
+    "description": "Applications of Data Science and Machine Learning in Educational Contexts, focusing on Large Language Models as tools for educational research",
+    "keywords": [
+      "natural language processing",
+      "machine learning",
+      "teaching knowledge",
+      "educational data mining",
+      "AI systems",
+      "large language models",
+      "educational AI"
+    ],
+    "projects": [],
+    "publications": [],
+    "collaborators": []
+  },
+  "Mathematics Education": {
+    "id": "math-education",
+    "description": "Research on teaching and learning mathematics, particularly focusing on geometry education and teacher preparation.",
+    "keywords": [
+      "geometry education",
+      "teacher preparation",
+      "mathematical knowledge for teaching",
+      "undergraduate mathematics education",
+      "math pedagogy"
+    ]
+  },
+  "Educational Assessment": {
+    "id": "ed-assessment",
+    "description": "Quantitative Survey Methodologies for Educational Assessment, focusing on psychometric approaches and instrument development",
+    "keywords": [
+      "psychometrics",
+      "survey methodology",
+      "assessment design",
+      "item response theory",
+      "measurement"
+    ],
+    "projects": [],
+    "publications": [],
+    "collaborators": []
+  },
+  "Learning Analytics": {
+    "id": "learning-analytics",
+    "description": "Analysis of educational data to understand and improve learning processes, with a focus on writing and curriculum analysis.",
+    "keywords": [
+      "learning analytics",
+      "text analysis",
+      "curriculum analysis", 
+      "educational data science",
+      "writing analytics"
+    ]
+  },
+  "STEM Education": {
+    "description": "Research in STEM education with a focus on mathematics education and teacher preparation",
+    "projects": [],
+    "publications": [],
+    "collaborators": []
+  }
+} 

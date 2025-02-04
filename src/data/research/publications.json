@@ -1,0 +1,38 @@
+{
+  "journal_articles": [
+    {
+      "title": "Measuring Tacit Mathematics Teaching Knowledge: A Natural Language Processing Approach",
+      "authors": ["Ion, M.", "Herbst, P."],
+      "venue": "Journal of the Learning Sciences",
+      "year": 2023,
+      "status": "in_review",
+      "areas": ["ai-education", "math-education"],
+      "type": "journal",
+      "abstract": "",
+      "pdf_url": "",
+      "code_url": ""
+    },
+    {
+      "title": "Teaching Geometry for Secondary Teachers: What are the Tensions Instructors Need to Manage?",
+      "authors": ["Herbst, P.", "Brown, A.M.", "Ion, M.", "Margolis, C."],
+      "venue": "International Journal of Research in Undergraduate Mathematics Education",
+      "year": 2023,
+      "status": "published",
+      "doi": "https://doi-org.proxy.lib.umich.edu/10.1007/s40753-023-00216-0",
+      "areas": ["math-education"],
+      "type": "journal"
+    }
+  ],
+  "conference_papers": [
+    {
+      "title": "Surveying Instructors of Geometry for Teachers Courses: An Illustration of Balanced Incomplete Block Design",
+      "authors": ["Ion, M.", "Herbst, P.", "Ko, I.", "Hetrick, C."],
+      "venue": "Psychology of Mathematics Education, North America Annual Conference",
+      "location": "Reno, NV",
+      "year": 2023,
+      "status": "published",
+      "areas": ["ed-assessment", "math-education"],
+      "type": "conference"
+    }
+  ]
+} 

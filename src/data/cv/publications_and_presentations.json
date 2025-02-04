@@ -1,0 +1,826 @@
+{
+  "peer_reviewed_journals": [
+    {
+      "title": "Teaching and Learning in the Age of Generative AI: Understanding the Human Work of Instruction",
+      "authors": [
+        "\\textbf{Ion",
+        "M.}",
+        "Ball",
+        "D. L."
+      ],
+      "journal": "For the Learning of Mathematics",
+      "year": "2024",
+      "status": "in_preparation",
+      "keywords": [
+        "Artificial Intelligence",
+        "Teaching Practice",
+        "Mathematics Education",
+        "Educational Technology"
+      ]
+    },
+    {
+      "title": "Teaching Geometry for Secondary Teachers: What are the Tensions Instructors Need to Manage?",
+      "authors": [
+        "Herbst",
+        "P.",
+        "Brown",
+        "A.M.",
+        "\\textbf{Ion",
+        "M.}",
+        "Margolis",
+        "C."
+      ],
+      "journal": "International Journal of Research in Undergraduate Mathematics Education",
+      "year": "2023",
+      "doi": "https://doi-org.proxy.lib.umich.edu/10.1007/s40753-023-00216-0",
+      "status": "published",
+      "keywords": [
+        "Mathematics Education",
+        "Teacher Education",
+        "Geometry",
+        "Pedagogical Content Knowledge",
+        "Teaching Practice"
+      ]
+    },
+    {
+      "title": "Alumni Perspectives on General Education: How Writing Can Increase What We Know",
+      "authors": [
+        "Gere",
+        "A.",
+        "Godfrey",
+        "J.",
+        "Griffin",
+        "M.",
+        "\\textbf{Ion",
+        "M.}",
+        "Limlamai",
+        "N.",
+        "Moos",
+        "A.",
+        "Van Zanen",
+        "K."
+      ],
+      "journal": "Journal of General Education",
+      "volume": "70(1-2)",
+      "year": "2023",
+      "doi": "https://doi.org/10.5325/jgeneeduc.70.1-2.0149",
+      "status": "published",
+      "keywords": [
+        "Writing Education",
+        "Higher Education",
+        "General Education",
+        "Alumni Research",
+        "Educational Assessment"
+      ]
+    }
+  ],
+  "work_in_progress": [],
+  "conference_proceedings": [
+    {
+      "title": "Simulated Teaching and Learning at Scale: Balancing Fidelity and Effectiveness in Tutoring Interactions",
+      "authors": [
+        "\\textbf{Ion",
+        "M.}"
+      ],
+      "venue": "Learning @ Scale 2025",
+      "date": "2024",
+      "status": "in_preparation",
+      "keywords": [
+        "Learning at Scale",
+        "AI Tutoring",
+        "Simulation",
+        "Educational Technology"
+      ]
+    },
+    {
+      "title": "Surveying Instructors of Geometry for Teachers Courses: An Illustration of Balanced Incomplete Block Design",
+      "authors": [
+        "\\textbf{Ion",
+        "M.}",
+        "Herbst",
+        "P.",
+        "Ko",
+        "I.",
+        "Hetrick",
+        "C."
+      ],
+      "venue": "Psychology of Mathematics Education, North America Annual Conference",
+      "location": "Reno, NV",
+      "date": "Oct. 2023",
+      "keywords": [
+        "Mathematics Education",
+        "Research Methods",
+        "Survey Design",
+        "Teacher Education",
+        "Geometry"
+      ]
+    },
+    {
+      "title": "How Instructors of Undergraduate Mathematics Courses Manage Tensions Related to Teaching Courses for Teachers",
+      "authors": [
+        "Brown",
+        "A.",
+        "Herbst",
+        "P.",
+        "\\textbf{Ion",
+        "M.}"
+      ],
+      "venue": "Psychology of Mathematics Education, North America Annual Conference",
+      "location": "Reno, NV",
+      "date": "Oct. 2023",
+      "keywords": [
+        "Mathematics Education",
+        "Teacher Education",
+        "Pedagogical Tensions",
+        "Higher Education",
+        "Course Design"
+      ]
+    },
+    {
+      "title": "Learning from Lesson Study in the College Geometry Classroom",
+      "authors": [
+        "Boyce",
+        "S.",
+        "An",
+        "T.",
+        "Pyzdrowski",
+        "L.",
+        "Oppong-Wadie",
+        "K.",
+        "\\textbf{Ion",
+        "M.}",
+        "St. Goar",
+        "J."
+      ],
+      "venue": "Conference on Research in Undergraduate Mathematics Education",
+      "location": "Omaha, NE",
+      "date": "Feb. 2023",
+      "keywords": [
+        "Lesson Study",
+        "Geometry Education",
+        "Higher Education",
+        "Collaborative Teaching",
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "Building Instructional Capacity Across Difference: Analyzing Transdisciplinary Discourse in a Faculty Learning Community",
+      "authors": [
+        "Hetrick",
+        "C.",
+        "Herbst",
+        "P.",
+        "\\textbf{Ion",
+        "M.}",
+        "Brown",
+        "A."
+      ],
+      "venue": "Conference on Research in Undergraduate Mathematics Education",
+      "location": "Omaha, NE",
+      "date": "Feb. 2023",
+      "keywords": [
+        "Faculty Development",
+        "Learning Communities",
+        "Transdisciplinary Learning",
+        "Mathematics Education",
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "Studying Conceptions of the Derivative at Scale: A Machine Learning Approach",
+      "authors": [
+        "\\textbf{Ion",
+        "M.}"
+      ],
+      "venue": "Conference of the International Group for the Psychology of Mathematics Education",
+      "location": "Alicante, Spain",
+      "date": "Jul. 2022",
+      "keywords": [
+        "Machine Learning",
+        "Calculus Education",
+        "Student Understanding",
+        "Natural Language Processing",
+        "Mathematics Education"
+      ]
+    },
+    {
+      "title": "Conceptions of the Derivative: A Natural Language Processing Approach",
+      "authors": [
+        "Ion, M.",
+        "Herbst",
+        "P."
+      ],
+      "venue": "Research in Undergraduate Mathematics Education Conference",
+      "location": "Boston",
+      "date": "Feb. 2022",
+      "keywords": [
+        "Natural Language Processing",
+        "Calculus Education",
+        "Student Understanding",
+        "Text Analysis",
+        "Mathematics Education"
+      ]
+    },
+    {
+      "title": "Understanding instructional capacity for high school geometry as a systemic problem through stakeholder interviews",
+      "authors": [
+        "Margolis",
+        "C.",
+        "\\textbf{Ion",
+        "M.}",
+        "Herbst",
+        "P.",
+        "Milewski",
+        "A.",
+        "Shultz",
+        "M."
+      ],
+      "venue": "Psychology of Mathematics Education, North America",
+      "location": "Virtual",
+      "date": "Nov. 2020",
+      "keywords": [
+        "Mathematics Education",
+        "Geometry",
+        "Systemic Analysis",
+        "Teacher Capacity",
+        "Stakeholder Research"
+      ]
+    },
+    {
+      "title": "Who Benefits from Mathematics Courses for Teachers? An Analysis of MKT-G Growth During Geometry for Teachers Courses",
+      "authors": [
+        "Bardelli",
+        "E.",
+        "\\textbf{Ion",
+        "M.}",
+        "Ko",
+        "I.",
+        "Herbst",
+        "P."
+      ],
+      "venue": "American Education Research Association",
+      "location": "San Francisco",
+      "date": "Apr. 2020",
+      "keywords": [
+        "Teacher Education",
+        "Mathematics Knowledge",
+        "Course Effectiveness",
+        "Geometry",
+        "Learning Assessment"
+      ]
+    },
+    {
+      "authors": [
+        "Ion, M.",
+        "Herbst",
+        "P.",
+        "(Nov. 2019). Developing Practical Measures To Support the Improvement of Geometry for Teachers Courses. \\textit{Psychology of Mathematics Education",
+        "North America Annual Conference}. St. Louis"
+      ],
+      "date": "Nov. 2019",
+      "title": "Developing Practical Measures To Support the Improvement of Geometry for Teachers Courses",
+      "venue": "Psychology of Mathematics Education, North America Annual Conference",
+      "location": ""
+    },
+    {
+      "authors": [
+        "Milewski",
+        "A.",
+        "\\textbf{Ion",
+        "M.}",
+        "Herbst",
+        "P.",
+        "Shultz",
+        "M.",
+        "Ko",
+        "I.",
+        "Bleecker",
+        "H.",
+        "(Apr. 2019). Tensions in Teaching Mathematics to Future Teachers: Understanding the Practice of Undergraduate Mathematics Instructors. \\textit{American Education Research Association Conference}. Toronto"
+      ],
+      "date": "Apr. 2019",
+      "title": "Tensions in Teaching Mathematics to Future Teachers: Understanding the Practice of Undergraduate Mathematics Instructors",
+      "venue": "American Education Research Association Conference",
+      "location": ""
+    },
+    {
+      "authors": [
+        "Herbst",
+        "P.",
+        "Milewski",
+        "A.",
+        "\\textbf{Ion",
+        "M.}",
+        "Bleecker",
+        "H.",
+        "(Oct. 2018). What Influences Do Instructors of the Geometry for Teachers Course Need to Contend With? \\textit{Psychology of Mathematics Education",
+        "North America}. Greenville"
+      ],
+      "date": "Oct. 2018",
+      "title": "",
+      "venue": "Psychology of Mathematics Education, North America",
+      "location": ""
+    },
+    {
+      "title": "Developing Practical Measures To Support the Improvement of Geometry for Teachers Courses",
+      "authors": [
+        "Ion, M.",
+        "Herbst",
+        "P.",
+        "Margolis",
+        "C.",
+        "Milewski",
+        "A.",
+        "Ko",
+        "I."
+      ],
+      "venue": "Psychology of Mathematics Education, North America Annual Conference",
+      "location": "St. Louis",
+      "date": "Nov. 2019",
+      "keywords": [
+        "Mathematics Education",
+        "Assessment Development",
+        "Teacher Education",
+        "Geometry",
+        "Educational Measurement"
+      ]
+    },
+    {
+      "title": "Tensions in Teaching Mathematics to Future Teachers: Understanding the Practice of Undergraduate Mathematics Instructors",
+      "authors": [
+        "Milewski",
+        "A.",
+        "\\textbf{Ion",
+        "M.}",
+        "Herbst",
+        "P.",
+        "Shultz",
+        "M.",
+        "Ko",
+        "I.",
+        "Bleecker",
+        "H."
+      ],
+      "venue": "American Education Research Association Conference",
+      "location": "Toronto",
+      "date": "Apr. 2019",
+      "keywords": [
+        "Mathematics Education",
+        "Teacher Education",
+        "Teaching Practice",
+        "Higher Education",
+        "Pedagogical Tensions"
+      ]
+    },
+    {
+      "title": "What Influences Do Instructors of the Geometry for Teachers Course Need to Contend With?",
+      "authors": [
+        "Herbst",
+        "P.",
+        "Milewski",
+        "A.",
+        "\\textbf{Ion",
+        "M.}",
+        "Bleecker",
+        "H."
+      ],
+      "venue": "Psychology of Mathematics Education, North America",
+      "location": "Greenville",
+      "date": "Oct. 2018",
+      "keywords": [
+        "Mathematics Education",
+        "Teacher Education",
+        "Geometry",
+        "Teaching Practice",
+        "Course Design"
+      ]
+    }
+  ],
+  "non_peer_reviewed": [
+    {
+      "authors": [
+        "Ion, M.",
+        "Herbst",
+        "P.",
+        "(Nov. 2021). A Contribution to Stewarding the SLOs: Developing SLO Assessment Items and Examining Item Responses. \\textit{GeT: The News!",
+        "3}"
+      ],
+      "date": "Nov. 2021",
+      "title": "A Contribution to Stewarding the SLOs: Developing SLO Assessment Items and Examining Item Responses",
+      "venue": "GeT: The News!, 3",
+      "keywords": [
+        "Student Learning Outcomes",
+        "Assessment Development",
+        "Mathematics Education",
+        "Item Analysis",
+        "Educational Measurement"
+      ]
+    },
+    {
+      "authors": [
+        "Herbst",
+        "P.",
+        "\\textbf{Ion",
+        "M.}",
+        "(Nov. 2021). A Deeper Dive into an SLO Item: Examining Students' Ways of Reasoning about Relationships between Euclidean and Non-Euclidean Geometries. \\textit{GeT: The News!",
+        "3}"
+      ],
+      "date": "Nov. 2021",
+      "title": "A Deeper Dive into an SLO Item: Examining Students' Ways of Reasoning about Relationships between Euclidean and Non-Euclidean Geometries",
+      "venue": "GeT: The News!, 3",
+      "keywords": [
+        "Geometry Education",
+        "Student Reasoning",
+        "Non-Euclidean Geometry",
+        "Assessment Analysis",
+        "Mathematics Education"
+      ]
+    },
+    {
+      "authors": [
+        "Boyce",
+        "S.",
+        "\\textbf{Ion",
+        "M.}",
+        "Lai",
+        "Y.",
+        "McLeod",
+        "K.",
+        "Pyzdrowski",
+        "L.",
+        "Sears",
+        "R.",
+        "St. Goar",
+        "J."
+      ],
+      "date": "May 2021",
+      "title": "Best-Laid Co-Plans for a Lesson on Creating a Mathematical Definition",
+      "venue": "AMS Blogs: On Teaching and Learning Mathematics",
+      "keywords": [
+        "Mathematics Education",
+        "Lesson Planning",
+        "Collaborative Teaching",
+        "Mathematical Definitions",
+        "Teaching Practice"
+      ]
+    }
+  ],
+  "presentations": {
+    "conference_talks": [
+      {
+        "title": "Text-as-Data in Mathematics Education: Harnessing LLMs to Analyze Student Conversations at Scale",
+        "authors": [
+          "\\textbf{Ion",
+          "M.}"
+        ],
+        "venue": "AMS Special Session on SoTL: Connecting Generative AI and Scholarly Inquiry to Improve Teaching and Learning",
+        "location": "Seattle Convention Center",
+        "date": "Jan. 2025",
+        "type": "Invited Talk",
+        "description": "Understanding students' conversations can provide insights into their learning processes, but we lack reliable methodologies to extract useful learning information from them at scale. This presentation explores the innovative use of LLMs and other text-as-data methods for analyzing large-scale conversational datasets from online mathematics learning communities.",
+        "keywords": [
+          "LLMs",
+          "Text Analysis",
+          "Mathematics Education",
+          "Student Learning",
+          "Natural Language Processing",
+          "Educational Data Mining"
+        ]
+      },
+      {
+        "title": "Writing Across the Curriculum: a Case Study in Text as Data Methods for Postsecondary Education Policy Research",
+        "authors": [
+          "Paulsen",
+          "A.",
+          "Godfrey",
+          "J.",
+          "\\textbf{Ion",
+          "M.}"
+        ],
+        "venue": "American Educational Research Association Annual Meeting",
+        "location": "Denver, CO",
+        "date": "Mar. 2023",
+        "keywords": [
+          "Writing Education",
+          "Text Analysis",
+          "Education Policy",
+          "Higher Education",
+          "Research Methods"
+        ]
+      },
+      {
+        "authors": [
+          "Godfrey",
+          "J.",
+          "Paulson",
+          "A.",
+          "\\textbf{Ion",
+          "M}."
+        ],
+        "date": "2023",
+        "title": "What Are the Common Contexts for College Writing?",
+        "venue": "Conference on College Composition and Communication Annual Convention",
+        "location": "Chicago",
+        "keywords": [
+          "Writing Education",
+          "Higher Education",
+          "Writing Contexts",
+          "Curriculum Design",
+          "Educational Research"
+        ]
+      },
+      {
+        "authors": [
+          "Paulsen",
+          "A.",
+          "\\textbf{Ion",
+          "M.}",
+          "Godfrey",
+          "J."
+        ],
+        "date": "Dec. 2022",
+        "title": "Writing Across the Curriculum: a Text as Data Approach",
+        "venue": "Causal Inference in Education Research Seminar (CIERS)",
+        "location": "Ann Arbor",
+        "keywords": [
+          "Text Analysis",
+          "Writing Education",
+          "Research Methods",
+          "Causal Inference",
+          "Educational Research"
+        ]
+      },
+      {
+        "authors": [
+          "Paulson",
+          "A.",
+          "Bardelli",
+          "E.",
+          "Godfrey",
+          "J.",
+          "\\textbf{Ion",
+          "M.}",
+          "Frisby",
+          "M."
+        ],
+        "date": "Apr. 2022",
+        "title": "Who Follows Placement Recommendations?",
+        "venue": "American Education Research Association",
+        "location": "San Diego",
+        "keywords": [
+          "Student Placement",
+          "Educational Policy",
+          "Decision Making",
+          "Higher Education",
+          "Student Success"
+        ]
+      },
+      {
+        "authors": [
+          "Herbst",
+          "P.",
+          "Stevens",
+          "I.",
+          "Milewski",
+          "A.",
+          "\\textbf{Ion",
+          "M.}",
+          "Ko",
+          "I."
+        ],
+        "date": "Jan. 2020",
+        "title": "State of Undergraduate Geometry Courses for Secondary Teachers",
+        "venue": "Joint Mathematics Meeting",
+        "location": "Denver",
+        "keywords": [
+          "Mathematics Education",
+          "Teacher Preparation",
+          "Geometry",
+          "Curriculum Design",
+          "Higher Education"
+        ]
+      },
+      {
+        "authors": [
+          "Milewski",
+          "A.",
+          "Herbst",
+          "P.",
+          "\\textbf{Ion",
+          "M.}",
+          "Bleecker",
+          "H."
+        ],
+        "date": "Feb. 2019",
+        "title": "Preparing Teachers for Secondary Geometry: Understanding the Tensions in Teaching Undergraduate Mathematics Courses for Future Teachers",
+        "venue": "Association of Mathematics Teacher Educators Annual Conference",
+        "location": "Orlando",
+        "keywords": [
+          "Teacher Education",
+          "Geometry",
+          "Mathematics Education",
+          "Pedagogical Tensions",
+          "Course Design"
+        ]
+      },
+      {
+        "authors": [
+          "Milewski",
+          "A.",
+          "Herbst",
+          "P.",
+          "Margolis",
+          "C.",
+          "\\textbf{Ion",
+          "M.}",
+          "Ko",
+          "I.",
+          "Akbuga",
+          "E."
+        ],
+        "date": "Jan. 2019",
+        "title": "What do we know about courses in Geometry for Secondary Teachers?",
+        "venue": "Joint Mathematics Meetings",
+        "location": "Baltimore",
+        "keywords": [
+          "Geometry Education",
+          "Teacher Preparation",
+          "Course Assessment",
+          "Mathematics Education",
+          "Curriculum Research"
+        ]
+      }
+    ],
+    "roundtable_discussions": [
+      {
+        "authors": [
+          "Berzina Pitcher",
+          "I.",
+          "\\textbf{Ion",
+          "M.}",
+          "An",
+          "T.",
+          "Brown",
+          "A.",
+          "Buchbinder",
+          "O.",
+          "Herbst",
+          "P.",
+          "Hetrick",
+          "C.",
+          "Miller",
+          "N.",
+          "Prasad",
+          "P.",
+          "Pyzdrowski",
+          "L.",
+          "St. Goar",
+          "J.",
+          "Sears",
+          "R.",
+          "Szydlik",
+          "S.",
+          "Vestal",
+          "S."
+        ],
+        "date": "Apr. 2022",
+        "title": "Learning and Participating in Scholarship of Teaching and Learning through a Faculty Online Learning Community",
+        "venue": "American Education Research Association",
+        "location": "San Diego",
+        "keywords": [
+          "Faculty Development",
+          "SoTL",
+          "Learning Communities",
+          "Professional Development",
+          "Online Learning"
+        ]
+      },
+      {
+        "authors": [
+          "Ion, M.",
+          "Margolis",
+          "C."
+        ],
+        "date": "Mar. 2019",
+        "title": "Sources of Justification for College Geometry Instructional Actions",
+        "venue": "Graduate Student Community Organization Graduate Student Conference",
+        "location": "Ann Arbor",
+        "keywords": [
+          "Geometry Education",
+          "Teaching Practice",
+          "Instructional Decision Making",
+          "Higher Education",
+          "Mathematics Education"
+        ]
+      },
+      {
+        "authors": [
+          "Ion, M."
+        ],
+        "date": "Mar. 2018",
+        "title": "Characterizing University Geometry Courses: An Interview-Based Approach",
+        "venue": "Graduate Student Community Organization Graduate Student Conference",
+        "location": "Ann Arbor",
+        "keywords": [
+          "Geometry Education",
+          "Higher Education",
+          "Qualitative Research",
+          "Course Design",
+          "Mathematics Education"
+        ]
+      }
+    ],
+    "posters": [
+      {
+        "title": "Adaptive Knowledge Assessment in Simulated Coding Interviews",
+        "authors": [
+          "\\textbf{Ion",
+          "M.}",
+          "Asthana",
+          "S.",
+          "Collins-Thompson",
+          "K.",
+          "Jiao",
+          "F.",
+          "Wang",
+          "T."
+        ],
+        "venue": "iRAISE Workshop at AAAI Conference",
+        "location": "Philadelphia, PA",
+        "date": "2025",
+        "keywords": [
+          "Adaptive Assessment",
+          "Coding Education",
+          "Machine Learning",
+          "Educational Technology",
+          "Interview Simulation"
+        ]
+      },
+      {
+        "title": "Geometry Students' Ways of Thinking About Adinkra Symbols",
+        "authors": [
+          "Boyce",
+          "B.",
+          "\\textbf{Ion",
+          "M.}"
+        ],
+        "venue": "Psychology of Mathematics Education, North America Annual Conference",
+        "location": "Reno, NV",
+        "date": "Oct. 2023",
+        "keywords": [
+          "Geometry Education",
+          "Cultural Mathematics",
+          "Student Thinking",
+          "Mathematics Education",
+          "Symbol Systems"
+        ]
+      },
+      {
+        "title": "Analysis of Citation Networks of Submitted Manuscripts in Mathematics Education",
+        "authors": [
+          "Danai",
+          "A.",
+          "Quimper Osores",
+          "A.",
+          "\\textbf{Ion",
+          "M.}",
+          "Herbst",
+          "P."
+        ],
+        "venue": "Undergraduate Research Opportunity Program (UROP) Symposium",
+        "location": "Ann Arbor, MI",
+        "date": "Apr. 2023",
+        "award": "Blue Ribbon Outstanding Presenter Award",
+        "keywords": [
+          "Citation Analysis",
+          "Network Analysis",
+          "Mathematics Education",
+          "Research Methods",
+          "Bibliometrics"
+        ]
+      },
+      {
+        "title": "Learning About the Norms of Teaching Practice: How Can Machine Learning Help Analyze Teachers' Reactions to Scenarios?",
+        "authors": [
+          "\\textbf{Ion",
+          "M.}",
+          "Bardelli",
+          "E.",
+          "Herbst",
+          "P."
+        ],
+        "venue": "Michigan Institute for Data Science Annual Symposium",
+        "location": "Ann Arbor, MI",
+        "date": "Oct. 2018",
+        "award": "Most Likely Scientific Impact",
+        "keywords": [
+          "Machine Learning",
+          "Teaching Practice",
+          "Educational Data Mining",
+          "Teacher Reactions",
+          "Scenario Analysis"
+        ]
+      }
+    ]
+  }
+}
