@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { FaArrowUp } from 'react-icons/fa'
 import { promises as fs } from 'fs'
 import path from 'path'
+import { publications } from '@/data/publications'
 
 interface Publication {
   title: string
@@ -259,115 +260,25 @@ const ScrollToTop = () => {
   ) : null
 }
 
-export default async function Research() {
-  try {
-    const dataPath = path.join(process.cwd(), 'src/data/cv/publications_and_presentations.json')
-    const data = await fs.readFile(dataPath, 'utf8')
-    const publications = JSON.parse(data)
+export default function Research() {
+  return (
+    <div className="max-w-4xl mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold mb-8">Research</h1>
 
-    return (
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold mb-8">Research</h1>
-
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6">Journal Publications</h2>
-          <div className="space-y-6">
-            <div id="generative-ai" className="scroll-mt-16">
+      <section className="mb-16">
+        <h2 className="text-2xl font-bold mb-6">Journal Publications</h2>
+        <div className="space-y-6">
+          {publications.journal_publications.map((pub) => (
+            <div key={pub.id} id={pub.id} className="scroll-mt-16">
               <PublicationEntry 
-                publication={{
-                  title: "Simulated Teaching and Learning at Scale: Balancing Fidelity and Effectiveness in Tutoring Interactions",
-                  venue: "For the Learning of Mathematics",
-                  status: "in_progress",
-                  authors: ["Ion, M.", "Asthana, S.", "Jiao, F.", "Wang, T.", "Collins-Thompson, K."],
-                  // ... other publication details
-                }}
-                type="journal"
-              />
-            </div>
-
-            <div id="text-as-data">
-              <PublicationEntry 
-                publication={{
-                  title: "Text-as-Data in Mathematics Education",
-                  venue: "AMS Special Session on SoTL",
-                  authors: ["Ion, M.", "Asthana, S.", "Jiao, F.", "Wang, T.", "Collins-Thompson, K."],
-                  date: "Jan 2025",
-                  // ... other publication details
-                }}
-                type="conference"
-              />
-            </div>
-
-            <div id="geometry" className="scroll-mt-16">
-              <PublicationEntry 
-                publication={{
-                  title: "Teaching Geometry for Secondary Teachers",
-                  venue: "International Journal of Research in Undergraduate Mathematics Education",
-                  authors: ["Ion, M."],
-                  year: "2023",
-                  doi: "...",  // Add actual DOI
-                  volume: "...",  // Add volume info
-                  status: "published",
-                  keywords: [
-                    "Mathematics Education",
-                    "Teacher Education",
-                    "Geometry Education"
-                  ]
-                }}
-                type="journal"
-              />
-            </div>
-          </div>
-        </section>
-
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6">Conference Proceedings</h2>
-          <div className="space-y-6">
-            {publications.conference_proceedings.map((pub: Publication, index: number) => (
-              <PublicationEntry 
-                key={index}
                 publication={pub}
-                type="conference"
+                type="journal"
               />
-            ))}
-          </div>
-        </section>
-
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6">Conference Presentations</h2>
-          <div className="space-y-6">
-            {publications.presentations.conference_talks.map((talk: Publication, index: number) => (
-              <PublicationEntry 
-                key={index}
-                publication={talk}
-                type="talk"
-              />
-            ))}
-          </div>
-        </section>
-
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6">Posters</h2>
-          <div className="space-y-6">
-            {publications.presentations.posters.map((poster: Publication, index: number) => (
-              <PublicationEntry 
-                key={index}
-                publication={poster}
-                type="poster"
-              />
-            ))}
-          </div>
-        </section>
-        <ScrollToTop />
-      </div>
-    )
-  } catch (error) {
-    console.error('Error loading research data:', error)
-    return (
-      <div className="max-w-4xl mx-auto px-4">
-        <h1 className="text-3xl font-bold mb-6">Research</h1>
-        <p className="text-red-600">Error loading research data. Please try again later.</p>
-      </div>
-    )
-  }
+            </div>
+          ))}
+        </div>
+      </section>
+      <ScrollToTop />
+    </div>
+  )
 } 
