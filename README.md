@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mike Ion's Personal Website
 
-## Getting Started
+A modern, responsive personal academic website built with Next.js and TailwindCSS. This site showcases my research, teaching, and programming work at the intersection of AI and education.
 
-First, run the development server:
+## Features
 
+- 🎨 Modern, responsive design with dark mode support
+- 📱 Mobile-first approach
+- 🚀 Built with Next.js 14 and TypeScript
+- 🎯 TailwindCSS for styling
+- 📊 Dynamic research publication display
+- 🔍 SEO optimized
+
+## Local Development
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/mikeion/website.git
+cd website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Create a `.env` file in the root directory and add necessary environment variables:
+```env
+# Add any required environment variables here
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Start the development server:
+```bash
+npm run dev
+```
 
-## Learn More
+The site will be available at [http://localhost:3000](http://localhost:3000).
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+├── app/                # Next.js app router pages
+├── components/         # Reusable React components
+├── data/              # Static data (CV, publications)
+├── types/             # TypeScript type definitions
+└── utils/             # Utility functions
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+This site is deployed on Railway and accessible at [mikeion.com](https://mikeion.com).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Built With
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js](https://nextjs.org/) - React framework
+- [TailwindCSS](https://tailwindcss.com/) - CSS framework
+- [React Icons](https://react-icons.github.io/react-icons/) - Icon library
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+- Website: [mikeion.com](https://mikeion.com)
+- GitHub: [@mikeion](https://github.com/mikeion)
+- LinkedIn: [Mike Ion](https://linkedin.com/in/mikeion)
