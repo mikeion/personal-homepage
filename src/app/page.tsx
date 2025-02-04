@@ -14,15 +14,20 @@ const ResearchHighlight = ({ emoji, title, description }: {
   </div>
 )
 
-const LatestPublication = ({ title, venue, date }: {
+const LatestPublication = ({ title, venue, date, href }: {
   title: string
   venue: string
   date: string
+  href?: string  // Optional link to research page section
 }) => (
   <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
-    <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">{date}</p>
-    <h3 className="font-semibold mb-2">{title}</h3>
-    <p className="text-gray-600 dark:text-gray-300 text-sm">{venue}</p>
+    <Link href={href || '/research'}>
+      <div className="cursor-pointer">
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">{date}</p>
+        <h3 className="font-semibold mb-2">{title}</h3>
+        <p className="text-gray-600 dark:text-gray-300 text-sm">{venue}</p>
+      </div>
+    </Link>
   </div>
 )
 
@@ -116,16 +121,19 @@ export default function Home() {
               title="Teaching and Learning in the Age of Generative AI"
               venue="For the Learning of Mathematics"
               date="In Progress"
+              href="/research#generative-ai"
             />
             <LatestPublication
               title="Text-as-Data in Mathematics Education"
               venue="AMS Special Session on SoTL"
-              date="In Progress"
+              date="Jan 2025"
+              href="/research#text-as-data"
             />
             <LatestPublication
               title="Teaching Geometry for Secondary Teachers"
               venue="International Journal of Research in Undergraduate Mathematics Education"
               date="2023"
+              href="/research#geometry"
             />
           </div>
         </div>

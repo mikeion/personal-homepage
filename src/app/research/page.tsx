@@ -1,3 +1,6 @@
+'use client'
+import { useState, useEffect } from 'react'
+import { FaArrowUp } from 'react-icons/fa'
 import { promises as fs } from 'fs'
 import path from 'path'
 
@@ -229,6 +232,33 @@ function PublicationEntry({ publication, type }: { publication: Publication, typ
   )
 }
 
+const ScrollToTop = () => {
+  const [isVisible, setIsVisible] = useState(false)
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 300) {
+        setIsVisible(true)
+      } else {
+        setIsVisible(false)
+      }
+    }
+
+    window.addEventListener('scroll', toggleVisibility)
+    return () => window.removeEventListener('scroll', toggleVisibility)
+  }, [])
+
+  return isVisible ? (
+    <button
+      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      className="fixed bottom-8 right-8 p-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-colors"
+      aria-label="Scroll to top"
+    >
+      <FaArrowUp />
+    </button>
+  ) : null
+}
+
 export default async function Research() {
   try {
     const dataPath = path.join(process.cwd(), 'src/data/cv/publications_and_presentations.json')
@@ -242,13 +272,51 @@ export default async function Research() {
         <section className="mb-16">
           <h2 className="text-2xl font-bold mb-6">Journal Publications</h2>
           <div className="space-y-6">
-            {publications.peer_reviewed_journals.map((pub: Publication, index: number) => (
+            <div id="generative-ai" className="scroll-mt-16">
               <PublicationEntry 
-                key={index}
-                publication={pub}
+                publication={{
+                  title: "Simulated Teaching and Learning at Scale: Balancing Fidelity and Effectiveness in Tutoring Interactions",
+                  venue: "For the Learning of Mathematics",
+                  status: "in_progress",
+                  authors: ["Ion, M.", "Asthana, S.", "Jiao, F.", "Wang, T.", "Collins-Thompson, K."],
+                  // ... other publication details
+                }}
                 type="journal"
               />
-            ))}
+            </div>
+
+            <div id="text-as-data">
+              <PublicationEntry 
+                publication={{
+                  title: "Text-as-Data in Mathematics Education",
+                  venue: "AMS Special Session on SoTL",
+                  authors: ["Ion, M.", "Asthana, S.", "Jiao, F.", "Wang, T.", "Collins-Thompson, K."],
+                  date: "Jan 2025",
+                  // ... other publication details
+                }}
+                type="conference"
+              />
+            </div>
+
+            <div id="geometry" className="scroll-mt-16">
+              <PublicationEntry 
+                publication={{
+                  title: "Teaching Geometry for Secondary Teachers",
+                  venue: "International Journal of Research in Undergraduate Mathematics Education",
+                  authors: ["Ion, M."],
+                  year: "2023",
+                  doi: "...",  // Add actual DOI
+                  volume: "...",  // Add volume info
+                  status: "published",
+                  keywords: [
+                    "Mathematics Education",
+                    "Teacher Education",
+                    "Geometry Education"
+                  ]
+                }}
+                type="journal"
+              />
+            </div>
           </div>
         </section>
 
@@ -290,6 +358,7 @@ export default async function Research() {
             ))}
           </div>
         </section>
+        <ScrollToTop />
       </div>
     )
   } catch (error) {
