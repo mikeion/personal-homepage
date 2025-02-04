@@ -32,7 +32,7 @@ export default function Navigation() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="absolute top-12 right-0 w-48 py-2 bg-white dark:bg-gray-800 rounded-lg shadow-xl md:hidden">
+        <div className="absolute top-12 right-0 w-48 py-2 bg-white dark:bg-gray-800 rounded-lg shadow-xl md:hidden z-50">
           {routes.map((route) => (
             <Link
               key={route.path}
