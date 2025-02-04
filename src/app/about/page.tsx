@@ -77,25 +77,19 @@ export default function About() {
         </div>
       </section>
 
-      {/* Background Section with Animation */}
+      {/* Background Section */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-8">Background</h2>
-        <div className="prose dark:prose-invert max-w-none space-y-6">
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg transform hover:-translate-y-1 transition-transform">
+        <div className="prose dark:prose-invert max-w-none">
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg">
             <p className="text-lg">
-              I recently completed my Ph.D. in Mathematics Education at the University of Michigan. 
-              My academic journey began with bachelor's and master's degrees in mathematics from 
-              California Polytechnic State University, San Luis Obispo.
-            </p>
-          </div>
-          
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg transform hover:-translate-y-1 transition-transform">
-            <p className="text-lg">
-              My dissertation, <span className="italic">"Beyond the Classroom: Exploring Mathematics 
-              Engagement in Online Communities with Natural Language Processing,"</span> investigates 
-              online mathematics learning in chat-based platforms. I created and analyzed MathConverse, 
-              a novel dataset of 200,000 structured conversations from tutors and students working 
-              together on mathematics problems.
+              I recently completed my Ph.D. in Mathematics Education at the University of Michigan, 
+              building on earlier studies in mathematics (B.S. and M.S.) at California Polytechnic 
+              State University, San Luis Obispo. My dissertation—titled <span className="italic">Beyond 
+              the Classroom: Exploring Mathematics Engagement in Online Communities with Natural Language 
+              Processing</span>—focuses on online math learning in chat-based environments. As part of 
+              this work, I developed and examined MathConverse, a unique dataset comprising 200,000 
+              structured conversations that capture how tutors and students collaborate to solve math problems.
             </p>
           </div>
         </div>
@@ -106,21 +100,21 @@ export default function About() {
         <h2 className="text-3xl font-bold mb-8">Teaching Experience</h2>
         <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg">
           <p className="text-lg mb-6">
-            With over 15 years of teaching experience, I've had the privilege of working with 
-            students across various contexts and levels:
+            I've been teaching mathematics in a variety of settings for more than 15 years, 
+            working with learners at different levels and across diverse cultural contexts:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
               <h3 className="font-semibold mb-2">University Teaching</h3>
-              <p>Mathematics at Cal Poly SLO & Statistics at UMich</p>
+              <p>Taught mathematics at Cal Poly SLO and statistics at the University of Michigan.</p>
             </div>
             <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
               <h3 className="font-semibold mb-2">International</h3>
-              <p>Teaching experience in Hong Kong</p>
+              <p>Gained international teaching experience in Hong Kong.</p>
             </div>
             <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
               <h3 className="font-semibold mb-2">Secondary Education</h3>
-              <p>Middle and high school in Botswana</p>
+              <p>Taught middle and high school mathematics in Botswana.</p>
             </div>
           </div>
         </div>
