@@ -40,11 +40,19 @@ export default function About() {
             <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
               Dr. Mike Ion
             </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
+            <p className="text-xl text-gray-600 dark:text-gray-300 mb-2">
               Postdoctoral Fellow in AI and Education
             </p>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-              University of Michigan
+            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+              <a 
+                href="https://www.si.umich.edu/people/mike-ion"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              >
+                School of Information
+              </a>
+              {" "}at the University of Michigan
             </p>
           </div>
         </div>
