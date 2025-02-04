@@ -115,12 +115,12 @@ export default function Home() {
             <LatestPublication
               title="Teaching and Learning in the Age of Generative AI"
               venue="For the Learning of Mathematics"
-              date="2024"
+              date="In Progress"
             />
             <LatestPublication
               title="Text-as-Data in Mathematics Education"
               venue="AMS Special Session on SoTL"
-              date="Jan 2025"
+              date="In Progress"
             />
             <LatestPublication
               title="Teaching Geometry for Secondary Teachers"
