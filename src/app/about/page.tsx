@@ -83,7 +83,7 @@ export default function About() {
         <div className="prose dark:prose-invert max-w-none">
           <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg">
             <p className="text-lg">
-              I recently completed my Ph.D. in Mathematics Education at the University of Michigan, 
+              I completed my Ph.D. in Mathematics Education at the University of Michigan, 
               building on earlier studies in mathematics (B.S. and M.S.) at California Polytechnic 
               State University, San Luis Obispo. My dissertation—titled <span className="italic">Beyond 
               the Classroom: Exploring Mathematics Engagement in Online Communities with Natural Language 
