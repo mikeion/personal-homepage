@@ -58,6 +58,7 @@ export function PublicationEntry({ publication, type }: { publication: Publicati
     conference: 'border-green-500',
     talk: 'border-yellow-500',
     poster: 'border-pink-500',
+    workshop: 'border-orange-500',
     book_chapter: 'border-purple-500'
   }
 
@@ -66,11 +67,11 @@ export function PublicationEntry({ publication, type }: { publication: Publicati
       <div className="flex justify-between items-start">
         <div className="flex-1">
           <h3 className="font-medium mb-1">{cleanLatexFormatting(publication.title)}</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-300">
+          <p className="text-sm text-gray-600">
             {cleanAuthorNames(publication.authors)}
           </p>
           
-          <div className="text-sm text-gray-600 dark:text-gray-300 mt-1">
+          <div className="text-sm text-gray-600 mt-1">
             {publication.journal && (
               <span className="italic">{cleanLatexFormatting(publication.journal)}</span>
             )}
@@ -86,7 +87,7 @@ export function PublicationEntry({ publication, type }: { publication: Publicati
           </div>
           
           {publication.description && (
-            <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
+            <p className="text-sm text-gray-600 mt-1">
               {publication.description}
             </p>
           )}
@@ -96,7 +97,7 @@ export function PublicationEntry({ publication, type }: { publication: Publicati
               href={publication.doi}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 dark:text-blue-400 text-sm hover:underline mt-1 inline-block"
+              className="text-blue-600 text-sm hover:underline mt-1 inline-block"
             >
               DOI
             </a>
@@ -107,7 +108,7 @@ export function PublicationEntry({ publication, type }: { publication: Publicati
             {publication.date || publication.year}
           </p>
           {publication.status && (
-            <span className="text-xs bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-2 py-1 rounded">
+            <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">
               {formatStatus(publication.status)}
             </span>
           )}
