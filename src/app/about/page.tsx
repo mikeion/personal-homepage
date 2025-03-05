@@ -30,9 +30,8 @@ export default function About() {
               <img
                 src="/images/bio_pic.jpeg"
                 alt="Mike Ion"
-                className="absolute inset-0 w-full h-full rounded-full object-cover shadow-2xl"
+                className="w-full h-full rounded-full object-cover shadow-lg"
               />
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-30"></div>
             </div>
           </div>
           

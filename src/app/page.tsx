@@ -66,9 +66,8 @@ export default function Home() {
                 <img
                   src="/images/headshot.jpg"
                   alt="Mike Ion"
-                  className="absolute inset-0 w-full h-full rounded-2xl object-cover shadow-2xl"
+                  className="w-full h-full rounded-2xl object-cover shadow-lg"
                 />
-                <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-20"></div>
               </div>
             </div>
           </div>
