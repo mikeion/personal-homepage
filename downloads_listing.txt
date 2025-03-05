@@ -1,0 +1,1073 @@
+total 48249976
+-rw-r--r--@   1 mikeion  staff   5.6G Jul 24  2024 MacTeX.pkg
+-rw-r--r--@   1 mikeion  staff   2.2G Dec 31 20:14 muOS-RG35XX-SP-2410.3_AW_BANANA-445df3c8.img.gz
+-rw-r--r--@   1 mikeion  staff   1.9G Dec 20 21:42 knulli-h700-rg35xx-sp-firefly-20241204.img.gz
+-rw-r--r--@   1 mikeion  staff   1.6G Dec 31 20:33 @_Complete_Theme_Archive.zip
+-rw-r--r--@   1 mikeion  staff   1.4G Aug 12 12:03 game1.iso
+-rw-r--r--@   1 mikeion  staff   1.4G Aug 13 23:08 game2.iso
+-rw-r--r--@   1 mikeion  staff   994M Oct 13 11:49 2024.naacl-long.pdf
+-rw-r--r--@   1 mikeion  staff   911M Oct  8 22:27 all-help-channels-with-question-classification.csv
+-rw-r--r--@   1 mikeion  staff   911M Jan 18 23:21 calc.csv
+-rw-r--r--@   1 mikeion  staff   281M Oct 13 13:29 gimp-2.10.38-arm64-1.dmg
+-rw-r--r--@   1 mikeion  staff   246M Nov  6 21:05 dietmelee.iso
+-rw-r--r--@   1 mikeion  staff   224M Jul 25  2024 all-help-channels-expanded.parquet
+-rw-r--r--@   1 mikeion  staff   223M Oct  8 22:15 all-help-channels-expanded(1).parquet
+-rw-r--r--@   1 mikeion  staff   223M Oct 15 23:51 all-help-channels-expanded-final(1).parquet
+-rw-r--r--@   1 mikeion  staff   223M Oct  8 22:15 all-help-channels-expanded-final.parquet
+-rw-r--r--@   1 mikeion  staff   206M Jan 29 19:11 googlechrome.dmg
+-rw-r--r--@   1 mikeion  staff   178M Dec  9 08:53 Claude.dmg
+-rw-r--r--@   1 mikeion  staff   178M Dec 14 17:02 obs-studio-31.0.0-macos-apple.dmg
+-rw-r--r--@   1 mikeion  staff   166M Nov  6 21:04 DietMelee64_v1.03.xdelta
+-rw-r--r--@   1 mikeion  staff   160M Jul 24  2024 Jerome S Bruner - Toward a Theory of Instruction-Belknap Press of Harvard University (1966).pdf
+-rw-r--r--@   1 mikeion  staff   140M Nov 12 09:50 Zotero-7.0.9.dmg
+-rw-r--r--@   1 mikeion  staff   139M Dec 27 16:20 C Major 17K-20241228T002015Z-001.zip
+-rw-r--r--@   1 mikeion  staff   137M Dec 31 20:15 Raspberry.Pi.Imager-1.9.0.dmg
+-rw-r--r--@   1 mikeion  staff   131M Jan 16 07:23 bgb_distr_3.2.1_ARM.dmg
+-rw-r--r--@   1 mikeion  staff   131M Nov 25 09:46 01.Living Language Farsi A Complete Course for Beginners.pdf
+-rw-r--r--@   1 mikeion  staff   125M Nov 12 10:19 Shadow.dmg
+-rw-r--r--@   1 mikeion  staff   119M Jan 13 12:50 Shadow(1).dmg
+-rw-r--r--@   1 mikeion  staff   109M Jul 29  2024 ncte_single_utterances.csv
+-rw-r--r--@   1 mikeion  staff    88M Nov 25 09:51 06.Colloquial Persian.pdf
+-rwxr-xr-x@   1 mikeion  staff    80M Aug 12 12:07 LosslessAdapterManager2
+-rw-r--r--@   1 mikeion  staff    70M Sep  9 15:05 Book-WM-20210422.pdf
+-rw-r--r--@   1 mikeion  staff    70M Nov  4 13:37 RLbook2020.pdf
+-rw-r--r--@   1 mikeion  staff    68M Oct 14 18:32 ugee_Mac_4.3.4.240820.zip
+-rw-r--r--@   1 mikeion  staff    65M Oct  7 13:24 PXL_20240715_012310126.LS.mp4
+-rw-r--r--@   1 mikeion  staff    64M Jan 15 19:53 ChatGPT_Desktop_public_latest.dmg
+-rw-r--r--@   1 mikeion  staff    61M Oct 24 10:46 WhatsApp Video 2024-10-24 at 00.09.43.mp4
+-rw-r--r--@   1 mikeion  staff    54M Oct 10 11:01 AI_ReadyTestbed_Audio.m4a
+-rw-r--r--@   1 mikeion  staff    52M Sep 21 18:06 All Twelve Minor Chords as Triads Across String Groups.pdf
+-rw-r--r--@   1 mikeion  staff    52M Aug 16 09:58 978-3-031-36272-9-1.pdf
+-rw-r--r--@   1 mikeion  staff    52M Aug  9 11:33 978-3-031-36272-9.pdf
+-rw-r--r--@   1 mikeion  staff    51M Nov 25 09:46 02.Teach Yourself Modern Persian (2004).pdf
+-rw-r--r--@   1 mikeion  staff    44M Aug  9 11:18 978-3-031-11644-5.pdf
+-rw-r--r--@   1 mikeion  staff    42M Jan 16 09:05 978-3-031-63028-6.pdf
+-rw-r--r--@   1 mikeion  staff    39M Oct 24 18:03 Frame1_Firmware_Updater_Setup.msi
+-rw-r--r--@   1 mikeion  staff    39M Oct 24 18:02 Frame1_Firmware_Updater_Setup_v1.0B4_HOTFIX.msi
+-rw-r--r--@   1 mikeion  staff    39M Jan 21 13:02 IMG_1806.MOV
+-rw-r--r--@   1 mikeion  staff    37M Jul 23  2024 Lecture 1-regex+naive-bayes.pdf
+-rw-r--r--@   1 mikeion  staff    34M Aug  9 11:33 978-3-031-64299-9.pdf
+-rw-r--r--@   1 mikeion  staff    33M Dec 24 01:57 Stuart J. Russell, Peter Norvig - Artificial Intelligence_ A Modern Approach, Global Edition-Pearson (2021)-1.pdf
+-rw-r--r--@   1 mikeion  staff    32M Oct  8 21:18 siads_talk.pptx
+-rw-r--r--@   1 mikeion  staff    32M Oct  7 13:21 PXL_20240711_221226130.TS.mp4
+-rw-r--r--@   1 mikeion  staff    31M Nov 22 14:10 eScholarship UC item 56087605.pdf
+-rw-r--r--@   1 mikeion  staff    29M Dec 24 01:47 Edwin J. Elton, Martin J. Gruber, Stephen J. Brown, William N. Goetzmann - Modern Portfolio Theory and Investment Analysis-Wiley (2013).pdf
+-rw-r--r--@   1 mikeion  staff    29M Oct 24 18:07 wine-9.0.tar.xz
+-rw-r--r--@   1 mikeion  staff    27M Nov 24 21:48 4_5780488306345121180.pdf
+-rw-r--r--@   1 mikeion  staff    26M Dec 24 01:56 James Douglas Hamilton - Time Series Analysis-Princeton University Press (1994).pdf
+-rw-r--r--@   1 mikeion  staff    26M Jul 26  2024 dataframe3_aggr.txt.output.txt
+-rw-r--r--@   1 mikeion  staff    25M Oct 17 14:01 Enhancing Student Learning Through Real-Time Data and Support Systems.m4a
+-rw-r--r--@   1 mikeion  staff    25M Dec 21 12:33 howdoyoufeel_understandyouremotionsthroughchartstestsquestionnaire.pdf
+-rw-r--r--@   1 mikeion  staff    25M Jan  8 15:51 dissertation_presentation(1).pptx
+-rw-r--r--@   1 mikeion  staff    25M Oct  8 20:38 dissertation_presentation.pptx
+-rw-r--r--@   1 mikeion  staff    23M Nov 27 12:12 978-0-387-21736-9.pdf
+-rw-r--r--@   1 mikeion  staff    23M Nov 27 09:25 Larry Wasserman - All of Statistics_ A Concise Course in Statistical Inference-Springer (2010).pdf
+-rw-r--r--@   1 mikeion  staff    23M Oct 24 15:20 978-981-97-4581-4.pdf
+-rw-r--r--@   1 mikeion  staff    21M Jan  6 15:12 2501.00383v1.pdf
+-rw-r--r--@   1 mikeion  staff    20M Nov 25 09:51 09.Persian Grammar for Reference and Revision.pdf
+-rw-r--r--@   1 mikeion  staff    20M Sep 21 18:09 All 12 Keys - 16 Bars Each 75bpm - with count in.m4a
+-rw-r--r--@   1 mikeion  staff    20M Jan  8 15:50 sdsu_jobtalk_presentation.pptx
+-rw-r--r--@   1 mikeion  staff    19M Jul 29  2024 Tutor Observatories Open House Project Launch.pptx
+-rw-r--r--@   1 mikeion  staff    19M Oct  7 13:27 PXL_20231105_021204852.TS.mp4
+-rw-r--r--@   1 mikeion  staff    18M Sep 21 18:06 All Twelve Major Chords as Triads Across String Groups.pdf
+-rw-r--r--@   1 mikeion  staff    17M Oct  7 13:42 WhatsApp Video 2024-10-07 at 13.41.52.mp4
+-rw-r--r--@   1 mikeion  staff    16M Oct  9 16:15 AI_Ready_DCL_Webinar_(508).pptx
+-rw-r--r--@   1 mikeion  staff    16M Dec  4 14:05 receipts.zip
+-rw-r--r--@   1 mikeion  staff    16M Sep  3 10:01 Gratefful Sheets (2024) - V.1.1.xlsm
+-rw-r--r--@   1 mikeion  staff    16M Sep 25 12:16 Eureka-Evaluating-and-Understanding-Large-Foundation-Models-Sept-13.pdf
+-rw-r--r--@   1 mikeion  staff    16M Dec  4 14:03 meals.zip
+-rw-r--r--@   1 mikeion  staff    15M Jan  8 16:12 2025_01_10 SoTL in the Age of AI.pdf
+-rw-r--r--@   1 mikeion  staff    15M Dec 25 19:09 tldw-run-through-blank.webm
+-rw-r--r--@   1 mikeion  staff    15M Dec 21 12:46 maybethiswillhelp.pdf
+-rw-r--r--@   1 mikeion  staff    14M Nov 12 11:39 2406.13948v1.pdf
+-rw-r--r--@   1 mikeion  staff    14M Aug 21 10:54 automatetheboringstuffwithpython_2e.pdf
+-rw-r--r--@   1 mikeion  staff    13M Aug  1  2024 978-981-99-5961-7.pdf
+-rw-r--r--@   1 mikeion  staff    13M Oct  2 15:14 Video_20241002_181420_750.mp4
+-rw-r--r--@   1 mikeion  staff    13M Oct 17 15:36 1002263.pdf
+-rw-r--r--@   1 mikeion  staff    13M Jul 18  2024 978-3-319-62597-3.pdf
+-rw-r--r--@   1 mikeion  staff    13M Jan 14 20:42 1-s2.0-S0360131525000016-main.pdf
+-rw-r--r--@   1 mikeion  staff    12M Jan  1 18:05 dm.pdf
+-rw-r--r--@   1 mikeion  staff    12M Sep 18 16:29 1193024880-MIT.pdf
+-rw-r--r--@   1 mikeion  staff    12M Jan 15 19:45 Sebastian Raschka - Build a Large Language Model (From Scratch)-Manning Publications Co. (2024).pdf
+-rw-r--r--@   1 mikeion  staff    11M Nov 18 13:44 2304.03442v2.pdf
+-rw-r--r--@   1 mikeion  staff    11M Oct  7 13:22 PXL_20240712_010807621.LS.mp4
+-rw-r--r--@   1 mikeion  staff    11M Jul 26  2024 Gautam Biswas_2011.pdf
+-rw-r--r--@   1 mikeion  staff    11M Jan 24 12:00 Meeting note of your conversation on Jan, 24, 2025.m4a
+-rw-r--r--@   1 mikeion  staff    10M Oct  8 20:41 maize_and_blue_template.pptx
+-rw-r--r--@   1 mikeion  staff   9.9M Aug 23 10:05 ethical guidelines on the use of artificial intelligence-NC0722649ENN.pdf
+-rw-r--r--@   1 mikeion  staff   9.8M Oct  7 13:22 PXL_20240712_010746503.LS.mp4
+-rw-r--r--@   1 mikeion  staff   9.7M Jan 28 20:47 DiscordChatExporter.Cli.osx-arm64.zip
+-rw-r--r--@   1 mikeion  staff   9.3M Aug 19 13:26 2406.19226v1.pdf
+-rw-r--r--@   1 mikeion  staff   9.1M Jan 14 22:40 10.1515_9780691225722-024.pdf
+-rw-r--r--@   1 mikeion  staff   9.0M Nov 25 09:51 05.Written and Spoken Persian.pdf
+-rw-r--r--@   1 mikeion  staff   8.9M Oct 28 16:31 Interpreter_0.4.2_aarch64.dmg
+-rw-r--r--@   1 mikeion  staff   8.9M Jan  8 16:11 2025_01_10 SoTL in the Age of AI.pptx
+-rw-r--r--@   1 mikeion  staff   8.7M Oct  9 14:30 Larry Wasserman - All of Statistics - A Concise Course in Statistical Inference-Springer (2004).pdf
+-rw-r--r--@   1 mikeion  staff   8.3M Oct  4 14:25 978-3-030-43620-9.pdf
+-rw-r--r--@   1 mikeion  staff   8.0M Aug 27 14:04 sustainability-15-12983.pdf
+-rw-r--r--@   1 mikeion  staff   7.9M Oct  8 11:21 GRIP_DatabaseTables_2021.docx
+-rw-r--r--@   1 mikeion  staff   7.7M Nov 18 18:06 2011.01808v1.pdf
+-rw-r--r--@   1 mikeion  staff   7.4M Jan 23 15:19 Meeting note of your conversation on Jan, 23, 2025.m4a
+-rw-r--r--@   1 mikeion  staff   7.3M Dec 25 19:40 Copy_of_Uplimit_Project3_Student_version_Mike_Ion.ipynb
+-rw-r--r--@   1 mikeion  staff   7.3M Oct 24 14:33 2404.08743v2.pdf
+-rw-r--r--@   1 mikeion  staff   7.2M Aug 21 10:53 crosswordsofwisdom_vol1_conquercovid19.pdf
+-rw-r--r--@   1 mikeion  staff   7.1M Jan 10 13:22 2501.04682v1.pdf
+-rw-r--r--@   1 mikeion  staff   7.1M Aug 30 15:36 BOOK.pdf
+-rw-r--r--@   1 mikeion  staff   6.9M Aug 21 10:53 crosswordsofwisdom_vol2_conquercovid19.pdf
+-rw-r--r--@   1 mikeion  staff   6.6M Dec 21 12:29 goodbyephonehelloworld.pdf
+-rw-r--r--@   1 mikeion  staff   6.5M Nov 13 16:23 agent.pdf
+-rw-r--r--@   1 mikeion  staff   6.5M Nov 25 09:54 Elementary Persian.pdf
+-rw-r--r--@   1 mikeion  staff   6.4M Nov 25 09:47 03.Teach Yourself Modern Persian (1973).pdf
+-rw-r--r--@   1 mikeion  staff   6.3M Nov 25 09:52 12.Persian Phrase Dictionary and Study Guide.pdf
+-rw-r--r--@   1 mikeion  staff   6.3M Jan 26 14:02 ruslan-bardash-4kTbAMRAHtQ-unsplash.jpg
+-rw-r--r--@   1 mikeion  staff   6.2M Oct  7 13:21 PXL_20240711_205730957.TS.mp4
+-rw-r--r--@   1 mikeion  staff   6.2M Nov 18 14:04 2404.03304v3.pdf
+-rw-r--r--@   1 mikeion  staff   6.0M Jan 13 13:07 Journal of Data Science (Copy).zip
+-rw-r--r--@   1 mikeion  staff   5.8M Jan  8 15:54 dissertation_presentation(1).pdf
+-rw-r--r--@   1 mikeion  staff   5.8M Oct 25 12:38 IMMERSIVE JAPANESE LANGUAGE LEARNING WEB APPLICATION USING SPACED.pdf
+-rw-r--r--@   1 mikeion  staff   5.7M Jan  7 10:23 LearnLM_paper.pdf
+-rw-r--r--@   1 mikeion  staff   5.7M Jul 18  2024 iwss2016.pdf
+-rw-r--r--@   1 mikeion  staff   5.7M Oct  8 09:20 pkpadmin,+421-camera-ready.pdf
+-rw-r--r--@   1 mikeion  staff   5.7M Dec 19 10:10 2024.acl-long.718.pdf
+-rw-r--r--@   1 mikeion  staff   5.5M Aug 30 14:58 Computational Models of Human Learning_ Applications for Tutor De.pdf
+-rw-r--r--@   1 mikeion  staff   5.5M Jul 18  2024 DLBall What do students know? facing challenges of distance context and desire(1997).pdf
+-rw-r--r--@   1 mikeion  staff   5.4M Dec 23 23:00 2309.09094v2.pdf
+-rw-r--r--@   1 mikeion  staff   5.3M Jan 10 08:13 headshot.jpg
+-rw-r--r--@   1 mikeion  staff   5.2M Nov 10 18:51 Active Learning and Institutional Stratification.pdf
+-rw-r--r--@   1 mikeion  staff   5.1M Aug  4  2024 AERA2012.pdf
+-rw-r--r--@   1 mikeion  staff   5.0M Oct 24 14:29 Investigating-Knowledge-Tracing-Models-using-Simulated-Students.pdf
+-rw-r--r--@   1 mikeion  staff   5.0M Dec 24 01:46 Stephen Boyd - Convex Optimization-Cambridge University Press (2004).pdf
+-rw-r--r--@   1 mikeion  staff   5.0M Oct  9 16:38 mads-pres-oct-2024.pdf
+-rw-r--r--@   1 mikeion  staff   5.0M Oct  9 16:37 mads-presentation-ion-oct-2024.pdf
+-rw-r--r--@   1 mikeion  staff   5.0M Oct  9 17:09 mads-pres-oct-2024 (1).pdf
+-rw-r--r--@   1 mikeion  staff   5.0M Dec 21 15:49 2412.05265v1.pdf
+-rw-r--r--@   1 mikeion  staff   4.9M Oct  1 10:08 PXL_20230909_201320356.PORTRAIT.jpg
+-rw-r--r--@   1 mikeion  staff   4.8M Aug  9 12:40 teacherfeedback.pdf
+-rw-r--r--@   1 mikeion  staff   4.7M Jan 26 13:55 1737928402008-video-bad1ec59-7088-40a2-a960-0f413b41065d-1737928402008.mp4
+-rw-r--r--@   1 mikeion  staff   4.6M Dec 27 12:21 3544548.3580688.pdf
+-rw-r--r--@   1 mikeion  staff   4.6M Aug 13 12:13 ETS Research Report Series - June 1989 - Enright - TOWARD A DESCRIPTION OF SUCCESSFUL GRADUATE STUDENTS.pdf
+-rw-r--r--@   1 mikeion  staff   4.5M Oct  7 13:19 PXL_20240709_200957525.jpg
+-rw-r--r--@   1 mikeion  staff   4.4M Nov  8 11:07 maia2-neurips2024.pdf
+-rw-r--r--@   1 mikeion  staff   4.4M Jan 30 20:44 demo_2_zoomin.mp4
+-rw-r--r--@   1 mikeion  staff   4.2M Oct 30 14:07 NounProject.dmg
+-rw-r--r--@   1 mikeion  staff   4.1M Nov 11 09:27 U-M GenAI Committee Report.pdf
+-rw-r--r--@   1 mikeion  staff   4.1M Oct 28 23:11 3544548.3581525.pdf
+-rw-r--r--@   1 mikeion  staff   4.1M Feb  3 11:49 Strategic Plan SP24.docx
+-rw-r--r--@   1 mikeion  staff   4.1M Dec 21 12:29 Alfie Kohn, Susan D. Blum (editor) - Ungrading_ Why Rating Students Undermines Learning (and What to Do Instead) (Teaching and Learning in Higher Education)-West Virginia University Press (2020).pdf
+-rw-r--r--@   1 mikeion  staff   4.0M Aug  9 12:45 gptsurprise.pdf
+-rw-r--r--@   1 mikeion  staff   4.0M Aug 12 22:42 11-22-63.epub
+-rw-r--r--@   1 mikeion  staff   4.0M Dec 24 01:49 Dan Ariely - Predictably Irrational_ The Hidden Forces That Shape Our Decisions-HarperCollins (2008).pdf
+-rw-r--r--@   1 mikeion  staff   3.9M Nov 27 12:11 (Springer Texts in Statistics'',) Larry Wasserman - All of Statistics_ A Concise Course in Statistical Inference (Springer Texts in Statistics)-Springer (2003)-1.pdf
+-rw-r--r--@   1 mikeion  staff   3.9M Nov 27 09:29 (Springer Texts in Statistics'',) Larry Wasserman - All of Statistics_ A Concise Course in Statistical Inference (Springer Texts in Statistics)-Springer (2003).pdf
+-rw-r--r--@   1 mikeion  staff   3.9M Aug 12 22:35 Stephen King - 11-22-63 (2011, Scribner) - libgen.li.mobi
+-rw-r--r--@   1 mikeion  staff   3.9M Aug  1  2024 stein-et-al-1996-building-student-capacity-for-mathematical-thinking-and-reasoning-an-analysis-of-mathematical-tasks.pdf
+-rw-r--r--@   1 mikeion  staff   3.8M Jan 10 13:25 Theory-of-didactical-situations.pdf
+-rw-r--r--@   1 mikeion  staff   3.8M Dec 10 08:44 2411.03495v1.pdf
+-rw-r--r--@   1 mikeion  staff   3.7M Dec 24 00:49 sr917.pdf
+-rw-r--r--@   1 mikeion  staff   3.7M Oct  7 13:17 PXL_20240707_230008595.jpg
+-rw-r--r--@   1 mikeion  staff   3.6M Dec 21 12:59 financialanxietysolution.epub
+-rw-r--r--@   1 mikeion  staff   3.6M Jul 24  2024 1-s2.0-S1747938X23000313-main.pdf
+-rw-r--r--@   1 mikeion  staff   3.6M Oct  9 14:32 Avrim Blum, John Hopcroft, Ravindran Kannan - Foundations Of Data Science-Cambridge University Press (2020).pdf
+-rw-r--r--@   1 mikeion  staff   3.5M Dec 12 19:16 draft-thesis-20081204.pdf
+-rw-r--r--@   1 mikeion  staff   3.5M Oct  7 11:09 2409.10849v1.pdf
+-rw-r--r--@   1 mikeion  staff   3.4M Jul 18  2024 978-3-319-11952-6.pdf
+-rw-r--r--@   1 mikeion  staff   3.4M Oct 12 14:31 (Artificial Unintelligence) Broussard, Meredith - Artificial Unintelligence_ How Computers Misunderstand the World-MIT Press Ltd (2018).pdf
+-rw-r--r--@   1 mikeion  staff   3.3M Nov 12 09:40 1803.09473v5.pdf
+-rw-r--r--@   1 mikeion  staff   3.2M Nov 27 12:39 lunch_day4.jpg
+-rw-r--r--@   1 mikeion  staff   3.1M Jan 30 01:14 demo_2.mp4
+-rw-r--r--@   1 mikeion  staff   3.1M Jul 25  2024 2403.14071v1.pdf
+-rw-r--r--@   1 mikeion  staff   3.1M Oct 27 20:27 rn_image_picker_lib_temp_9ee1a67f-8b71-4f65-9df3-ca26a914c633.jpg
+-rw-r--r--@   1 mikeion  staff   3.1M Jan 26 13:56 1737928225758-video-fef92873-68c3-4a68-a691-26b8302ad22e-1737928225758.mp4
+-rw-r--r--@   1 mikeion  staff   3.1M Sep  4 11:21 Asso for Info Science Tech - 2022 - Zhang - Data science curriculum in the iField.pdf
+-rw-r--r--@   1 mikeion  staff   3.1M Aug 30 15:18 2209.06899v1.pdf
+-rw-r--r--@   1 mikeion  staff   3.1M Jul 19  2024 3589335.3648327.pdf
+-rw-r--r--@   1 mikeion  staff   3.0M Aug 26 13:29 Journal of Clinical Nursing - 2023 - Oliveira Silva - Influence of simulation design on stress anxiety and self‐confidence.pdf
+-rw-r--r--@   1 mikeion  staff   3.0M Aug  2  2024 driver_front.jpg
+-rw-r--r--@   1 mikeion  staff   2.9M Jul 29  2024 2402.05111v1.pdf
+-rw-r--r--@   1 mikeion  staff   2.9M Dec 23 22:35 1-s2.0-S1057521924003582-main.pdf
+-rw-r--r--@   1 mikeion  staff   2.9M Nov 27 12:39 breakfast_day2.jpg
+-rw-r--r--@   1 mikeion  staff   2.9M Nov 19 08:43 2411.10109v1.pdf
+-rw-r--r--@   1 mikeion  staff   2.8M Oct  7 15:45 855q5u3kqetd1.jpeg
+-rw-r--r--@   1 mikeion  staff   2.8M Nov 27 12:39 lunch_day5.jpg
+-rw-r--r--@   1 mikeion  staff   2.8M Oct 15 11:14 2110.14168v1.pdf
+-rw-r--r--@   1 mikeion  staff   2.8M Aug 30 14:52 s40593-020-00214-2.pdf
+-rw-r--r--@   1 mikeion  staff   2.7M Sep 27 10:09 Function-InHarelDubinsky.pdf
+-rw-r--r--@   1 mikeion  staff   2.7M Sep 26 13:08 chatgpt as a factual inconsistency evaluator for text summarization.pdf
+-rw-r--r--@   1 mikeion  staff   2.7M Nov 27 12:39 breakfast_day3.jpg
+-rw-r--r--@   1 mikeion  staff   2.7M Aug  9 10:23 ch-9.pdf
+-rw-r--r--@   1 mikeion  staff   2.7M Oct 13 12:54 30.21.05 Presentation.pdf
+-rw-r--r--@   1 mikeion  staff   2.7M Jan  4 01:23 2412.10424v2.pdf
+-rw-r--r--@   1 mikeion  staff   2.6M Jan 24 09:50 Podcast_v2.mp3
+-rw-r--r--@   1 mikeion  staff   2.6M Nov 25 09:48 04.The Routledge Introductory Persian Course.pdf
+-rw-r--r--@   1 mikeion  staff   2.6M Aug 16 14:42 s40593-022-00322-1.pdf
+-rw-r--r--@   1 mikeion  staff   2.6M Jan 26 12:40 1737780280368-video-79aaf7f8-98b5-40d6-901e-b2581ca63c92-1737780280368(1).mp4
+-rw-r--r--@   1 mikeion  staff   2.6M Jan 24 22:09 1737780280368-video-79aaf7f8-98b5-40d6-901e-b2581ca63c92-1737780280368.mp4
+-rw-r--r--@   1 mikeion  staff   2.6M Jan 26 13:55 1737928462693-video-e16d6739-c230-44f9-9768-0200c38755da-1737928462692.mp4
+-rw-r--r--@   1 mikeion  staff   2.6M Nov 27 09:27 (Springer Monographs in Mathematics) Larry Wasserman - All of nonparametric statistics-Springer (2007).pdf
+-rw-r--r--@   1 mikeion  staff   2.6M Aug  9 10:19 978-94-6091-808-7.pdf
+-rw-r--r--@   1 mikeion  staff   2.5M Aug 15 14:45 10.4324_9781003278658-12_chapterpdf.pdf
+-rw-r--r--@   1 mikeion  staff   2.5M Oct  1 10:11 mike_headshot.jpg
+-rw-r--r--@   1 mikeion  staff   2.5M Aug  9 12:42 GPTeach.pdf
+-rw-r--r--@   1 mikeion  staff   2.5M Nov 13 10:49 stormy_waves (1).mp3
+-rw-r--r--@   1 mikeion  staff   2.5M Sep  3 09:15 stormy_waves.mp3
+-rw-r--r--@   1 mikeion  staff   2.5M Oct 13 14:09 mar_2024_analysis copy.ipynb
+-rw-r--r--@   1 mikeion  staff   2.5M Oct  9 18:01 (Texts and Monographs in Computer Science) David Gries - The science of programming-Springer (1981).djvu
+-rw-r--r--@   1 mikeion  staff   2.5M Jul 25  2024 2305.14536v2.pdf
+-rw-r--r--@   1 mikeion  staff   2.4M Aug 14 20:01 Lease-Michael Ion-20240328.pdf
+-rw-r--r--@   1 mikeion  staff   2.4M Oct  7 11:10 2408.12022v1.pdf
+-rw-r--r--@   1 mikeion  staff   2.4M Nov  8 08:39 ai24-1042.pdf
+-rw-r--r--@   1 mikeion  staff   2.4M Jan 30 20:41 demo_2_zoomout.mp4
+-rw-r--r--@   1 mikeion  staff   2.4M Nov 13 14:24 2411.07598v1.pdf
+-rw-r--r--@   1 mikeion  staff   2.4M Jan  3 13:31 beyond-playing-20-questions-with-nature-integrative-experiment-design-in-the-social-and-behavioral-sciences.pdf
+-rw-r--r--@   1 mikeion  staff   2.4M Aug  9 11:16 1-s2.0-S2949882124000136-main.pdf
+-rw-r--r--@   1 mikeion  staff   2.3M Jul 23  2024 Rethinking_University_Teaching_A_Conversational_Fr..._----_(Part_III_The_design_methodology).pdf
+-rw-r--r--@   1 mikeion  staff   2.3M Oct 15 22:38 Media_487729_smxx.pdf
+-rw-r--r--@   1 mikeion  staff   2.3M Aug 27 13:57 Kurt VanLehn - Mind Bugs_ The Origins of Procedural Misconceptions (Learning, Development, and Conceptual Change)-The MIT Press (1990).pdf
+-rw-r--r--@   1 mikeion  staff   2.3M Dec 26 20:23 s11145-015-9615-7-1.pdf
+-rw-r--r--@   1 mikeion  staff   2.3M Dec 19 10:23 s11145-015-9615-7.pdf
+-rw-------@   1 mikeion  staff   2.3M Oct 31 14:56 8ufgmy9z.pdf.part
+-rw-r--r--@   1 mikeion  staff   2.3M Nov 27 12:39 snack_day4.jpg
+-rw-r--r--@   1 mikeion  staff   2.3M Nov 27 12:39 breakfast_day1.jpg
+-rw-r--r--@   1 mikeion  staff   2.3M Jan 26 15:56 1737935707450-video-1790805f-8e2d-4bd2-838d-913d70bc68b1-1737935707450.mp4
+-rw-r--r--@   1 mikeion  staff   2.2M Jan 16 11:06 3544548.3581388.pdf
+-rw-r--r--@   1 mikeion  staff   2.2M Jan 30 20:44 demo_3_zoomin.mp4
+-rw-r--r--@   1 mikeion  staff   2.2M Oct 24 14:32 2310.19206v1.pdf
+-rw-r--r--@   1 mikeion  staff   2.2M Oct 20 19:05 3084362.pdf
+-rw-r--r--@   1 mikeion  staff   2.2M Aug  1  2024 2401.08517v3.pdf
+-rw-r--r--@   1 mikeion  staff   2.2M Jul 25  2024 resnick-1987-the-1987-presidential-address-learning-in-school-and-out.pdf
+-rw-r--r--@   1 mikeion  staff   2.2M Jan 30 01:15 demo_5.mp4
+-rw-r--r--@   1 mikeion  staff   2.2M Dec  6 10:50 pdGraduate-Handbook-24-25.pdf
+-rw-r--r--@   1 mikeion  staff   2.1M Oct 15 10:11 2405.19444v1.pdf
+-rw-r--r--@   1 mikeion  staff   2.1M Oct 15 10:12 MathChat_Benchmarking_Mathematical_Reasoning_and_I.pdf
+-rw-r--r--@   1 mikeion  staff   2.1M Nov  6 21:03 multipatch20.zip
+-rw-r--r--@   1 mikeion  staff   2.1M Jan 30 20:41 demo_1_zoomout.mp4
+-rw-r--r--@   1 mikeion  staff   2.1M Oct 15 11:56 2306.03975v2.pdf
+-rw-r--r--@   1 mikeion  staff   2.1M Aug 16 14:41 s40593-023-00360-3.pdf
+-rw-r--r--@   1 mikeion  staff   2.0M Nov  4 09:16 Research.gov Proposal_Final.pdf
+-rw-r--r--@   1 mikeion  staff   2.0M Dec 21 15:24 shaftogg14.pdf
+-rw-r--r--@   1 mikeion  staff   2.0M Sep  9 11:14 Brit J Educational Tech - 2024 - Lee - The life cycle of large language models in education A framework for understanding.pdf
+-rw-r--r--@   1 mikeion  staff   2.0M Aug 19 13:28 2405.11591v1.pdf
+-rw-r--r--@   1 mikeion  staff   2.0M Nov 25 09:51 10.Defence Language Institute Persian Reader.pdf
+-rw-r--r--@   1 mikeion  staff   2.0M Oct 28 23:09 3359141.pdf
+-rw-r--r--@   1 mikeion  staff   1.9M Sep 13 11:36 CHI2025_admissions_AI.pdf
+-rw-r--r--@   1 mikeion  staff   1.9M Jan 30 20:44 demo_1_zoomin.mp4
+-rw-r--r--@   1 mikeion  staff   1.9M Sep  4 14:38 s40593-020-00223-1.pdf
+-rw-r--r--@   1 mikeion  staff   1.9M Jan 26 15:12 1737933030726-video-bde70e47-77a9-4a6c-a94b-21930fa281ba-1737933030726.mp4
+-rw-r--r--@   1 mikeion  staff   1.9M Jan 30 20:44 demo_5_zoomin.mp4
+-rw-r--r--@   1 mikeion  staff   1.9M Nov 27 14:35 s10649-024-10306-8.pdf
+-rw-r--r--@   1 mikeion  staff   1.9M Feb  2 19:15 FULLTEXT01.pdf
+-rw-r--r--@   1 mikeion  staff   1.9M Oct 15 11:19 2022.emnlp-main.392.pdf
+-rw-r--r--@   1 mikeion  staff   1.9M Oct  8 17:20 labeling_questions(1).ipynb
+-rw-r--r--@   1 mikeion  staff   1.9M Jan  8 16:50 labeling_questions(2).ipynb
+-rw-r--r--@   1 mikeion  staff   1.9M Jan 18 23:21 labeling_questions(3).ipynb
+-rw-r--r--@   1 mikeion  staff   1.9M Jul 25  2024 labeling_questions.ipynb
+-rw-r--r--@   1 mikeion  staff   1.9M Sep  9 10:16 NIST.AI.100-1.pdf
+-rw-r--r--@   1 mikeion  staff   1.8M Dec 17 11:16 Human Resource Management - 2024 - Wingate - What are interviews for A qualitative study of employment interview goals and.pdf
+-rw-r--r--@   1 mikeion  staff   1.8M Oct 27 17:48 Loopers.pdf
+-rw-r--r--@   1 mikeion  staff   1.8M Jul 25  2024 tagging.ipynb
+-rw-r--r--@   1 mikeion  staff   1.8M Jan  6 10:46 Copy of podcast.mp3
+-rw-r--r--@   1 mikeion  staff   1.8M Dec 23 23:00 ssrn-4824172.pdf
+-rw-r--r--@   1 mikeion  staff   1.8M Aug 26 14:27 s00521-020-05587-y.pdf
+-rw-r--r--@   1 mikeion  staff   1.8M Oct  7 11:09 s10458-024-09667-4.pdf
+-rw-r--r--@   1 mikeion  staff   1.7M Jan 30 20:41 demo_6_zoomout.mp4
+-rw-r--r--@   1 mikeion  staff   1.7M Oct 15 07:14 3576050.3576089.pdf
+-rw-r--r--@   1 mikeion  staff   1.7M Aug 15 16:47 2312.11274v3.pdf
+-rw-r--r--@   1 mikeion  staff   1.7M Oct 13 14:10 analysis-jan-2024-mallet.ipynb
+-rw-r--r--@   1 mikeion  staff   1.7M Sep 27 10:00 2212.07919v2.pdf
+-rw-r--r--@   1 mikeion  staff   1.7M Jan 30 01:14 demo_3.mp4
+-rw-r--r--@   1 mikeion  staff   1.7M Sep  5 15:19 joyner_2022_degree_retention_2022 (1)-1.pdf
+-rw-r--r--@   1 mikeion  staff   1.7M Aug 12 09:38 joyner_2022_degree_retention_2022 (1).pdf
+-rw-r--r--@   1 mikeion  staff   1.6M Jan 30 01:14 demo_1.mp4
+-rw-r--r--@   1 mikeion  staff   1.6M Oct  7 13:23 PXL_20240712_012844487.jpg
+-rw-r--r--@   1 mikeion  staff   1.6M Dec 30 15:14 lrastart15_melee.png
+-rw-r--r--@   1 mikeion  staff   1.6M Jan 23 09:53 Podcast_3_5_turbo.mp3
+-rw-r--r--@   1 mikeion  staff   1.6M Oct 29 13:20 Zhang_et_al-LS2024-CFlow_Supporting_Semantic_Flow_Analysis_of_Students_Code_in_Programming_Problems_at_Scale-1.pdf
+-rw-r--r--@   1 mikeion  staff   1.6M Oct 17 13:11 Zhang_et_al-LS2024-CFlow_Supporting_Semantic_Flow_Analysis_of_Students_Code_in_Programming_Problems_at_Scale.pdf
+-rw-r--r--@   1 mikeion  staff   1.6M Jan 30 20:44 demo_6_zoomin.mp4
+-rw-r--r--@   1 mikeion  staff   1.6M Oct 15 14:29 Canadian_Mathematics_Education_Study_Group_Groupe_.pdf
+-rw-r--r--@   1 mikeion  staff   1.6M Jan 30 20:41 demo_3_zoomout.mp4
+-rw-r--r--@   1 mikeion  staff   1.6M Aug  4  2024 s10639-024-12597-z.pdf
+-rw-r--r--@   1 mikeion  staff   1.6M Jan 30 20:41 demo_4_zoomout.mp4
+-rw-r--r--@   1 mikeion  staff   1.6M Dec 25 10:41 10.1515_9783110858778-003.pdf
+-rw-r--r--@   1 mikeion  staff   1.6M Jul 24  2024 (Wiley Desktop Editions) Susan A. Ambrose, Michael W. Bridges, Michele DiPietro, Marsha C. Lovett, Marie K. Norman, Richard E. Mayer - How Learning Works_ Seven Research-Based Principles for Smart Tea.pdf
+-rw-r--r--@   1 mikeion  staff   1.5M Nov  8 08:21 2403.02795v2.pdf
+-rw-r--r--@   1 mikeion  staff   1.5M Oct 13 12:54 dissertation_proposal_v1_ion-ph.docx
+-rw-r--r--@   1 mikeion  staff   1.5M Aug  9 12:55 3408877.3432460.pdf
+-rw-r--r--@   1 mikeion  staff   1.5M Dec 16 13:03 whisk_storyboard829f99db4c8c4799b0c59a213ba891.jpeg
+-rw-r--r--@   1 mikeion  staff   1.5M Jan 31 07:39 alaska_airlines_receipt-1.pdf
+-rw-r--r--@   1 mikeion  staff   1.5M Jan 30 09:30 alaska_airlines_receipt.pdf
+-rw-r--r--@   1 mikeion  staff   1.5M Jan 17 08:19 Powder Mono 17oz Cylinder Mug.JPG
+-rw-r--r--@   1 mikeion  staff   1.4M Oct 21 11:09 s40593-015-0037-0.pdf
+-rw-r--r--@   1 mikeion  staff   1.4M Nov 25 09:53 13.English-Persian Phrasebook With Useful Word List.pdf
+-rw-r--r--@   1 mikeion  staff   1.4M Aug  5  2024 lra_start.png
+-rw-r--r--@   1 mikeion  staff   1.4M Sep 30 10:46 Eugene F. Provenzoi-HistoryExperimentRole-1979.pdf
+-rw-r--r--@   1 mikeion  staff   1.4M Aug  1  2024 When Good Teaching Leads to Bad Results The Disasters of Well-Taught Mathematics Courses.pdf
+-rw-r--r--@   1 mikeion  staff   1.4M Aug 16 14:17 s40593-021-00254-2.pdf
+-rw-r--r--@   1 mikeion  staff   1.4M Jul 19  2024 Stuart A. Karabenick - Strategic Help Seeking_ Implications for Learning and Teaching-Routledge (1998).epub
+-rw-r--r--@   1 mikeion  staff   1.4M Jan 29 13:23 Gen-3 Alpha 171498455, camera orbits, Cropped - Beauty 2w, M 5.mp4
+-rw-r--r--@   1 mikeion  staff   1.4M Aug  1  2024 The Study of Teaching for Mathematics Learning Views Through Two Lenses.pdf
+-rw-r--r--@   1 mikeion  staff   1.4M Aug  8  2024 Academic Tasks in Classrooms.pdf
+-rw-r--r--@   1 mikeion  staff   1.4M Dec 13 15:20 Academic Innovation Fund Proposal 2025 - GenAI - Collins-Thompson_Ion - Final.docx
+-rw-r--r--@   1 mikeion  staff   1.4M Sep 27 10:00 2024.acl-long.302.pdf
+-rw-r--r--@   1 mikeion  staff   1.4M Sep  4 14:08 s13428-022-01998-y.pdf
+-rw-r--r--@   1 mikeion  staff   1.4M Aug 16 14:59 s40593-023-00384-9.pdf
+-rw-r--r--@   1 mikeion  staff   1.4M Aug 16 15:12 Governance on with behind and beyond the Discord platform a study of platform practices in an informal learning context.pdf
+-rw-r--r--@   1 mikeion  staff   1.3M Oct 15 11:24 2309.03241v2.pdf
+-rw-r--r--@   1 mikeion  staff   1.3M Feb  5 18:04 video-1738807449733.mp4
+-rw-r--r--@   1 mikeion  staff   1.3M Aug 20 11:24 s40753-023-00216-0-1.pdf
+-rw-r--r--@   1 mikeion  staff   1.3M Aug 23 08:45 s40753-023-00216-0-2.pdf
+-rw-r--r--@   1 mikeion  staff   1.3M Jul 23  2024 s40753-023-00216-0.pdf
+-rw-r--r--@   1 mikeion  staff   1.3M Jan 30 20:44 demo_4_zoomin.mp4
+-rw-r--r--@   1 mikeion  staff   1.3M Aug 12 20:32 s40593-024-00420-2.pdf
+-rw-r--r--@   1 mikeion  staff   1.3M Oct 23 10:38 brown-et-al-1989-situated-cognition-and-the-culture-of-learning.pdf
+-rw-r--r--@   1 mikeion  staff   1.3M Feb  5 22:53 zoomout - demo_3.jpg.mp4
+-rw-r--r--@   1 mikeion  staff   1.3M Dec 21 15:37 Cell Press_20241221(1).zip
+-rw-r--r--@   1 mikeion  staff   1.3M Dec 21 15:34 Cell Press_20241221.zip
+-rw-r--r--@   1 mikeion  staff   1.3M Aug 16 15:02 s40593-024-00411-3-1.pdf
+-rw-r--r--@   1 mikeion  staff   1.3M Jul 24  2024 s40593-024-00411-3.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Jul 23  2024 2406.19356v1.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Aug  9 12:44 teachnow.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Jan 10 21:14 societies-15-00006.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Jan 30 01:15 demo_4.mp4
+-rw-r--r--@   1 mikeion  staff   1.2M Jul 22  2024 sfard-1998-on-two-metaphors-for-learning-and-the-dangers-of-choosing-just-one-1.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Jul 22  2024 sfard-1998-on-two-metaphors-for-learning-and-the-dangers-of-choosing-just-one.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Nov  6 12:26 Deonovic et al. - 2018 - Learning meets assessment On the relation between.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Jul 26  2024 s41237-018-0070-z.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Dec 21 13:01 phobiashowtoovercomethem(1).epub
+-rw-r--r--@   1 mikeion  staff   1.2M Dec 21 13:01 phobiashowtoovercomethem.epub
+-rw-r--r--@   1 mikeion  staff   1.2M Nov 18 11:35 paper_l.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Oct 13 12:54 Dissertation Proposal_draft_v2.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Jul 22  2024 John Loughran - What Expert Teachers Do_ Enhancing professional knowledge for classroom practice-Allen & Unwin (2010).pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Jul 24  2024 s40593-024-00418-w-1.pdf
+-rw-r--r--@   1 mikeion  staff   1.2M Jul 23  2024 s40593-024-00418-w.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Dec 12 09:29 CRLT_Course_Report_2023.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Aug 15 14:50 3287560.3287600.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Oct 15 18:07 2402.10176v1.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Sep 25 14:41 wang-et-al-sigir-2012.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Aug 12 09:38 gatech_assessment_at_scale.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Aug  4  2024 1-s2.0-S1532046415001148-main.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Nov 18 14:07 2022.findings-emnlp.318.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Jul 24  2024 2406.18900v1.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Aug 15 14:36 2406.18900v1_2.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Oct  8 22:33 2407.01687v2.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Jan 14 22:42 10.1515_9780691213651-017.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Jan 17 00:05 McNamara D.S., Graesser A.C., McCarthy P.M., Cai Z. - Automated Evaluation of Text and Discourse with Coh-Metrix-CUP (2014).pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Aug  4  2024 1-s2.0-S0360131516300483-main.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Oct 15 09:50 2301.13867v2.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Dec 25 10:38 3-s2.0-B9780934613033500349-main.pdf
+-rw-r--r--@   1 mikeion  staff   1.1M Nov 14 11:28 225298.225336.pdf
+-rw-r--r--@   1 mikeion  staff   1.0M Oct 23 08:59 2883851.2883957.pdf
+-rw-r--r--@   1 mikeion  staff   1.0M Nov  8 10:25 29102-Article Text-33156-1-2-20240324-1.pdf
+-rw-r--r--@   1 mikeion  staff   1.0M Jul 23  2024 29102-Article Text-33156-1-2-20240324.pdf
+-rw-r--r--@   1 mikeion  staff   1.0M Oct 15 11:56 2010.11080v1.pdf
+-rw-r--r--@   1 mikeion  staff   1.0M Jan 26 14:12 1737929443302-video-d3f0f3f9-b6cf-4c35-a634-d697f191a986-1737929443301.mp4
+-rw-r--r--@   1 mikeion  staff   1.0M Sep 26 13:27 ssrn-4764707.pdf
+-rw-r--r--@   1 mikeion  staff   1.0M Jul 22  2024 chiir2016-collinsthompson-fp061.pdf
+-rw-r--r--@   1 mikeion  staff   1.0M Aug  9 12:43 learnersTeachingNovices.pdf
+-rw-r--r--@   1 mikeion  staff   1.0M Dec  3 11:16 s40593-023-00337-2 (1).pdf
+-rw-r--r--@   1 mikeion  staff   1.0M Dec  6 15:17 s40593-023-00337-2.pdf
+-rw-r--r--@   1 mikeion  staff   1.0M Aug 15 14:30 Educational Measurement - 2024 - Hao - Transforming Assessment The Impacts and Implications of Large Language Models and.pdf
+-rw-r--r--@   1 mikeion  staff   993K Aug 16 16:24 pkpadmin,+27_Revisiting+the+Didactic+Triangle+in+the+Case+of+an+Adaptive+Learning+System.pdf
+-rw-r--r--@   1 mikeion  staff   982K Jul 29  2024 s10648-022-09702-4.pdf
+-rw-r--r--@   1 mikeion  staff   970K Nov  8 11:03 2409.08330v2.pdf
+-rw-r--r--@   1 mikeion  staff   967K Jan 20 21:19 2407.05179v1.pdf
+-rw-r--r--@   1 mikeion  staff   965K Dec 25 18:59 Topics in Cognitive Science - 2019 - Yang - A Unifying Computational Framework for Teaching and Active Learning.pdf
+-rw-r--r--@   1 mikeion  staff   958K Aug 15 17:03 Zheng et al_MxML current state of the field_EdArXiv.pdf
+-rw-r--r--@   1 mikeion  staff   957K Aug  1  2024 Work in Mathematics Classes The Context of Students Thinking During Instruction.pdf
+-rw-r--r--@   1 mikeion  staff   954K Oct 20 19:08 3159450.3159548.pdf
+-rw-r--r--@   1 mikeion  staff   954K Dec 25 19:40 copy_of_uplimit_project3_student_version_mike_ion.py
+-rw-r--r--@   1 mikeion  staff   942K Oct 24 15:22 2407.17429v2.pdf
+-rw-r--r--@   1 mikeion  staff   935K Sep  4 14:30 1-s2.0-S0022249621000377-main.pdf
+-rw-r--r--@   1 mikeion  staff   934K Oct 24 15:33 2409.14195v1.pdf
+-rw-r--r--@   1 mikeion  staff   926K Nov 19 09:49 1-s2.0-S0951832005002292-main.pdf
+-rw-r--r--@   1 mikeion  staff   921K Oct 15 14:30 Ball_F05.pdf
+-rw-r--r--@   1 mikeion  staff   914K Oct 30 14:10 v100i05-1.pdf
+-rw-r--r--@   1 mikeion  staff   914K Oct 30 13:26 v100i05.pdf
+-rw-r--r--@   1 mikeion  staff   914K Dec 21 15:39 PIIS1364661320302151.pdf
+-rw-r--r--@   1 mikeion  staff   907K Oct 14 10:12 s40593-024-00425-x-1.pdf
+-rw-r--r--@   1 mikeion  staff   907K Oct 13 12:23 s40593-024-00425-x.pdf
+-rw-r--r--@   1 mikeion  staff   906K Jan 26 14:16 1737929739650-video-2760f5db-c150-406c-b532-6fe73532c8fb-1737929739650.mp4
+-rw-r--r--@   1 mikeion  staff   900K Sep 19 15:09 LangChain_Academy_-_Introduction_to_LangGraph_-_Motivation.pdf
+-rw-r--r--@   1 mikeion  staff   899K Oct 15 11:20 1055_MAmmoTH_Building_Math_Gen.pdf
+-rw-r--r--@   1 mikeion  staff   898K Oct  8 21:39 2408.03943v1.pdf
+-rw-r--r--@   1 mikeion  staff   892K Dec 26 20:56 odbase17(4).pdf
+-rw-r--r--@   1 mikeion  staff   890K Oct 24 16:04 cqu_13087+ATTACHMENT02+ATTACHMENT02.4.pdf
+-rw-r--r--@   1 mikeion  staff   870K Oct 13 12:54 proposal_for_pat-1.pdf
+-rw-r--r--@   1 mikeion  staff   866K Nov 18 18:21 Moises Mac Installer.zip
+-rw-r--r--@   1 mikeion  staff   852K Jan 15 12:25 2410.14826v2.pdf
+-rw-r--r--@   1 mikeion  staff   848K Sep  9 11:42 Tingyi Resume Urop.pdf
+-rw-r--r--@   1 mikeion  staff   844K Jan 13 12:57 TCHOSHANOV-ARTICULATINGNOTKNOWINGMATHEMATICAL-2022.pdf
+-rw-r--r--@   1 mikeion  staff   838K Aug 27 13:56 Kurt VanLehn - Mind Bugs_ The Origins of Procedural Misconceptions (Learning, Development, and Conceptual Change)-The MIT Press (1990).epub
+-rw-r--r--@   1 mikeion  staff   837K Sep 16 10:55 21edm-mathop.pdf
+-rw-r--r--@   1 mikeion  staff   835K Nov 18 13:59 pgae245.pdf
+-rw-r--r--@   1 mikeion  staff   816K Oct 15 11:57 2109.03199v1.pdf
+-rw-r--r--@   1 mikeion  staff   815K Aug 16 14:23 s40593-023-00378-7.pdf
+-rw-r--r--@   1 mikeion  staff   806K Dec 25 18:07 Kuhn-SSR-2ndEd.pdf
+-rw-r--r--@   1 mikeion  staff   800K Aug 23 10:15 s44163-022-00039-z.pdf
+-rw-r--r--@   1 mikeion  staff   797K Aug  1  2024 3825_instruct_not_assist_llm_based_.pdf
+-rw-r--r--@   1 mikeion  staff   779K Aug 30 15:06 2408.07208v1.pdf
+-rw-r--r--@   1 mikeion  staff   776K Dec 21 17:02 Cognitive Science - 2024 - Chen - A Hierarchical Bayesian Model of Adaptive Teaching.pdf
+-rw-r--r--@   1 mikeion  staff   776K Dec 25 18:10 Cognitive Science - 2024 - Chen - A Hierarchical Bayesian Model of Adaptive Teaching-1.pdf
+-rw-r--r--@   1 mikeion  staff   774K Dec  5 23:25 Coding_Interview_Planning_Document.pdf
+-rw-r--r--@   1 mikeion  staff   768K Dec 31 09:45 Huttenlocher, Daniel_ Schmidt, Eric_ Kissinger, Henry A - The Age of AI_ And Our Human Future-John Murray Press (2021).epub
+-rw-r--r--@   1 mikeion  staff   766K Oct 30 13:30 30040-Article Text-34094-1-2-20240324.pdf
+-rw-r--r--@   1 mikeion  staff   765K Jan 14 22:39 10.1515_9780691225722-003.pdf
+-rw-r--r--@   1 mikeion  staff   764K Sep  5 13:42 s11764-019-00745-1.pdf
+-rw-r--r--@   1 mikeion  staff   761K Oct 13 12:54 proposal_ion_mar_2023-1.pdf
+-rw-r--r--@   1 mikeion  staff   759K Oct 15 07:14 EdResearch_for_Recovery_Design_Principles_1.pdf
+-rw-r--r--@   1 mikeion  staff   757K Jul 26  2024 s11423-019-09701-3.pdf
+-rw-r--r--@   1 mikeion  staff   751K Oct 18 11:36 2402.15027v2.pdf
+-rw-r--r--@   1 mikeion  staff   741K Nov 12 09:37 755Shi1To33.pdf
+-rw-r--r--@   1 mikeion  staff   740K Jan  8 16:52 mar_analysis_llms(2).ipynb
+-rw-r--r--@   1 mikeion  staff   740K Jul 25  2024 mar_analysis_llms.ipynb
+-rw-r--r--@   1 mikeion  staff   739K Oct 13 11:31 mar_analysis_llms(1).ipynb
+-rw-r--r--@   1 mikeion  staff   736K Nov 18 13:57 2312.02913v1.pdf
+-rw-r--r--@   1 mikeion  staff   728K Dec  6 15:19 978-3-319-19773-9_4.pdf
+-rw-r--r--@   1 mikeion  staff   722K Sep 11 16:55 Teaching as Teaching Studying Learning Interaction.pdf
+-rw-r--r--@   1 mikeion  staff   721K Oct 15 10:14 2309.12284v4.pdf
+-rw-r--r--@   1 mikeion  staff   721K Jan 16 11:06 UIML-D-24-00146_reviewer.pdf
+-rw-r--r--@   1 mikeion  staff   718K Nov 22 10:21 2410.24052v1.pdf
+-rw-r--r--@   1 mikeion  staff   716K Jan 12 00:03 Arpeggios lesson.pdf
+-rw-r--r--@   1 mikeion  staff   715K Sep  8 14:25 2024-03-06.pdf
+-rw-r--r--@   1 mikeion  staff   714K Aug 26 14:14 data-06-00110-v2.pdf
+-rw-r--r--@   1 mikeion  staff   713K Sep  8 14:22 2024-09-03.pdf
+-rw-r--r--@   1 mikeion  staff   711K Aug  9 12:57 s42256-023-00644-2.pdf
+-rw-r--r--@   1 mikeion  staff   709K Aug 30 11:14 pp871-mitchell.pdf
+-rw-r--r--@   1 mikeion  staff   709K Feb  3 12:58 FLM_draft(3).docx
+-rw-r--r--@   1 mikeion  staff   708K Sep 27 10:59 1816123.1816155.pdf
+-rw-r--r--@   1 mikeion  staff   706K Jul 26  2024 3159450.3159478.pdf
+-rw-r--r--@   1 mikeion  staff   705K Oct 14 18:27 A_1007472819086.pdf
+-rw-r--r--@   1 mikeion  staff   698K Feb  1 21:24 UIML-D-24-00146.pdf
+-rw-r--r--@   1 mikeion  staff   698K Dec 10 12:04 2406.14099v2.pdf
+-rw-r--r--@   1 mikeion  staff   697K Oct 23 10:36 Scaffolding Student Understanding in Small-Group Work Students Uptake of Teacher Support in Subsequent Small-Group Interaction.pdf
+-rw-r--r--@   1 mikeion  staff   677K Aug 27 14:23 The Relative Effectiveness of Human Tutoring Intelligent Tutoring Systems and Other Tutoring Systems.pdf
+-rw-r--r--@   1 mikeion  staff   676K Oct 15 08:48 51_Learning+Mathematics+with+Large+Language+Models+A+Comparative+Study+with+Computer+Algebra+Systems+and+Other+Tools.pdf
+-rw-r--r--@   1 mikeion  staff   669K Jan 15 22:01 FLM_draft(2).docx
+-rw-r--r--@   1 mikeion  staff   661K Feb  3 20:38 bio_pic.jpeg
+-rw-r--r--@   1 mikeion  staff   657K Aug 26 13:53 sdata2017171.pdf
+-rw-r--r--@   1 mikeion  staff   657K Sep 24 13:24 Project Description_rev 1-27-23-1.pdf
+-rw-r--r--@   1 mikeion  staff   657K Sep 25 12:41 Project Description_rev 1-27-23-2.pdf
+-rw-r--r--@   1 mikeion  staff   657K Sep 23 10:46 Project Description_rev 1-27-23.pdf
+-rw-r--r--@   1 mikeion  staff   639K Aug 19 13:30 Educational Measurement - March 1989 - Harris - Comparison of 1‐ 2‐ and 3‐Parameter IRT Models.pdf
+-rw-r--r--@   1 mikeion  staff   630K Aug 27 14:21 06IJAIED.pdf
+-rw-r--r--@   1 mikeion  staff   630K Sep  4 14:34 Brit J Math Statis - 2018 - Stefanutti - On the assessment of procedural knowledge From problem spaces to knowledge.pdf
+-rw-r--r--@   1 mikeion  staff   629K Nov 18 14:34 Expert_Validation_of_a_Python_Test_Reliability_Dif.pdf
+-rw-r--r--@   1 mikeion  staff   629K Dec 21 12:33 whysmartcreativeandhighlysensitivepeoplehurt.epub
+-rw-r--r--@   1 mikeion  staff   629K Aug  9 11:27 s10648-011-9191-6.pdf
+-rw-r--r--@   1 mikeion  staff   628K Jul 25  2024 Education_and_Learning_to_Think.pdf
+-rw-r--r--@   1 mikeion  staff   625K Oct 15 10:12 2406.18321v1.pdf
+-rw-r--r--@   1 mikeion  staff   624K Nov 15 10:38 UROP_Changing_Gears.pdf
+-rw-r--r--@   1 mikeion  staff   617K Aug 27 13:48 Vizcaino05.pdf
+-rw-r--r--@   1 mikeion  staff   616K Oct 23 10:04 Situating Data Science Exploring How Relationships to Data Shape Learning.pdf
+-rw-r--r--@   1 mikeion  staff   608K Jul 26  2024 Design Recommendations for ITS_Volume 1 - Learner Modeling Book_Chapter 15.pdf
+-rw-r--r--@   1 mikeion  staff   602K Jan 20 21:21 2112.01537v2.pdf
+-rw-r--r--@   1 mikeion  staff   598K Nov  6 21:28 analyzing_digital_soc_critiques.ipynb
+-rw-r--r--@   1 mikeion  staff   591K Oct 15 14:57 Association_for_Computational_Linguistics__ACL__conference.pdf
+-rw-r--r--@   1 mikeion  staff   589K Dec 21 12:43 whysmartpeoplehurt.epub
+-rw-r--r--@   1 mikeion  staff   578K Oct 29 14:00 3853-Article Text-6911-1-10-20190701.pdf
+-rw-r--r--@   1 mikeion  staff   572K Oct 15 08:58 s41239-018-0100-7.pdf
+-rw-r--r--@   1 mikeion  staff   565K Nov  8 08:21 ShimmeiM23-AIED.pdf
+-rw-r--r--@   1 mikeion  staff   562K Oct 13 12:21 1901.00064v3.pdf
+-rw-r--r--@   1 mikeion  staff   553K Oct 24 15:28 2405.11070v1.pdf
+-rw-r--r--@   1 mikeion  staff   553K Jan 15 22:02 FLM_draft.docx.pdf
+-rw-r--r--@   1 mikeion  staff   550K Aug 30 14:52 ED592732.pdf
+-rw-r--r--@   1 mikeion  staff   536K Sep 25 14:43 nips08-cvx.pdf
+-rw-r--r--@   1 mikeion  staff   535K Jul 29  2024 paired_annotations.csv
+-rw-r--r--@   1 mikeion  staff   528K Jul 29  2024 causality_conversations.pdf
+-rw-r--r--@   1 mikeion  staff   518K Dec  5 22:48 Research Plan-2024-12-06-064844.png
+-rw-r--r--@   1 mikeion  staff   517K Sep 19 11:13 ion_postdoc_signed_sept_2024.pdf
+-rw-r--r--@   1 mikeion  staff   517K Sep 19 11:13 Ion, Michael (Collins-Thompson) UMSI Postdoc Offer Letter-1.pdf
+-rw-r--r--@   1 mikeion  staff   512K Oct 29 22:25 2409.18842v1.pdf
+-rw-r--r--@   1 mikeion  staff   511K Jul 29  2024 2106.03873v1.pdf
+-rw-r--r--@   1 mikeion  staff   511K Aug 23 10:22 EDTech_testbeds_v6.pdf
+-rw-r--r--@   1 mikeion  staff   507K Sep 21 19:20 living loving maid tab.pdf
+-rw-r--r--@   1 mikeion  staff   505K Dec  5 12:29 code_study_session_slides-.pdf
+-rw-r--r--@   1 mikeion  staff   505K Dec  5 12:31 code_study_session_slides-2.pdf
+-rw-r--r--@   1 mikeion  staff   505K Nov 20 11:02 code_study_session_slides.pdf
+-rw-r--r--@   1 mikeion  staff   497K Aug 16 15:04 Adapting_to_Automated_Governance__Unpacking_User_Perceptions_of_Bot_Moderation_in_Telegram_and_Discord_Chats (1).pdf
+-rw-r--r--@   1 mikeion  staff   495K Jan 20 21:29 30470-Article Text-34524-1-2-20240324.pdf
+-rw-r--r--@   1 mikeion  staff   494K Jul 22  2024 2021.findings-acl.418.pdf
+-rw-r--r--@   1 mikeion  staff   493K Jul 26  2024 Cognitive Science - 2010 - Aleven - An effective metacognitive strategy learning by doing and explaining with a.pdf
+-rw-r--r--@   1 mikeion  staff   490K Aug  8  2024 Science Education - 2017 - Tang - Analyzing Teachers Use of Metadiscourse The Missing Element in Classroom Discourse.pdf
+-rw-r--r--@   1 mikeion  staff   483K Oct 13 13:42 NAACL 2025 diagram 1.drawio(2).png
+-rw-r--r--@   1 mikeion  staff   482K Jul 24  2024 s40593-024-00406-0.pdf
+-rw-r--r--@   1 mikeion  staff   478K Aug 10 15:07 reg256-1_complete.pdf
+-rw-r--r--@   1 mikeion  staff   475K Oct 29 20:32 research_plan.png
+-rw-r--r--@   1 mikeion  staff   472K Oct 24 15:17 1-s2.0-S2211695816300241-main.pdf
+-rw-r--r--@   1 mikeion  staff   470K Aug 26 14:46 s11257-009-9063-7.pdf
+-rw-r--r--@   1 mikeion  staff   467K Feb  6 20:41 zotfile-5.1.2-fx.xpi
+-rw-r--r--@   1 mikeion  staff   467K Oct 13 13:41 NAACL 2025 diagram 1.drawio(1).png
+-rw-r--r--@   1 mikeion  staff   466K Aug 30 15:29 An_evaluation_agent_that_simulates_students_behaviour_in_intelligent_tutoring_systems.pdf
+-rw-r--r--@   1 mikeion  staff   465K Sep 22 12:44 diagram.PNG
+-rw-r--r--@   1 mikeion  staff   464K Dec  6 15:18 1910.12581v1.pdf
+-rw-r--r--@   1 mikeion  staff   464K Jan 14 17:54 FLM_draft(1).docx
+-rw-r--r--@   1 mikeion  staff   464K Jul 24  2024 ffp0205s.pdf
+-rw-r--r--@   1 mikeion  staff   463K Oct 13 13:40 NAACL 2025 diagram 1.drawio.png
+-rw-r--r--@   1 mikeion  staff   463K Dec 16 12:57 IMG-20221009-WA0005.jpg
+-rw-r--r--@   1 mikeion  staff   459K Oct 31 14:04 Untitled diagram-2024-10-31-210457.png
+-rw-r--r--@   1 mikeion  staff   451K Aug 10 14:55 front.jpeg
+-rw-r--r--@   1 mikeion  staff   450K Jul 22  2024 ED610905.pdf
+-rw-r--r--@   1 mikeion  staff   443K Oct 27 14:03 Stairway to Heaven lesson.pdf
+-rw-r--r--@   1 mikeion  staff   441K Jul 26  2024 s40593-021-00251-5.pdf
+-rw-r--r--@   1 mikeion  staff   440K Oct  1 09:34 Aniruddh Aithal Resume.pdf
+-rw-r--r--@   1 mikeion  staff   440K Oct 30 10:05 Untitled diagram-2024-10-30-170503.png
+-rw-r--r--@   1 mikeion  staff   431K Aug 15 10:44 cohen-et-al-2003-resources-instruction-and-research.pdf
+-rw-r--r--@   1 mikeion  staff   430K Oct  1 09:12 REDP Project Matching .xlsx
+-rw-r--r--    1 mikeion  staff   425K Dec 14 16:33 KCT-Lab.bib
+-rw-r--r--@   1 mikeion  staff   422K Aug  1  2024 1753326.1753430.pdf
+-rw-r--r--@   1 mikeion  staff   420K Jul 25  2024 1072879ar.pdf
+-rw-r--r--@   1 mikeion  staff   418K Sep  6 11:31 Yunsu Park - GMU_Transcript.pdf
+-rw-r--r--@   1 mikeion  staff   416K Sep  9 11:12 2407.11203v1.pdf
+-rw-r--r--@   1 mikeion  staff   415K Sep 26 13:37 2312.02065v1.pdf
+-rw-r--r--@   1 mikeion  staff   413K Nov  4 09:03 insurance_card_back.jpeg
+-rw-r--r--@   1 mikeion  staff   399K Oct 29 20:42 Research Plan-2024-10-30-034205.png
+-rw-r--r--@   1 mikeion  staff   399K Oct 29 20:41 Untitled diagram-2024-10-30-034144.png
+-rw-r--r--@   1 mikeion  staff   396K Aug  9 14:51 mixfa.pdf
+-rw-r--r--@   1 mikeion  staff   388K Nov 22 10:19 2411.03700v1.pdf
+-rw-r--r--@   1 mikeion  staff   382K Feb  3 20:37 WhatsApp Image 2025-02-03 at 20.37.31.jpeg
+-rw-r--r--@   1 mikeion  staff   377K Oct 15 11:57 2110.12646v2.pdf
+-rw-r--r--@   1 mikeion  staff   373K Jan 13 23:03 FLM_paper-1.pdf
+-rw-r--r--@   1 mikeion  staff   373K Aug 10 14:55 back.jpeg
+-rw-r--r--@   1 mikeion  staff   367K Jul 19  2024 What Should University Admissions Tests Predict .pdf
+-rw-r--r--@   1 mikeion  staff   366K Jul 19  2024 3613905.3647966.pdf
+-rw-r--r--@   1 mikeion  staff   364K Dec  6 15:21 ED592716.pdf
+-rw-r--r--@   1 mikeion  staff   357K Dec 10 08:57 analysis_phase(1).png
+-rw-r--r--@   1 mikeion  staff   357K Dec  5 21:21 analysis_phase.png
+-rw-r--r--@   1 mikeion  staff   356K Jan 28 20:59 SSBM General Frame Data [WIP].xlsx
+-rw-r--r--@   1 mikeion  staff   352K Dec 21 15:38 PIIS1364661310001129.pdf
+-rw-r--r--@   1 mikeion  staff   351K Dec  5 16:43 Research Plan-2024-12-06-004355.png
+-rw-r--r--@   1 mikeion  staff   344K Aug 16 15:15 naer.2021.1.650.pdf
+-rw-r--r--@   1 mikeion  staff   343K Jan 26 21:36 Mike_Ion_CoRise_Week1_Walkthrough_for_the_Students(2).ipynb
+-rw-r--r--@   1 mikeion  staff   343K Jan 24 09:53 Mike_Ion_CoRise_Week1_Walkthrough_for_the_Students(1).ipynb
+-rw-r--r--@   1 mikeion  staff   337K Jul 30  2024 EDM2024_paper_134_preprint.pdf
+-rw-r--r--@   1 mikeion  staff   334K Jan 31 09:44 ch_1-1.pdf
+-rw-r--r--@   1 mikeion  staff   334K Jan 10 13:50 ch_1.pdf
+-rw-r--r--@   1 mikeion  staff   333K Dec  5 16:46 Untitled diagram-2024-12-06-004601.png
+-rw-r--r--@   1 mikeion  staff   331K Dec 25 22:42 Copy_of_Mike_Ion_CoRise_Week1_Walkthrough.ipynb
+-rw-r--r--@   1 mikeion  staff   331K Nov 22 19:21 1702.06230v3.pdf
+-rw-r--r--@   1 mikeion  staff   331K Jan 23 10:35 Mike_Ion_CoRise_Week1_Walkthrough_for_the_Students.ipynb
+-rw-r--r--@   1 mikeion  staff   331K Oct  3 11:02 WhatsApp Image 2024-09-15 at 12.01.25 (1).jpeg
+-rw-r--r--@   1 mikeion  staff   331K Sep 17 17:16 WhatsApp Image 2024-09-15 at 12.01.25.jpeg
+-rw-r--r--@   1 mikeion  staff   330K Sep  6 09:24 Schedule 2024-2025.png
+-rw-r--r--@   1 mikeion  staff   326K Oct 14 18:27 What s the matter with technology-enhanced learning .pdf
+-rw-r--r--@   1 mikeion  staff   324K Aug  1  2024 2090116.2090132.pdf
+-rw-r--r--@   1 mikeion  staff   323K Jul 29  2024 2208.04715v1.pdf
+-rw-r--r--@   1 mikeion  staff   319K Feb  2 10:01 Cursor Mac Installer (250201b44xw1x2k).zip
+-rw-r--r--@   1 mikeion  staff   318K Oct  8 16:59 UMSI Course Catalog.xlsx
+-rw-r--r--@   1 mikeion  staff   318K Oct 15 11:33 07_Content_Knowledge_for_Teaching_What_Makes_It_Speci.pdf
+-rw-r--r--@   1 mikeion  staff   314K Nov 12 09:22 NSF_RITEL_Nov_2024-1.pdf
+-rw-r--r--@   1 mikeion  staff   314K Nov  4 06:06 NSF_RITEL_Nov_2024.pdf
+-rw-r--r--@   1 mikeion  staff   312K Jul 23  2024 2307.08161v1.pdf
+-rw-r--r--@   1 mikeion  staff   312K Nov  4 11:13 mikes-materials.zip
+-rw-r--r--@   1 mikeion  staff   312K Oct  2 21:24 The Jazz Scales You Need To Know (in Order).pdf
+-rw-r--r--@   1 mikeion  staff   310K Oct 14 10:23 s42438-019-00045-y.pdf
+-rw-r--r--@   1 mikeion  staff   308K Dec 14 16:51 WhatsApp Image 2024-12-14 at 16.51.43.jpeg
+-rw-r--r--@   1 mikeion  staff   307K Aug 15 11:10 FrederickFMoste_2002_4ResourcesInstruction_EvidenceMattersRandom.pdf
+-rw-r--r--@   1 mikeion  staff   306K Aug 13 12:09 10.4324_9781003262497-20_chapterpdf.pdf
+-rw-r--r--@   1 mikeion  staff   306K Aug 13 19:31 driver_back.jpeg
+-rw-r--r--@   1 mikeion  staff   305K Dec  5 22:49 Research Plan-2024-12-06-064916.png
+-rw-r--r--@   1 mikeion  staff   303K Nov 19 09:51 bonabeau-2002-agent-based-modeling-methods-and-techniques-for-simulating-human-systems.pdf
+-rw-r--r--@   1 mikeion  staff   293K Aug 30 15:20 Christopher Z. Mooney, Robert D. Duval, Robert Duval - Bootstrapping_ a nonparametric approach to statistical inference, Issues 94-95-SAGE (1993).epub
+-rw-r--r--@   1 mikeion  staff   290K Feb  3 21:29 win.mp3
+-rw-r--r--@   1 mikeion  staff   289K Dec  5 17:01 preparation.png
+-rw-r--r--@   1 mikeion  staff   288K Nov 19 09:47 bruch-atwell-2013-agent-based-models-in-empirical-social-research.pdf
+-rw-r--r--@   1 mikeion  staff   285K Nov  4 06:14 insurance_card_mike_and_saba.jpeg
+-rw-r--r--@   1 mikeion  staff   284K Jan 30 21:12 DeepSeek Pure RL in Plain English.docx
+-rw-r--r--@   1 mikeion  staff   280K Oct 27 13:17 NSF-Proposals-UMich.bib
+-rw-r--r--@   1 mikeion  staff   277K Jul 22  2024 rieh-et-al-2016-towards-searching-as-a-learning-process-a-review-of-current-perspectives-and-future-directions.pdf
+-rw-r--r--@   1 mikeion  staff   275K Aug 16 10:40 heeryung-bookchapter-unobtrusive-choi-winne-brooks.pdf
+-rw-r--r--@   1 mikeion  staff   271K Jan 13 22:27 DALL·E 2025-01-13 22.27.03 - A professional cartoon-style portrait of a man with a beard and short hair, wearing a tan suit jacket, blue shirt, and a patterned tie, set against a .webp
+-rw-r--r--@   1 mikeion  staff   271K Jan 13 22:59 DALL·E 2025-01-13 22.59.16 - A professional cartoon-style portrait of a man with a beard and short hair, wearing a tan suit jacket, blue shirt, and a patterned tie, set against a .webp
+-rw-r--r--@   1 mikeion  staff   271K Aug 27 13:30 sim_students.pdf
+-rw-r--r--@   1 mikeion  staff   271K Dec 12 15:52 WhatsApp Image 2024-12-12 at 15.51.44 (1).jpeg
+-rw-r--r--@   1 mikeion  staff   270K Aug  1  2024 1089786.1089787.pdf
+-rw-r--r--@   1 mikeion  staff   269K Jan 13 19:18 FLM_paper.pdf
+-rw-r--r--@   1 mikeion  staff   268K Nov 14 11:24 HUM00265039.pdf
+-rw-r--r--@   1 mikeion  staff   267K Jan 30 01:15 demo_5.jpg
+-rw-r--r--@   1 mikeion  staff   266K Aug 26 09:11 Accountable Plan Exception Request Form -Signed.pdf
+-rw-r--r--@   1 mikeion  staff   266K Nov 18 10:40 mlnm.pdf
+-rw-r--r--@   1 mikeion  staff   261K Dec 12 15:52 WhatsApp Image 2024-12-12 at 15.51.44.jpeg
+-rw-r--r--@   1 mikeion  staff   260K Aug 16 12:32 Accountable Plan Exception Request Form .pdf
+-rw-r--r--@   1 mikeion  staff   260K Oct  8 10:53 eedi-mining-misconceptions-in-mathematics.zip
+-rw-r--r--@   1 mikeion  staff   259K Jan 30 12:05 Mike_Ion_Yufeng_Song_01_31.ipynb
+-rw-r--r--@   1 mikeion  staff   259K Dec  4 12:05 Drops.html
+-rw-r--r--@   1 mikeion  staff   258K Aug  4  2024 amz035.pdf
+-rw-r--r--@   1 mikeion  staff   258K Oct  2 13:55 Llama 3.1 Impact Grants Submission Manager - Llama 3.1 Impact Grants.pdf
+-rw-r--r--@   1 mikeion  staff   258K Sep  9 11:42 Screenshot 2024-09-07 at 3.09.57 PM.png
+-rw-r--r--@   1 mikeion  staff   253K Oct  2 10:20 rag_pipeline_improvement-1.pdf
+-rw-r--r--@   1 mikeion  staff   253K Sep 20 12:42 rag_pipeline_improvement.pdf
+-rw-r--r--@   1 mikeion  staff   252K Nov  4 13:23 Video.3gp
+-rw-r--r--@   1 mikeion  staff   251K Oct 15 21:52 Association_for_Computational_Linguistics__ACL__conference-1.pdf
+-rw-r--r--@   1 mikeion  staff   245K Dec 23 23:38 customer_agreement.pdf
+-rw-r--r--@   1 mikeion  staff   244K Jan 29 12:45 Prompt 4, 5 sec.png
+-rw-r--r--@   1 mikeion  staff   244K Sep 15 22:14 Screen_Shot_2024-09-15_at_10.09.53_PM.png
+-rw-r--r--@   1 mikeion  staff   243K Jan 29 12:45 Prompt 4, 2 sec.png
+-rw-r--r--@   1 mikeion  staff   242K Feb  5 12:30 Final_Structured_Questions_and_Answers.csv
+-rw-r--r--@   1 mikeion  staff   241K Aug 30 09:56 20240828-statements-1287-.pdf
+-rw-r--r--@   1 mikeion  staff   241K Oct 11 15:01 1-s2.0-S1876139919302439-main-1.pdf
+-rw-r--r--@   1 mikeion  staff   241K Oct 11 10:31 1-s2.0-S1876139919302439-main.pdf
+-rw-r--r--@   1 mikeion  staff   240K Jan 30 20:49 demo_6.jpg
+-rw-r--r--@   1 mikeion  staff   238K Aug 16 14:45 1862219.1862227.pdf
+-rw-r--r--@   1 mikeion  staff   235K Nov 14 11:26 ictir2009-perturb-kernel.pdf
+-rw-r--r--@   1 mikeion  staff   235K Jul 29  2024 ds1798_step_list_2024_0729_132000.txt
+-rw-r--r--@   1 mikeion  staff   235K Dec 21 15:32 1-s2.0-S1364661306001343-main.pdf
+-rw-r--r--@   1 mikeion  staff   234K Oct 13 14:08 mar_analysis_llms_macbook(1).ipynb
+-rw-r--r--@   1 mikeion  staff   234K Jul 25  2024 mar_analysis_llms_macbook.ipynb
+-rw-r--r--@   1 mikeion  staff   233K Sep 20 11:26 Patreon Extras - Triads For Jazz Chords 101.pdf
+-rw-r--r--@   1 mikeion  staff   233K Aug  9 10:25 ch_9.pdf
+-rw-r--r--@   1 mikeion  staff   232K Aug 30 15:26 Using_simulated_students_to_evaluate_an_adaptive_testing_system.pdf
+-rw-r--r--@   1 mikeion  staff   232K Aug 26 15:17 Int Statistical Rev - 2015 - Ryan - A Review of Modern Computational Algorithms for Bayesian Optimal Design.pdf
+-rw-r--r--@   1 mikeion  staff   230K Dec  5 16:48 Untitled diagram-2024-12-06-004825.png
+-rw-r--r--@   1 mikeion  staff   229K Jan 14 22:40 10.1515_9780691225722-022.pdf
+-rw-r--r--@   1 mikeion  staff   229K Oct 24 15:16 Conversation Analysis as a Way of Studying Learning An Introduction to a Special Issue of SJER.pdf
+-rw-r--r--@   1 mikeion  staff   228K Jan 29 12:44 Prompt 3, 5 sec.png
+-rw-r--r--@   1 mikeion  staff   228K Jan 29 12:44 Prompt 3, 2 sec.png
+-rw-r--r--@   1 mikeion  staff   227K Aug  4  2024 2405.19132v1.pdf
+-rw-r--r--@   1 mikeion  staff   226K Dec  5 16:47 Untitled diagram-2024-12-06-004723.png
+-rw-r--r--@   1 mikeion  staff   226K Aug 13 12:15 Crossing_the_Gap__Using_Competency_Based.20.pdf
+-rw-r--r--@   1 mikeion  staff   225K Nov 23 12:39 AAAI_paper-1.pdf
+-rw-r--r--@   1 mikeion  staff   225K Nov 23 12:37 AAAI_paper.pdf
+-rw-r--r--@   1 mikeion  staff   225K Nov 23 12:50 AAAI_paper-2.pdf
+-rw-r--r--@   1 mikeion  staff   225K Nov 23 12:53 AAAI_paper-3.pdf
+-rw-r--r--@   1 mikeion  staff   225K Nov 26 12:21 AAAI_paper-4.pdf
+-rw-r--r--@   1 mikeion  staff   225K Nov 23 13:05 iRAISE_submission_nov2024.pdf
+-rw-r--r--@   1 mikeion  staff   224K Dec 23 12:33 Why_Do_Only_Some_Events_Cause_Learning_During_Huma.pdf
+-rw-r--r--@   1 mikeion  staff   222K Aug 10 15:00 top.jpeg
+-rw-r--r--@   1 mikeion  staff   221K Dec  5 17:04 implementation_phase.png
+-rw-r--r--@   1 mikeion  staff   221K Feb  3 16:35 SabaGeramiCV-24-LIVE.pdf
+-rw-r--r--@   1 mikeion  staff   221K Jan 29 12:35 Promt 2, 1 sec.png
+-rw-r--r--@   1 mikeion  staff   221K Jan 16 08:55 LKT.pdf
+-rw-r--r--@   1 mikeion  staff   221K Oct  1 09:17 Fayrooz Resume.pdf
+-rw-r--r--@   1 mikeion  staff   220K Jan 29 12:34 promt 1, 1 sec.png
+-rw-r--r--@   1 mikeion  staff   220K Aug 15 14:33 DET+Responsible+AI+Standards+-+040824.pdf
+-rw-r--r--@   1 mikeion  staff   218K Jan 30 01:14 demo_2.jpg
+-rw-r--r--@   1 mikeion  staff   218K Jan 29 12:36 Prompt 2, 4 sec.png
+-rw-r--r--@   1 mikeion  staff   216K Jan 29 12:35 Prompt 2, 2 sec.png
+-rw-r--r--@   1 mikeion  staff   216K Jan 19 14:18 Language Localization of LearningClues Software.docx
+-rw-r--r--@   1 mikeion  staff   215K Nov 14 11:36 WhatsApp Image 2024-11-04 at 09.02.14.jpeg
+-rw-r--r--@   1 mikeion  staff   215K Jan 29 12:36 Prompt 2, 5 sec.png
+-rw-r--r--@   1 mikeion  staff   214K Nov 22 13:48 WhatsApp Image 2024-11-19 at 13.05.34.jpeg
+-rw-r--r--@   1 mikeion  staff   214K Feb  5 12:21 data.csv
+-rw-r--r--@   1 mikeion  staff   213K Oct 24 10:20 WhatsApp Image 2024-10-24 at 10.20.20.jpeg
+-rw-r--r--@   1 mikeion  staff   212K Jul 29  2024 ED537192.pdf
+-rw-r--r--@   1 mikeion  staff   211K Sep 10 11:47 text_complexity_collegeandbeyond.ipynb
+-rw-r--r--@   1 mikeion  staff   211K Nov 22 10:30 3636988.3637000.pdf
+-rw-r--r--@   1 mikeion  staff   208K Jan 26 14:02 rachit-tank-2cFZ_FB08UM-unsplash.jpg
+-rw-r--r--@   1 mikeion  staff   207K Nov  4 11:13 sabas-materials.zip
+-rw-r--r--@   1 mikeion  staff   206K Oct  8 17:15 1727097580150.jpg
+-rw-r--r--@   1 mikeion  staff   201K Jan 27 10:13 LearningClues_Coach_Mode_memo (1).pdf
+-rw-r--r--@   1 mikeion  staff   201K Jan 19 20:11 LearningClues_Coach_Mode_memo.pdf
+-rw-r--r--@   1 mikeion  staff   201K Jan 23 10:11 LearningClues___Study_Mode.pdf
+-rw-r--r--@   1 mikeion  staff   200K Jul 25  2024 2023.bea-1.44.pdf
+-rw-r--r--@   1 mikeion  staff   200K Jan 29 12:44 Prompt 3, 0 sec.png
+-rw-r--r--@   1 mikeion  staff   199K Jul 29  2024 student_reasoning.csv
+-rw-r--r--@   1 mikeion  staff   198K Jan  9 15:26 22-26.Statistics.pdf
+-rw-r--r--@   1 mikeion  staff   197K Dec 29 10:08 596998.pdf
+-rw-r--r--@   1 mikeion  staff   197K Jan 29 12:45 Prompt 4, 0 sec.png
+-rw-r--r--@   1 mikeion  staff   195K Nov 15 15:10 1000029237(1).png
+-rw-r--r--@   1 mikeion  staff   195K Nov 15 10:35 1000029237.png
+-rw-r--r--@   1 mikeion  staff   194K Jan 14 22:38 10.1515_9781400885602-029.pdf
+-rw-r--r--@   1 mikeion  staff   190K Aug 30 11:03 D09-1094.pdf
+-rw-r--r--@   1 mikeion  staff   189K Jul 29  2024 liu-cohen-2021-measuring-teaching-practices-at-scale-a-novel-application-of-text-as-data-methods.pdf
+-rw-r--r--@   1 mikeion  staff   188K Jan 12 14:07 MikeIonCoverLetter_UCSD-1.pdf
+-rw-r--r--@   1 mikeion  staff   188K Nov  4 11:09 MikeIonCoverLetter_UCSD.pdf
+-rw-r--r--@   1 mikeion  staff   185K Aug 16 12:24 Job Aid using Shared Services for Chrome River.pdf
+-rw-r--r--@   1 mikeion  staff   185K Jan 14 22:38 10.1515_9781400885602-027.pdf
+-rw-r--r--@   1 mikeion  staff   185K Dec 27 16:19 [Wizard of Oz] Somewhere Over The Rainbow.png
+-rw-r--r--@   1 mikeion  staff   184K Jan 26 20:12 dataset_v2.json
+-rw-r--r--@   1 mikeion  staff   184K Jan 26 20:08 dataset(1)(1).json
+-rw-r--r--@   1 mikeion  staff   184K Jan 26 20:06 dataset(1).json
+-rw-r--r--@   1 mikeion  staff   184K Jan 26 20:05 dataset.json
+-rw-r--r--@   1 mikeion  staff   180K Jan 24 09:26 mike_ion_corise_week1_walkthrough_for_the_students.py
+-rw-r--r--@   1 mikeion  staff   180K Sep  6 09:24 Main Resume.pdf
+-rw-r--r--@   1 mikeion  staff   179K Jan 26 21:37 mike_ion_corise_week1_walkthrough_for_the_students(1).py
+-rw-r--r--@   1 mikeion  staff   177K Nov 30 12:02 Letterhead-final.docx
+-rw-r--r--@   1 mikeion  staff   176K Aug 30 15:31 bravo_ortigosa_.pdf
+-rw-r--r--@   1 mikeion  staff   176K Dec 14 16:53 Ion, Michael (Collins-Thompson) UMSI Postdoc Offer Letter (1).pdf
+-rw-r--r--@   1 mikeion  staff   176K Sep 13 11:02 Ion, Michael (Collins-Thompson) UMSI Postdoc Offer Letter.pdf
+-rw-r--r--@   1 mikeion  staff   175K Nov 22 12:33 question_perf(1).png
+-rw-r--r--@   1 mikeion  staff   175K Nov 22 12:55 question_perf(2).png
+-rw-r--r--@   1 mikeion  staff   175K Nov 22 12:58 question_perf(3).png
+-rw-r--r--@   1 mikeion  staff   175K Nov 21 12:58 question_perf.png
+-rw-r--r--@   1 mikeion  staff   175K Oct 16 00:26 2157_textit_MathMentorDB_A_Mas.pdf
+-rw-r--r--@   1 mikeion  staff   175K Dec 19 09:50 MathMentorDB_ion.pdf
+-rw-r--r--@   1 mikeion  staff   175K Oct 16 00:19 arr-oct-2024-submission-ion-blinded.pdf
+-rw-r--r--@   1 mikeion  staff   175K Oct 15 23:39 Association_for_Computational_Linguistics__ACL__conference-3.pdf
+-rw-r--r--@   1 mikeion  staff   175K Oct 15 23:44 acl_anonymous_final.pdf
+-rw-r--r--@   1 mikeion  staff   175K Jul 24  2024 s11217-007-9071-1.pdf
+-rw-r--r--@   1 mikeion  staff   175K Jul 19  2024 1-s2.0-S0959475299000250-main.pdf
+-rw-r--r--@   1 mikeion  staff   173K Oct 15 23:10 Association_for_Computational_Linguistics__ACL__conference-2.pdf
+-rw-r--r--@   1 mikeion  staff   172K Nov 19 10:56 Signature Verification Letter and Statement 2024 General_email- After E-day-1.pdf
+-rw-r--r--@   1 mikeion  staff   172K Nov 18 18:00 Signature Verification Letter and Statement 2024 General_email- After E-day.pdf
+-rw-r--r--@   1 mikeion  staff   172K Aug 30 15:33 mertz97.pdf
+-rw-r--r--@   1 mikeion  staff   171K Jan 14 11:20 FLM_draft.docx
+-rw-r--r--@   1 mikeion  staff   171K Jan 14 22:45 10.1515_9780691213651-019.pdf
+-rw-r--r--@   1 mikeion  staff   169K Sep 11 16:25 neurips_2024.pdf
+-rw-r--r--@   1 mikeion  staff   168K Jan 14 20:51 10.1515_9781400885602-002.pdf
+-rw-r--r--@   1 mikeion  staff   168K Oct 16 07:50 ACL_oct16_submission_unblinded_ion.pdf
+-rw-r--r--@   1 mikeion  staff   168K Oct 24 15:08 Association_for_Computational_Linguistics__ACL__conference-4.pdf
+-rw-r--r--@   1 mikeion  staff   168K Oct 16 07:49 Association_for_Computational_Linguistics__ACL__conference-5.pdf
+-rw-r--r--@   1 mikeion  staff   168K Jul 30  2024 WhatsApp Image 2024-07-25 at 20.16.53.jpeg
+-rw-r--r--@   1 mikeion  staff   167K Jan 29 12:26 prompt_2.png
+-rw-r--r--@   1 mikeion  staff   166K Oct 13 13:30 Process of Disentangling JSON Files into Conversation Files.png
+-rw-r--r--@   1 mikeion  staff   165K Jul 25  2024 all_paper_data.csv
+-rw-r--r--@   1 mikeion  staff   164K Nov 26 11:48 p115-subramaniam.pdf
+-rw-r--r--@   1 mikeion  staff   162K Jan 29 12:16 Screenshot 2025-01-29 at 12.16.44 PM.png
+-rw-r--r--@   1 mikeion  staff   161K Jan 29 12:16 prompt_1.png
+-rw-r--r--@   1 mikeion  staff   161K Aug  2  2024 insurance_back.jpg
+-rw-r--r--@   1 mikeion  staff   159K Nov 21 13:06 2410.01010v2.pdf
+-rw-r--r--@   1 mikeion  staff   159K Aug 15 15:19 Teacher's Uptake of Student Ideas -- Coding Instrument (FINAL - 5_13_2020).pdf
+-rw-r--r--@   1 mikeion  staff   158K Jul 25  2024 all_citations.bib
+-rw-r--r--@   1 mikeion  staff   157K Jan  9 15:26 22-26.76STATBSU.pdf
+-rw-r--r--@   1 mikeion  staff   156K Nov  5 13:49 WhatsApp Image 2024-11-05 at 16.49.25.jpeg
+-rw-r--r--@   1 mikeion  staff   154K Nov 27 12:43 greyhound.pdf
+-rw-r--r--@   1 mikeion  staff   154K Sep  6 16:07 Bryan Gao Class Schedule.png
+-rw-r--r--@   1 mikeion  staff   153K Oct 15 14:41 flowchart(1).png
+-rw-r--r--@   1 mikeion  staff   153K Oct 13 13:27 flowchart.png
+-rw-r--r--@   1 mikeion  staff   152K Jan 30 01:15 demo_1.jpg
+-rw-r--r--@   1 mikeion  staff   152K Jan 29 12:26 Screenshot 2025-01-29 at 12.26.21 PM.png
+-rw-r--r--@   1 mikeion  staff   151K Feb  5 12:36 data_extracted_qas(1).csv
+-rw-r--r--@   1 mikeion  staff   151K Feb  5 12:35 data_extracted_qas.csv
+-rw-r--r--@   1 mikeion  staff   151K Jul 23  2024 Brit J Educational Tech - 2011 - Akyol - Understanding cognitive presence in an online and blended community of inquiry .pdf
+-rw-r--r--@   1 mikeion  staff   150K Jan 22 12:02 sample-manuscript(1).tex
+-rw-r--r--@   1 mikeion  staff   150K Nov 22 12:48 Untitled diagram-2024-11-22-204859.png
+-rw-r--r--@   1 mikeion  staff   149K Sep 21 19:06 led_zeppelin-stairway_to_heaven.pdf
+-rw-r--r--@   1 mikeion  staff   149K Oct 14 10:46 pytorch.jpg
+-rw-r--r--@   1 mikeion  staff   148K Jan 21 09:03 sample-manuscript.tex
+-rw-r--r--@   1 mikeion  staff   147K Jan 30 09:30 INVOICE2991597784.pdf
+-rw-r--r--@   1 mikeion  staff   147K Sep  5 15:09 efi_2008_26-3-4_efi-26-3-4-efi00865_efi-26-efi00865.pdf
+-rw-r--r--@   1 mikeion  staff   146K Dec  4 14:03 bus_to_cleveland-1.pdf
+-rw-r--r--@   1 mikeion  staff   146K Dec  6 11:55 bus_to_cleveland-2.pdf
+-rw-r--r--@   1 mikeion  staff   146K Nov 27 12:43 bus_to_cleveland.pdf
+-rw-r--r--@   1 mikeion  staff   146K Sep 30 15:49 cv-1.pdf
+-rw-r--r--@   1 mikeion  staff   146K Nov 14 08:38 cv-ion-sept-2024.pdf
+-rw-r--r--@   1 mikeion  staff   146K Sep 30 15:35 cv.pdf
+-rw-r--r--@   1 mikeion  staff   145K Nov  4 11:08 coverletter_ion_sdsu.pdf
+-rw-r--r--@   1 mikeion  staff   144K Jan 12 14:08 CV_ion-ucsd.pdf
+-rw-r--r--@   1 mikeion  staff   143K Dec 12 19:53 Fengquan Jiao Resume.pdf
+-rw-r--r--@   1 mikeion  staff   142K Oct 13 13:36 disentanglement_alg.png
+-rw-r--r--@   1 mikeion  staff   141K Nov 12 09:20 NSF_Planning_Proposal_Nov_2024_Educational_AI_Project_Description.pdf
+-rw-r--r--@   1 mikeion  staff   139K Aug 23 10:15 Chapter_3_The_Role_of_the_Teacher_and_AI_in_EducationCVFelix.pdf
+-rw-r--r--@   1 mikeion  staff   138K Jan 14 11:11 number_line_example.png
+-rw-r--r--@   1 mikeion  staff   136K Oct  1 09:18 Resume.pdf
+-rw-r--r--@   1 mikeion  staff   136K Dec  5 12:17 SOP Guide (2).pdf
+-rw-r--r--@   1 mikeion  staff   134K Aug  2  2024 insurance_front.jpg
+-rw-r--r--@   1 mikeion  staff   134K Dec  5 17:01 research_framework.png
+-rw-r--r--@   1 mikeion  staff   134K Oct 28 11:17 WhatsApp Image 2024-10-28 at 09.08.08.jpeg
+-rw-r--r--@   1 mikeion  staff   131K Jan 26 14:04 clock-6830535_1280.jpg
+-rw-r--r--@   1 mikeion  staff   130K Aug 30 11:12 mcmurray1.pdf
+-rw-r--r--@   1 mikeion  staff   127K Jan 30 01:14 demo_3.jpg
+-rw-r--r--@   1 mikeion  staff   126K Jan 30 09:20 LearningClues_Billing.pdf
+-rw-r--r--@   1 mikeion  staff   126K Jan 30 09:21 LearningClues_Invoice_January___Mike_Ion.pdf
+-rw-r--r--@   1 mikeion  staff   126K Oct 14 11:01 17044413.pdf
+-rw-r--r--@   1 mikeion  staff   126K Jan 30 01:15 demo_4.jpg
+-rw-r--r--@   1 mikeion  staff   124K Jan 29 11:55 Ball 2.jpg
+-rw-r--r--@   1 mikeion  staff   124K Jan 29 11:55 Ball 3.jpg
+-rw-r--r--@   1 mikeion  staff   124K Jan 29 11:55 Ball.jpg
+-rw-r--r--@   1 mikeion  staff   124K Aug  8  2024 Human Resource Dev Quarterly - 2009 - Michel - Active versus passive teaching styles An empirical study of student.pdf
+-rw-r--r--@   1 mikeion  staff   123K Oct 24 10:20 WhatsApp Image 2024-10-24 at 10.20.20 (1).jpeg
+-rw-r--r--@   1 mikeion  staff   123K Nov  6 20:58 HayBox-2.4.0.zip
+-rw-r--r--@   1 mikeion  staff   122K Jan 26 18:23 mermaid-diagram-2025-01-26-182359.svg
+-rw-r--r--@   1 mikeion  staff   121K Jan 13 12:47 mike_and_deborah_notes.docx
+-rw-r--r--@   1 mikeion  staff   121K Nov 14 07:50 minka-metric.pdf
+-rw-r--r--@   1 mikeion  staff   120K Feb  3 22:00 WhatsApp Image 2025-02-03 at 21.59.47.jpeg
+-rw-r--r--@   1 mikeion  staff   119K Oct 24 18:11 Frame1 v2.2.2 beta 3(1).hex
+-rw-r--r--@   1 mikeion  staff   119K Oct 24 18:04 Frame1 v2.2.2 beta 3.hex
+-rw-r--r--@   1 mikeion  staff   119K Sep 19 12:49 python_fundamental_kcs_network(1).json
+-rw-r--r--@   1 mikeion  staff   119K Sep 19 11:07 python_fundamental_kcs_network.json
+-rw-r--r--@   1 mikeion  staff   115K Jan 26 14:04 microphone-8436595_1280.jpg
+-rw-r--r--@   1 mikeion  staff   114K Jul 25  2024 J Philosophy of Edu - 2003 - Roth - Freedom of Choice Community and Deliberation.pdf
+-rw-r--r--@   1 mikeion  staff   111K Nov 14 11:29 minka-multinomial.pdf
+-rw-r--r--@   1 mikeion  staff   110K Dec 26 20:42 N07-1060.pdf
+-rw-r--r--@   1 mikeion  staff   106K Dec  5 21:19 mermaid-diagram-2024-12-05-211936.png
+-rw-r--r--@   1 mikeion  staff   106K Aug  4  2024 1118178.1118215.pdf
+-rw-r--r--@   1 mikeion  staff   105K Nov 13 08:22 Resume_ML.pdf
+-rw-r--r--@   1 mikeion  staff   105K Nov 23 12:04 question_perf(4).png
+-rw-r--r--@   1 mikeion  staff   105K Nov 23 12:24 question_perf(5).png
+-rw-r--r--@   1 mikeion  staff   105K Oct  1 09:18 Das_Krishnendu_REDPInterestStatement.pdf
+-rw-r--r--@   1 mikeion  staff   104K Oct 29 20:06 RITEL_RCONTEXT_EXAMPLE3.docx
+-rw-r--r--@   1 mikeion  staff   103K Sep  6 11:31 Yunsu Park - Weekly Schedule.pdf
+-rw-r--r--@   1 mikeion  staff   101K Oct 14 10:56 Emerging_Approaches_to_Educational_Research_Tracin..._----_(3_Complexity_theory_in_educational_research).pdf
+-rw-r--r--@   1 mikeion  staff   101K Dec  5 14:18 1_intro_research_plan.png
+-rw-r--r--@   1 mikeion  staff   100K Dec 13 13:16 image(1).png
+-rw-r--r--@   1 mikeion  staff    99K Dec  5 21:25 mermaid-diagram-2024-12-05-212503.png
+-rw-r--r--@   1 mikeion  staff    98K Jan 24 20:37 red_mug.png
+-rw-r--r--@   1 mikeion  staff    98K Jan 24 20:36 red_mug.webp
+-rw-r--r--@   1 mikeion  staff    98K Nov 13 08:24 letterofrecommendation_amiralidanai_jan2023.pdf
+-rw-r--r--@   1 mikeion  staff    98K Oct 15 14:30 Ball_PME_2009.pdf
+-rw-r--r--@   1 mikeion  staff    97K Oct 13 13:47 paper-1-what-to-do.png
+-rw-r--r--@   1 mikeion  staff    96K Jan 27 19:45 output.json
+-rw-r--r--@   1 mikeion  staff    96K Sep  9 11:43 tingyi_xiao_email.pdf
+-rw-r--r--@   1 mikeion  staff    92K Nov  5 09:00 Microsoft-Word-letterhead-templates.zip
+-rw-r--r--@   1 mikeion  staff    92K Jan 11 06:58 jmm_presentation-1.pdf
+-rw-r--r--@   1 mikeion  staff    91K Oct 14 10:55 Emerging_Approaches_to_Educational_Research_Tracin..._----_(1_Why_sociomateriality_in_education_An_introduction).pdf
+-rw-r--r--@   1 mikeion  staff    90K Sep 10 09:43 Sam Schneider Resume 9_9_2024.pdf
+-rw-r--r--@   1 mikeion  staff    89K Jan 30 12:20 SSC-Expense-Report-Template-ion(1).xls
+-rw-r--r--@   1 mikeion  staff    89K Jan 30 09:49 SSC-Expense-Report-Template-ion.xls
+-rw-r--r--@   1 mikeion  staff    88K Dec 13 15:21 Academic Innovation Fund Budget Form - Collins-Thompson and Ion Project.xlsx
+-rw-r--r--@   1 mikeion  staff    88K Dec 13 14:03 Academic Innovation Fund Budget Form.xlsx
+-rw-r--r--@   1 mikeion  staff    88K Jan  8 16:05 jmm_presentation.pdf
+-rw-r--r--@   1 mikeion  staff    87K Jan 26 18:23 mermaid-diagram-2025-01-26-182343.png
+-rw-r--r--@   1 mikeion  staff    87K Jan 15 12:16 2501.08068v1.pdf
+-rw-r--r--@   1 mikeion  staff    86K Aug 30 11:15 science.1144073.pdf
+-rw-r--r--@   1 mikeion  staff    86K Jan 30 09:33 SSC-Expense-Report-Template-2.xls
+-rw-r--r--@   1 mikeion  staff    85K Nov 13 13:07 exemption_1_-_tips_and_examples (1).pdf
+-rw-r--r--@   1 mikeion  staff    85K Nov  1 16:28 current_pending_support_ion.pdf
+-rw-r--r--@   1 mikeion  staff    83K Dec  5 14:16 mermaid-diagram-2024-12-05-221600.png
+-rw-r--r--@   1 mikeion  staff    82K Dec  4 14:05 flight_to_dtw-1.pdf
+-rw-r--r--@   1 mikeion  staff    82K Nov 27 12:31 flight_to_dtw.pdf
+-rw-r--r--@   1 mikeion  staff    82K Jan  4 02:32 mermaid-diagram-2025-01-04-023200.png
+-rw-r--r--@   1 mikeion  staff    81K Dec  4 14:05 flight_to_slo-1.pdf
+-rw-r--r--@   1 mikeion  staff    81K Dec  6 11:56 flight_to_slo-2.pdf
+-rw-r--r--@   1 mikeion  staff    81K Nov 27 12:33 flight_to_slo.pdf
+-rw-r--r--@   1 mikeion  staff    80K Sep  6 11:31 Yunsu Park - CV.pdf
+-rw-r--r--@   1 mikeion  staff    80K Jan 31 07:42 University of Michigan Mail - Confirmation of your ASA order-1.pdf
+-rw-r--r--@   1 mikeion  staff    80K Jan 30 09:31 University of Michigan Mail - Confirmation of your ASA order.pdf
+-rw-r--r--@   1 mikeion  staff    78K Sep  6 09:27 Haorui Wang Resume - Research (1).pdf
+-rw-r--r--@   1 mikeion  staff    78K Nov  4 11:10 SabaGeramiRS-final.pdf
+-rw-r--r--@   1 mikeion  staff    78K Sep  6 16:07 Bryan Gao Resume.pdf
+-rw-r--r--@   1 mikeion  staff    78K Dec 12 19:49 tianyi_wang_email.pdf
+-rw-r--r--@   1 mikeion  staff    77K Jan 30 09:51 kevyn-permission.png
+-rw-r--r--@   1 mikeion  staff    76K Sep  6 09:25 Albert Chen Resume 2025.pdf
+-rw-r--r--@   1 mikeion  staff    76K Sep 10 09:47 sam_schneider_email.pdf
+-rw-r--r--@   1 mikeion  staff    75K Sep  9 11:41 jason_fan_email.pdf
+-rw-r--r--@   1 mikeion  staff    74K Oct 15 19:34 question-vs-statement.png
+-rw-r--r--@   1 mikeion  staff    72K Aug 26 09:13 University of Michigan Mail - Expense Report.pdf
+-rw-r--r--@   1 mikeion  staff    71K Jan  6 13:11 mermaid-diagram-2025-01-06-131142.png
+-rw-r--r--@   1 mikeion  staff    69K Dec 10 14:07 University of Michigan Mail - RESIN funds for your research-related travel.pdf
+-rw-r--r--@   1 mikeion  staff    69K Jan  4 02:34 mermaid-diagram-2025-01-04-023445.png
+-rw-r--r--@   1 mikeion  staff    69K Jan 29 22:42 image(2).png
+-rw-r--r--@   1 mikeion  staff    68K Jan 19 13:41 mermaid-diagram-2025-01-19-134132.png
+-rw-r--r--@   1 mikeion  staff    68K Nov  6 10:54 Thompsonetal2008CRPITV78.pdf
+-rw-r--r--@   1 mikeion  staff    68K Jan  6 13:07 mermaid-diagram-2025-01-06-130741.png
+-rw-r--r--@   1 mikeion  staff    68K Jan  6 13:08 mermaid-diagram-2025-01-06-130854.png
+-rw-r--r--@   1 mikeion  staff    66K Oct 24 15:13 koole2012c.pdf
+-rw-r--r--@   1 mikeion  staff    66K Jan 27 13:36 main(3).tex
+-rw-r--r--@   1 mikeion  staff    66K Jan  7 13:39 config.json
+-rw-r--r--@   1 mikeion  staff    65K Jan 20 14:36 Simulated_Students_Paper.pdf
+-rw-r--r--@   1 mikeion  staff    64K Nov  4 11:11 SabaGeramiTS-Final.pdf
+-rw-r--r--@   1 mikeion  staff    62K Oct  4 21:11 Autumn_Leaves__lead_sheet.pdf
+-rw-r--r--@   1 mikeion  staff    62K Jan  4 13:54 mermaid-diagram-2025-01-04-135411.png
+-rw-r--r--@   1 mikeion  staff    59K Jan  7 18:50 mermaid-diagram-2025-01-07-185027(1).png
+-rw-r--r--@   1 mikeion  staff    59K Jan  7 18:50 mermaid-diagram-2025-01-07-185027.png
+-rw-r--r--@   1 mikeion  staff    59K Jul 22  2024 ion-researchagenda-july2024.pdf
+-rw-r--r--@   1 mikeion  staff    59K Jul 22  2024 one-pager-ion-v2-1.pdf
+-rw-r--r--@   1 mikeion  staff    59K Jul 18  2024 one-pager-ion-v2.pdf
+-rw-r--r--@   1 mikeion  staff    59K Nov  4 11:13 diversitystatement_ion_sdsu-1.pdf
+-rw-r--r--@   1 mikeion  staff    59K Nov  4 11:07 diversitystatement_ion_sdsu.pdf
+-rw-r--r--@   1 mikeion  staff    58K Sep  6 09:26 Class Schedule.png
+-rw-r--r--@   1 mikeion  staff    58K Jan  6 11:09 fengquan_schedule.png
+-rw-r--r--@   1 mikeion  staff    57K Jan 12 14:14 MikeIonCoverLetter_SDSU.docx
+-rw-r--r--@   1 mikeion  staff    57K Feb  3 09:31 main(4).tex
+-rw-r--r--@   1 mikeion  staff    56K Oct 15 19:26 confusion_matrix.png
+-rw-r--r--@   1 mikeion  staff    56K Nov 13 13:07 irb-hsbs_exempt_consent_template_2024_1 (2).doc
+-rw-r--r--@   1 mikeion  staff    56K Jan 16 11:07 coverletter-calpoly.docx
+-rw-r--r--@   1 mikeion  staff    55K Oct 15 19:35 question_types.png
+-rw-r--r--@   1 mikeion  staff    55K Dec  5 11:29 parking_payment_dec5.jpeg
+-rw-r--r--@   1 mikeion  staff    54K Nov  4 11:12 SabaGeramiCLDRAFT4-Research.docx
+-rw-r--r--@   1 mikeion  staff    54K Dec  5 21:26 variable_of_interest.png
+-rw-r--r--@   1 mikeion  staff    52K Jan 19 13:29 mermaid-diagram-2025-01-19-132923.png
+-rw-r--r--@   1 mikeion  staff    51K Nov 21 10:54 Copy of Changing Gears Abstract Assignment Sheet (1).pdf
+-rw-r--r--@   1 mikeion  staff    51K Jul 17  2024 one_pager_ion_july_2024.pdf
+-rw-r--r--@   1 mikeion  staff    51K Jul 17  2024 research_statement.pdf
+-rw-r--r--@   1 mikeion  staff    51K Jul 17  2024 one-pager-ion-july-2024.pdf
+-rw-r--r--@   1 mikeion  staff    50K Oct  2 21:20 240914 The Jimmy Page Jazz Chord Trick.pdf
+-rw-r--r--@   1 mikeion  staff    48K Sep  9 11:40 Jason Fan Resume 8_25_2024 (1).pdf
+-rw-r--r--@   1 mikeion  staff    48K Jan  6 11:09 ty_schedule.png
+-rw-r--r--@   1 mikeion  staff    47K Feb  6 20:43 zotmoov-1.2.11-fx.xpi
+-rw-r--r--@   1 mikeion  staff    46K Jan 20 16:31 Simulated_Students_Paper-4.pdf
+-rw-r--r--@   1 mikeion  staff    46K Jan 20 16:33 Simulated_teaching_learning_planning.pdf
+-rw-r--r--@   1 mikeion  staff    46K Jan  6 12:44 mermaid-diagram-2025-01-06-124424.png
+-rw-r--r--@   1 mikeion  staff    46K Oct 15 15:31 table.jpg
+-rw-r--r--@   1 mikeion  staff    46K Oct 13 13:11 noun-chat-room-7188787.png
+-rw-r--r--@   1 mikeion  staff    46K Oct 15 15:33 table(1).jpg
+-rw-r--r--@   1 mikeion  staff    46K Jan 20 16:23 Simulated_Students_Paper-3.pdf
+-rw-r--r--@   1 mikeion  staff    46K Oct 14 10:55 Emerging_Approaches_to_Educational_Research_Tracin..._----_(Preface).pdf
+-rw-r--r--@   1 mikeion  staff    46K Nov 11 09:34 main.tex
+-rw-r--r--@   1 mikeion  staff    44K Jan 26 14:05 lipstick-5893460_1280.jpg
+-rw-r--r--@   1 mikeion  staff    43K Jan  4 14:17 mermaid-diagram-2025-01-04-141743.png
+-rw-r--r--@   1 mikeion  staff    43K Nov 27 12:46 receipt_airbnb.pdf
+-rw-r--r--@   1 mikeion  staff    42K Dec  5 16:55 mermaid-diagram-2024-12-05-165554.png
+-rw-r--r--@   1 mikeion  staff    42K Dec  5 16:55 mermaid-diagram-2024-12-05-165509.png
+-rw-r--r--@   1 mikeion  staff    42K Jul 23  2024 paper.pdf
+-rw-r--r--@   1 mikeion  staff    41K Oct  9 22:26 Email.html
+-rw-r--r--@   1 mikeion  staff    39K Nov 20 09:14 BSI Course Map.pptx
+-rw-r--r--@   1 mikeion  staff    39K Jan 18 20:19 secondary_thoughts(1).tex
+-rw-r--r--@   1 mikeion  staff    39K Jan 10 13:51 secondary_thoughts.tex
+-rw-r--r--@   1 mikeion  staff    38K Sep 19 17:21 Peach-Falcon.txt
+-rw-r--r--@   1 mikeion  staff    38K Jan 30 09:27 SSC-Expense-Report-Template-2.xlsx
+-rw-r--r--@   1 mikeion  staff    38K Jan 20 16:15 Simulated_Students_Paper-1.pdf
+-rw-r--r--@   1 mikeion  staff    38K Jan 20 16:16 Simulated_Students_Paper-2.pdf
+-rw-r--r--@   1 mikeion  staff    38K Nov  3 15:19 cpos-1373445-2.pdf
+-rw-r--r--@   1 mikeion  staff    38K Nov  3 15:14 cpos-1373445-1.pdf
+-rw-r--r--@   1 mikeion  staff    38K Nov  3 16:01 cpos-1373445-3.pdf
+-rw-r--r--@   1 mikeion  staff    38K Nov  3 16:11 cpos-1373445-5.pdf
+-rw-r--r--@   1 mikeion  staff    38K Nov  3 14:48 cpos-1373445.pdf
+-rw-r--r--@   1 mikeion  staff    38K Dec 29 09:51 Screenshot_20241229_092218_Keep_Notes.jpg
+-rw-r--r--@   1 mikeion  staff    37K Nov  3 16:10 cpos-1373445-4.pdf
+-rw-r--r--@   1 mikeion  staff    37K Oct  1 09:17 Research Proposal.pdf
+-rw-r--r--@   1 mikeion  staff    37K Oct 15 15:30 table.drawio.png
+-rw-r--r--@   1 mikeion  staff    36K Jan 12 14:08 teaching-statement-mike-ucsd-1.pdf
+-rw-r--r--@   1 mikeion  staff    36K Nov  4 11:09 teaching-statement-mike-ucsd.pdf
+-rw-r--r--@   1 mikeion  staff    36K Nov 13 08:30 umsi-logo-vert-u.png
+-rw-r--r--@   1 mikeion  staff    35K Aug 30 15:27 icce2002.pdf
+-rw-r--r--@   1 mikeion  staff    35K Dec 29 09:51 Screenshot_20241229_093740_Keep_Notes.jpg
+-rw-r--r--@   1 mikeion  staff    34K Feb  3 21:26 explosion.mp3
+-rw-r--r--@   1 mikeion  staff    33K Jul 17  2024 ResearchStatement-mike-ucsd copy.pdf
+-rw-r--r--@   1 mikeion  staff    33K Jan 12 14:07 ResearchStatement-mike-ucsd-1.pdf
+-rw-r--r--@   1 mikeion  staff    33K Nov  4 11:09 ResearchStatement-mike-ucsd.pdf
+-rw-r--r--@   1 mikeion  staff    33K Nov  9 14:01 instructional_triangle.png
+-rw-r--r--@   1 mikeion  staff    33K Jul 17  2024 ResearchStatement-mike-calpoly.pdf
+-rw-r--r--@   1 mikeion  staff    32K Sep 19 08:24 DownThrow_Knee_Escape.gci
+-rw-r--r--@   1 mikeion  staff    32K Sep 20 13:54 Falco_Approaching.gci
+-rw-r--r--@   1 mikeion  staff    32K Sep 20 13:54 Falco_Recovering.gci
+-rw-r--r--@   1 mikeion  staff    32K Sep 19 08:27 dthrow_knee_escape.gci
+-rw-r--r--@   1 mikeion  staff    32K Dec 29 09:51 Screenshot_20241229_092655_Keep_Notes.jpg
+-rw-r--r--@   1 mikeion  staff    31K Dec 29 09:51 Screenshot_20241229_093224_Keep_Notes.jpg
+-rw-r--r--@   1 mikeion  staff    30K Oct  4 21:08 Autumn-Leaves-Gm.pdf
+-rw-r--r--@   1 mikeion  staff    29K Jan 13 19:44 main(2).tex
+-rw-r--r--@   1 mikeion  staff    29K Oct 13 13:24 noun-json-file-3962370.png
+-rw-r--r--@   1 mikeion  staff    29K Nov  4 11:07 research_and_teaching_ion_sdsu.pdf
+-rw-r--r--@   1 mikeion  staff    28K Jan 23 10:48 3263-7054.json
+-rw-r--r--@   1 mikeion  staff    28K Jan  6 12:40 mermaid-diagram-2025-01-06-124046.png
+-rw-r--r--@   1 mikeion  staff    28K Feb  3 15:52 CV_ion.tex
+-rw-r--r--@   1 mikeion  staff    27K Nov  4 11:11 SabaGeramiDSFinal.docx
+-rw-r--r--@   1 mikeion  staff    27K Dec 26 18:06 5.1 Linear Regression.ipynb
+-rw-r--r--@   1 mikeion  staff    26K Jan  4 02:31 mermaid-history-2025-01-04-023149.json
+-rw-r--r--@   1 mikeion  staff    25K Nov 20 09:52 pmlr-sample.tex
+-rw-r--r--@   1 mikeion  staff    25K Jan 15 19:58 openai-chatgpt-latest.vsix
+-rw-r--r--@   1 mikeion  staff    24K Jan 13 14:09 Faculty_Requests_Carnegie_Fund_2024-2025(1).docx
+-rw-r--r--@   1 mikeion  staff    24K Jan 13 14:08 Faculty_Requests_Carnegie_Fund_2024-2025.docx
+-rw-r--r--@   1 mikeion  staff    24K Jan 16 12:23 mikes_thoughts_sim_students_paper_jan16.docx
+-rw-r--r--@   1 mikeion  staff    22K Aug  1  2024 Your Tech Shop receipt.eml
+-rw-r--r--@   1 mikeion  staff    22K Oct 29 20:32 Untitled diagram-2024-10-30-033201.svg
+-rw-r--r--@   1 mikeion  staff    22K Oct  8 08:41 APCJ40_MKII-0.0.0.zip
+-rw-r--r--@   1 mikeion  staff    22K Dec  7 11:18 Project Summary.docx
+-rw-r--r--@   1 mikeion  staff    22K Nov 20 09:20 Year 1 GeT Project Interview VERSION 3.docx
+-rw-r--r--@   1 mikeion  staff    21K Jan 16 10:47 main_2(1).tex
+-rw-r--r--@   1 mikeion  staff    21K Jan 16 09:15 main_2.tex
+drwxr-xr-x@ 646 mikeion  staff    20K Dec 27 16:27 C Major 17K
+-rw-r--r--@   1 mikeion  staff    19K Oct  2 10:21 image.png
+-rw-r--r--@   1 mikeion  staff    17K Dec 26 18:05 5.2 K-Nearest Neighbors for Regression.ipynb
+-rw-r--r--@   1 mikeion  staff    16K Jan 18 20:19 tertiary_thoughts(2).tex
+-rw-r--r--@   1 mikeion  staff    16K Nov 22 12:47 Untitled diagram-2024-11-22-204740.svg
+-rw-r--r--@   1 mikeion  staff    16K Jan 12 17:44 tertiary_thoughts(1).tex
+-rw-r--r--@   1 mikeion  staff    16K Jan 12 17:18 tertiary_thoughts.tex
+-rw-r--r--@   1 mikeion  staff    16K Nov 19 09:02 logo-header.png
+-rw-r--r--@   1 mikeion  staff    16K Sep 26 11:05 python_fundamental_kcs_labeled_prereqs_small.xlsx
+-rw-r--r--@   1 mikeion  staff    16K Nov 13 13:07 brief_protocol_for_exempt_research_projects (24).docx
+-rw-r--r--@   1 mikeion  staff    15K Jan 18 23:19 student_derivative_final_feb16.jsonl
+-rw-r--r--@   1 mikeion  staff    15K Dec 26 20:30 main(1).tex
+-rw-r--r--@   1 mikeion  staff    14K Dec 26 18:06 5.3 Categorical Variables in Regression Models.ipynb
+-rw-r--r--@   1 mikeion  staff    14K Dec 26 18:06 5.5 Estimating the Test Error.ipynb
+-rw-r--r--@   1 mikeion  staff    13K Dec 26 18:06 5.6 Model Selection and Hyperparameter Tuning.ipynb
+-rw-r--r--@   1 mikeion  staff    12K Dec 24 00:35 stocks_trading_basic.py
+-rw-r--r--@   1 mikeion  staff    11K Aug 16 14:11 inspire_examples(1).xlsx
+-rw-r--r--@   1 mikeion  staff    11K Sep 23 09:50 inspire_examples(2).xlsx
+-rw-r--r--@   1 mikeion  staff    11K Aug 16 11:10 inspire_examples.xlsx
+-rw-r--r--@   1 mikeion  staff    11K Dec 26 18:06 5.4 Training and Test Errors.ipynb
+-rw-r--r--@   1 mikeion  staff    11K Jan 26 14:41 motion.png
+-rw-r--r--@   1 mikeion  staff    11K Dec 26 18:06 5.7 Ensemble Methods for Regression.ipynb
+-rw-r--r--@   1 mikeion  staff    10K Jan 19 14:17 Interpreting Slide Imagery.docx
+-rw-r--r--@   1 mikeion  staff   9.8K Jan 19 14:17 Generating New Question Types.docx
+-rw-r--r--@   1 mikeion  staff   8.8K Sep 16 09:19 competencies(1).tsv
+-rw-r--r--@   1 mikeion  staff   8.8K Sep 16 09:20 competencies(2).tsv
+-rw-r--r--@   1 mikeion  staff   8.8K Sep  6 16:04 competencies.tsv
+-rw-r--r--@   1 mikeion  staff   8.8K Jan 19 14:18 Faculty Feedback on Lectures.docx
+-rw-r--r--@   1 mikeion  staff   8.4K Aug 19 12:50 results.csv
+-rw-r--r--@   1 mikeion  staff   6.8K Jan 21 00:05 tasks_for_undergrads.tex
+-rw-r--r--@   1 mikeion  staff   6.4K Nov 30 12:03 school_of_information.png
+-rw-r--r--@   1 mikeion  staff   6.3K Jan 24 14:54 front end code example 2.rtf
+-rw-r--r--@   1 mikeion  staff   6.3K Jan 24 14:54 front end code example.rtf
+-rw-r--r--@   1 mikeion  staff   6.1K Feb  3 21:27 flag.mp3
+-rw-r--r--@   1 mikeion  staff   6.0K Nov 18 14:51 pretest.txt
+-rw-r--r--@   1 mikeion  staff   6.0K Dec 12 19:50 Internship Resume - Tianyi Wang (3)-1.pdf
+-rw-r--r--@   1 mikeion  staff   6.0K Sep  6 16:08 Internship Resume - Tianyi Wang (3).pdf
+-rw-r--r--@   1 mikeion  staff   5.5K Feb  3 21:25 click.mp3
+-rw-r--r--@   1 mikeion  staff   5.3K Sep 30 10:29 assignment1.ipynb
+-rw-r--r--@   1 mikeion  staff   4.9K Feb  5 12:19 examples.md
+-rw-r--r--@   1 mikeion  staff   4.5K Nov 18 14:53 pretest(1).txt
+-rw-r--r--@   1 mikeion  staff   4.1K Jan 30 09:33 SSC-Expense-Report-Template-2.csv
+-rw-r--r--@   1 mikeion  staff   4.1K Dec 10 09:12 research-interview-alignment.md
+-rw-r--r--@   1 mikeion  staff   3.5K Nov 27 12:50 excel-generator.py
+-rw-r--r--@   1 mikeion  staff   3.4K Sep 20 13:53 70.11.02 Falco.md
+-rw-r--r--@   1 mikeion  staff   3.4K Oct 13 14:15 process_jsons_v3.py
+drwx------@ 107 mikeion  staff   3.3K Jan 28 21:03 DiscordChatExporter.osx-arm64
+-rw-r--r--@   1 mikeion  staff   3.3K Aug 20 14:49 logs-mikeion-generative_students-main-simulated_students_code_coursera-app.py-2024-08-20T21_49_33.168Z.txt
+-rw-r--r--@   1 mikeion  staff   3.1K Jan 28 15:09 README.md
+-rw-r--r--@   1 mikeion  staff   3.0K Oct 24 12:59 generate_multiple_code_questions.txt
+-rw-r--r--@   1 mikeion  staff   2.6K Jan 26 20:05 conv1(1).json
+-rw-r--r--@   1 mikeion  staff   2.6K Jan 26 20:04 conv1.json
+drwx------@  79 mikeion  staff   2.5K Aug 26 15:07 data-06-00110-s001
+drwxr-xr-x@  77 mikeion  staff   2.4K Dec  4 12:05 Drops_files
+drwx------@  76 mikeion  staff   2.4K Jan 28 20:47 DiscordChatExporter.Cli.osx-arm64
+-rw-r--r--@   1 mikeion  staff   2.3K Jan 26 20:19 merge_roles.py
+drwx------@  75 mikeion  staff   2.3K Aug 19 19:24 DiscordChatExporter.Cli.osx-x64
+-rw-r--r--@   1 mikeion  staff   2.3K Jan 26 20:05 conv2.json
+-rw-r--r--@   1 mikeion  staff   2.2K Oct 29 20:03 standalone-tikz.txt
+-rw-r--r--@   1 mikeion  staff   2.1K Nov 27 12:49 travel-expense-template.txt
+drwxr-xr-x@  62 mikeion  staff   1.9K Oct  6 14:08 Yellow
+-rw-r--r--@   1 mikeion  staff   1.9K Dec 13 14:54 Academic Innovation Fund Budget Form - Collins-Thompson and Ion Project - Template.csv
+drwxr-xr-x   52 mikeion  staff   1.6K Oct  7 15:35 guitar
+-rw-r--r--@   1 mikeion  staff   1.4K Dec 16 15:27 kc-progression.mermaid
+-rw-r--r--@   1 mikeion  staff   1.3K Dec 13 14:03 Academic Innovation Fund Budget Form - Template.csv
+-rw-r--r--@   1 mikeion  staff   1.2K Dec 10 09:00 analysis-diagram.mermaid
+-rw-r--r--@   1 mikeion  staff   1.2K Jan 26 20:06 conv3(1).json
+-rw-r--r--@   1 mikeion  staff   1.2K Jan 26 20:05 conv3.json
+drwxr-xr-x@  37 mikeion  staff   1.2K Aug 23 21:36 Favorite 808s
+-rw-r--r--@   1 mikeion  staff   1.1K Dec 16 15:27 kc-details.mermaid
+-rw-r--r--@   1 mikeion  staff   1.0K Aug 22 13:02 d67cc9bb8737e407f42b81eeae353b5a82e4fa18.ics
+-rw-r--r--@   1 mikeion  staff   1.0K Aug  2  2024 f5a2a2375a1c16d70cdbafc70c865dbbde9b0d3e.ics
+drwx------@  33 mikeion  staff   1.0K Jul 23  2024 Dissertation
+drwxrwxr-x@  28 mikeion  staff   896B Oct 24 18:08 wine-9.0
+-rw-r--r--@   1 mikeion  staff   639B Jan 27 10:00 deepseek(1).md
+-rw-r--r--@   1 mikeion  staff   639B Jan 26 21:46 deepseek.md
+drwx------@  18 mikeion  staff   576B Sep 11 16:28 CHI2025_admissions_AI
+drwxrwxr-x@  18 mikeion  staff   576B Nov  6 20:58 HayBox-2.4.0
+drwx------@  17 mikeion  staff   544B Sep 11 16:28 CHI2025_mathconverse_dataset
+-rw-r--r--@   1 mikeion  staff   522B Dec 30 15:47 braacket_league-ranking_2024-12-31CET004754.csv
+-rw-r--r--@   1 mikeion  staff   506B Oct 14 11:12 Citation.ris
+-rw-r--r--@   1 mikeion  staff   478B Aug 23 21:32 !READ THIS PLEASE!.txt
+drwx------@  11 mikeion  staff   352B Dec 21 15:34 Cell Press_20241221
+-rw-r--r--@   1 mikeion  staff   338B Oct 14 20:01 reference.bib
+-rw-r--r--@   1 mikeion  staff   313B Jan 14 22:56 10.1515_9780691213651.bib
+drwxr-xr-x@   9 mikeion  staff   288B Oct  8 17:03 UMSI Course Catalog
+drwx------@   8 mikeion  staff   256B Jan 13 13:07 Journal of Data Science (Copy)
+-rw-r--r--@   1 mikeion  staff   246B Jan  4 14:49 credentials(1).json
+-rw-r--r--@   1 mikeion  staff   246B Jan 29 20:28 credentials(2).json
+-rw-r--r--@   1 mikeion  staff   246B Jan  4 12:27 credentials.json
+-rw-r--r--@   1 mikeion  staff   240B Aug 16 16:05 Azure Auth(1).json
+-rw-r--r--@   1 mikeion  staff   240B Feb  4 16:56 Azure Auth(2).json
+-rw-r--r--@   1 mikeion  staff   240B Aug 16 16:05 Azure Auth.json
+-rw-r--r--@   1 mikeion  staff   236B Nov 25 20:17 secrets(1).toml
+-rw-r--r--@   1 mikeion  staff   236B Nov 25 20:27 secrets(2).toml
+-rw-r--r--@   1 mikeion  staff   236B Jan  4 12:28 secrets(3).toml
+-rw-r--r--@   1 mikeion  staff   236B Oct  8 08:53 secrets.toml
+drwxr-xr-x@   7 mikeion  staff   224B Aug 12 22:17 Lossless adapter manager - MacOS
+-rw-r--r--@   1 mikeion  staff   206B Jan 16 08:35 github-recovery-codes.txt
+drwxrwxrwx@   6 mikeion  staff   192B Apr 27  2024 Cloudchord Complete Deluxe Bundle 2024
+drwxr-xr-x@   6 mikeion  staff   192B Nov 13 09:01 Microsoft Word letterhead templates
+drwx------@   6 mikeion  staff   192B Oct  8 10:53 eedi-mining-misconceptions-in-mathematics
+-rw-r--r--@   1 mikeion  staff   191B Sep 14 15:15 query_result.parquet
+-rw-r--r--@   1 mikeion  staff   165B Oct  8 21:18 ~$dissertation_presentation.pptx
+-rw-r--r--@   1 mikeion  staff   165B Jan  8 15:50 ~$sdsu_jobtalk_presentation.pptx
+-rw-r--r--@   1 mikeion  staff   165B Oct  8 21:18 ~$siads_talk.pptx
+-rw-r--r--@   1 mikeion  staff   162B Feb  3 13:01 ~$M_draft(3).docx
+-rw-r--r--@   1 mikeion  staff   162B Jan 14 11:21 ~$M_draft.docx
+-rw-r--r--@   1 mikeion  staff   162B Jan 13 14:45 ~$culty_Requests_Carnegie_Fund_2024-2025(1).docx
+-rw-r--r--@   1 mikeion  staff   162B Jan 14 17:22 ~$culty_Requests_Carnegie_Fund_2024-2025.docx
+-rw-r--r--@   1 mikeion  staff   162B Jan 12 14:14 ~$keIonCoverLetter_SDSU.docx
+-rw-r--r--@   1 mikeion  staff   162B Jan 13 12:47 ~$ke_and_deborah_notes.docx
+-rw-r--r--@   1 mikeion  staff   130B Oct  3 13:21 config(1).ini
+-rw-r--r--@   1 mikeion  staff   130B Oct 11 10:11 config(2).ini
+-rw-r--r--@   1 mikeion  staff   130B Oct  3 13:21 config.ini
+drwxr-xr-x@   3 mikeion  staff    96B Oct  2  2023 GCAdapterDriver-1.7.app
+drwxr-xr-x@   3 mikeion  staff    96B Feb  1 06:19 Install Cursor.app
+drwxr-xr-x@   3 mikeion  staff    96B Oct 24 15:47 Install Moises.app
+drwxr-xr-x@   3 mikeion  staff    96B Sep  2  2021 MultiPatch.app
+-rw-r--r--@   1 mikeion  staff    89B Jul 20  2024 Muse Hub_recovery_codes.txt
+-rw-r--r--@   1 mikeion  staff    72B Oct 13 14:14 extract_attachments.ipynb
+-rw-r--r--@   1 mikeion  staff     0B Oct  3 16:35 20xx.iso
+-rw-r--r--@   1 mikeion  staff     0B Jan 24 09:48 Podcast_v2.mpeg
+-rw-------@   1 mikeion  staff     0B Oct 31 14:02 Stuart J. Russell, Peter Norvig - Artificial Intelligence_ A Modern Approach, Global Edition-Pearson (2021).pdf
+-rw-r--r--@   1 mikeion  staff     0B Feb  4 12:57 code.txt
