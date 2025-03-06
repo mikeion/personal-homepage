@@ -1,69 +1,116 @@
-# Mike Ion's Personal Website
+# Research Publications Management System
 
-A modern, responsive personal academic website built with Next.js and TailwindCSS. This site showcases my research, teaching, and programming work at the intersection of AI and education.
+A comprehensive system for managing and showcasing research publications, built with Next.js, Prisma, and Railway.
 
 ## Features
 
-- 🎨 Modern, responsive design with dark mode support
-- 📱 Mobile-first approach
-- 🚀 Built with Next.js 14 and TypeScript
-- 🎯 TailwindCSS for styling
-- 📊 Dynamic research publication display
-- 🔍 SEO optimized
+- **Public Research Page**: Showcase publications with filtering by year, type, research area, and keywords
+- **Admin Portal**: Secure admin interface for managing publications
+- **Database Integration**: Prisma ORM with PostgreSQL on Railway
+- **AI Integration**: OpenAI integration for generating publication descriptions and keywords
 
-## Local Development
+## Tech Stack
+
+- **Frontend**: Next.js 14 with React 18, TypeScript, and Tailwind CSS
+- **Backend**: Next.js API routes
+- **Database**: PostgreSQL on Railway with Prisma ORM
+- **Authentication**: NextAuth.js with credentials provider
+- **AI**: OpenAI API integration
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm/yarn
+- PostgreSQL database (Railway recommended)
+- OpenAI API key (for AI features)
+
+### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/mikeion/website.git
-cd website
-```
+   ```bash
+   git clone https://github.com/yourusername/research-publications.git
+   cd research-publications
+   ```
 
 2. Install dependencies:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-3. Create a `.env` file in the root directory and add necessary environment variables:
-```env
-# Add any required environment variables here
-```
+3. Set up environment variables:
+   Create a `.env` file in the root directory with the following variables:
+   ```
+   # Database
+   DATABASE_URL="postgresql://username:password@host:port/database"
+   
+   # NextAuth
+   NEXTAUTH_URL="http://localhost:3000"
+   NEXTAUTH_SECRET="your-secret-key"
+   
+   # OpenAI
+   OPENAI_API_KEY="your-openai-api-key"
+   ```
 
-4. Start the development server:
-```bash
-npm run dev
-```
+4. Initialize the database:
+   ```bash
+   npx prisma migrate dev --name init
+   ```
 
-The site will be available at [http://localhost:3000](http://localhost:3000).
+5. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Setting Up Admin User
+
+For the initial setup, you can use the demo credentials:
+- Email: admin@example.com
+- Password: password
+
+In a production environment, you should update these credentials in the database.
+
+## Deployment
+
+### Railway Deployment
+
+1. Create a new project on [Railway](https://railway.app/)
+2. Add a PostgreSQL database
+3. Connect your GitHub repository
+4. Set the required environment variables
+5. Deploy the application
 
 ## Project Structure
 
 ```
-src/
-├── app/                # Next.js app router pages
-├── components/         # Reusable React components
-├── data/              # Static data (CV, publications)
-├── types/             # TypeScript type definitions
-└── utils/             # Utility functions
+/
+├── prisma/              # Prisma schema and migrations
+├── public/              # Static assets
+├── src/
+│   ├── app/             # Next.js app router
+│   │   ├── admin/       # Admin portal pages
+│   │   ├── api/         # API routes
+│   │   ├── research/    # Public research page
+│   ├── lib/             # Utility functions and shared code
+│   │   ├── auth.ts      # NextAuth configuration
+│   │   ├── prisma.ts    # Prisma client
 ```
-
-## Deployment
-
-This site is deployed on Railway and accessible at [mikeion.com](https://mikeion.com).
-
-## Built With
-
-- [Next.js](https://nextjs.org/) - React framework
-- [TailwindCSS](https://tailwindcss.com/) - CSS framework
-- [React Icons](https://react-icons.github.io/react-icons/) - Icon library
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
+## Acknowledgments
 
-- Website: [mikeion.com](https://mikeion.com)
-- GitHub: [@mikeion](https://github.com/mikeion)
-- LinkedIn: [Mike Ion](https://linkedin.com/in/mikeion)
+- [Next.js](https://nextjs.org/)
+- [Prisma](https://www.prisma.io/)
+- [Railway](https://railway.app/)
+- [NextAuth.js](https://next-auth.js.org/)
+- [OpenAI](https://openai.com/)
+- [Tailwind CSS](https://tailwindcss.com/)

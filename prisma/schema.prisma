@@ -1,0 +1,68 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  password  String
+  role      String   @default("ADMIN")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Publication {
+  id          String   @id @default(cuid())
+  title       String
+  authors     String[] // Array of author names
+  description String   @db.Text
+  venue       String?  // Conference/journal name
+  year        Int
+  date        String?  // For more specific dates like "Jan 2025"
+  status      String?  // "published", "in_progress", "in_review", etc.
+  type        String   // "journal", "conference", "workshop", "talk", "poster", "book_chapter", "grant"
+  doi         String?
+  pdfLink     String?
+  projectLink String?  // Link to project website or code
+  location    String?  // For conferences/talks
+  award       String?  // "Best Paper", "Honorable Mention", etc.
+  volume      String?
+  pages       String?
+  publisher   String?
+  
+  // Relationships
+  keywords    Keyword[] // Many-to-many relationship with keywords
+  areas       ResearchArea[] // Many-to-many relationship with research areas
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Keyword {
+  id           String        @id @default(cuid())
+  name         String        @unique
+  publications Publication[] // Many-to-many relationship with publications
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ResearchArea {
+  id           String        @id @default(cuid())
+  name         String        @unique
+  description  String        @db.Text
+  publications Publication[] // Many-to-many relationship with publications
+  keywords     Keyword[]     // Many-to-many relationship with keywords
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+} 
