@@ -29,7 +29,7 @@ export default function About() {
       icon: <FaChalkboardTeacher />,
     },
     {
-      year: "2011-2013",
+      year: "2015-2016",
       role: "Peace Corps Volunteer",
       institution: "Botswana",
       description: "Taught middle and high school mathematics while immersing in the local culture and community.",
@@ -43,9 +43,9 @@ export default function About() {
       icon: <FaGraduationCap />,
     },
     {
-      year: "2023", 
+      year: "2013", 
       role: "B.S. in Mathematics",
-      institution: "California Polytechnic State University", // Assuming same institution as MS, update if different
+      institution: "California Polytechnic State University",
       description: "Undergraduate studies in mathematics with a focus on pure mathematics.",
       icon: <FaGraduationCap />,
     },
@@ -176,12 +176,12 @@ export default function About() {
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm p-8 h-full">
               <h3 className="text-xl font-bold mb-4 text-blue-600 dark:text-blue-400">What I'm Reading</h3>
               <p className="text-slate-600 dark:text-slate-300 mb-4">
-                I'm currently exploring books on AI ethics, computational social science, and learning theory. Some recent favorites include:
+                I'm currently exploring books that examine societal biases and diverse perspectives through different lenses:
               </p>
               <ul className="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-300">
-                <li>Atlas of AI by Kate Crawford</li>
-                <li>Bit by Bit: Social Research in the Digital Age by Matthew Salganik</li>
-                <li>How Learning Happens by Paul Kirschner and Carl Hendrick</li>
+                <li>Invisible Women: Data Bias in a World Designed for Men by Caroline Criado Pérez</li>
+                <li>Reading Lolita in Tehran: A Memoir in Books by Azar Nafisi</li>
+                <li>Poverty, by America by Matthew Desmond</li>
               </ul>
             </div>
           </Col>
