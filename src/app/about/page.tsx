@@ -15,31 +15,38 @@ export default function About() {
       icon: <FaLaptopCode />,
     },
     {
-      year: "2023",
+      year: "2024",
       role: "Ph.D. in Mathematics Education",
       institution: "University of Michigan",
       description: "Dissertation: \"Beyond the Classroom: Exploring Mathematics Engagement in Online Communities with Natural Language Processing\"",
       icon: <FaGraduationCap />,
     },
     {
-      year: "2015-2018",
+      year: "2011-2024",
       role: "Mathematics Instructor",
       institution: "Various Settings",
-      description: "Taught mathematics in diverse contexts including Hong Kong and university settings.",
+      description: "Taught mathematics and statistics in various capacities including workshop leader, lecturer, TA, and instructor.",
       icon: <FaChalkboardTeacher />,
     },
     {
-      year: "2012-2014",
+      year: "2011-2013",
       role: "Peace Corps Volunteer",
       institution: "Botswana",
       description: "Taught middle and high school mathematics while immersing in the local culture and community.",
       icon: <FaGlobe />,
     },
     {
-      year: "2011",
+      year: "2015",
       role: "M.S. in Mathematics",
       institution: "California Polytechnic State University",
       description: "Focused on applied mathematics and teaching methodologies.",
+      icon: <FaGraduationCap />,
+    },
+    {
+      year: "2023", 
+      role: "B.S. in Mathematics",
+      institution: "California Polytechnic State University", // Assuming same institution as MS, update if different
+      description: "Undergraduate studies in mathematics with a focus on pure mathematics.",
       icon: <FaGraduationCap />,
     },
   ];
