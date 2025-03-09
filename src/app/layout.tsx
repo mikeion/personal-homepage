@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import MainLayout from "../components/layout/MainLayout";
+import AuthProvider from "../components/providers/AuthProvider";
+import BootstrapProvider from "../components/providers/BootstrapProvider";
 
 export const metadata: Metadata = {
   title: "Mike Ion | Academic & Developer",
@@ -15,7 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth light">
       <body>
-        <MainLayout>{children}</MainLayout>
+        <AuthProvider>
+          <BootstrapProvider>
+            <MainLayout>{children}</MainLayout>
+          </BootstrapProvider>
+        </AuthProvider>
       </body>
     </html>
   )

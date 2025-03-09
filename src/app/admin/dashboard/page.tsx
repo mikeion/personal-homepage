@@ -3,14 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-
-// Temporary mock session until we install next-auth
-const useSession = () => {
-  return {
-    data: { user: { email: 'admin@example.com' } },
-    status: 'authenticated'
-  };
-};
+import { useSession } from 'next-auth/react';
 
 type DashboardStats = {
   totalPublications: number;
@@ -18,6 +11,7 @@ type DashboardStats = {
   publicationsByYear: Record<string, number>;
   totalKeywords: number;
   totalResearchAreas: number;
+  totalAuthors: number;
 };
 
 export default function AdminDashboard() {
@@ -28,7 +22,8 @@ export default function AdminDashboard() {
     publicationsByType: {},
     publicationsByYear: {},
     totalKeywords: 0,
-    totalResearchAreas: 0
+    totalResearchAreas: 0,
+    totalAuthors: 0
   });
   const [loading, setLoading] = useState(true);
   
@@ -51,20 +46,22 @@ export default function AdminDashboard() {
     try {
       // In a real app, you would have an API endpoint for stats
       // For now, we'll fetch publications and calculate stats
-      const [publicationsRes, keywordsRes, areasRes] = await Promise.all([
+      const [publicationsRes, keywordsRes, areasRes, authorsRes] = await Promise.all([
         fetch('/api/admin/publications'),
         fetch('/api/admin/keywords'),
-        fetch('/api/admin/research-areas')
+        fetch('/api/admin/research-areas'),
+        fetch('/api/admin/authors')
       ]);
       
-      if (!publicationsRes.ok || !keywordsRes.ok || !areasRes.ok) {
+      if (!publicationsRes.ok || !keywordsRes.ok || !areasRes.ok || !authorsRes.ok) {
         throw new Error('Failed to fetch data');
       }
       
-      const [publications, keywords, areas] = await Promise.all([
+      const [publications, keywords, areas, authors] = await Promise.all([
         publicationsRes.json(),
         keywordsRes.json(),
-        areasRes.json()
+        areasRes.json(),
+        authorsRes.json()
       ]);
       
       // Calculate stats
@@ -85,7 +82,8 @@ export default function AdminDashboard() {
         publicationsByType,
         publicationsByYear,
         totalKeywords: keywords.length,
-        totalResearchAreas: areas.length
+        totalResearchAreas: areas.length,
+        totalAuthors: authors.length
       });
       
     } catch (error) {
@@ -127,6 +125,12 @@ export default function AdminDashboard() {
                   className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                 >
                   Manage Publications
+                </Link>
+                <Link
+                  href="/admin/authors"
+                  className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                >
+                  Authors
                 </Link>
                 <Link
                   href="/admin/research-areas"
@@ -255,6 +259,38 @@ export default function AdminDashboard() {
                   <div className="text-sm">
                     <Link href="/admin/keywords" className="font-medium text-blue-600 hover:text-blue-500">
                       Manage keywords
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Authors */}
+              <div className="bg-white overflow-hidden shadow rounded-lg">
+                <div className="px-4 py-5 sm:p-6">
+                  <div className="flex items-center">
+                    <div className="flex-shrink-0 bg-orange-500 rounded-md p-3">
+                      <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg>
+                    </div>
+                    <div className="ml-5 w-0 flex-1">
+                      <dl>
+                        <dt className="text-sm font-medium text-gray-500 truncate">
+                          Authors
+                        </dt>
+                        <dd>
+                          <div className="text-lg font-medium text-gray-900">
+                            {stats.totalAuthors}
+                          </div>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-gray-50 px-4 py-4 sm:px-6">
+                  <div className="text-sm">
+                    <Link href="/admin/authors" className="font-medium text-blue-600 hover:text-blue-500">
+                      Manage authors
                     </Link>
                   </div>
                 </div>

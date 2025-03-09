@@ -7,7 +7,7 @@ import { prisma } from '../../../../../lib/prisma';
 async function checkAuth() {
   const session = await getServerSession(authOptions);
   
-  if (!session || session.user.role !== 'ADMIN') {
+  if (!session || !session.user || session.user.role !== 'ADMIN') {
     return false;
   }
   
@@ -27,10 +27,43 @@ export async function GET(request: Request) {
   }
   
   try {
+    // Check if ID parameter is provided to fetch a single publication
+    const { searchParams } = new URL(request.url);
+    const id = searchParams.get('id');
+    
+    if (id) {
+      // Fetch a single publication by ID
+      const publication = await prisma.publication.findUnique({
+        where: { id },
+        include: {
+          keywords: true,
+          researchAreas: true,
+          publicationAuthors: {
+            include: {
+              author: true
+            },
+            orderBy: {
+              position: 'asc'
+            }
+          }
+        }
+      });
+      
+      if (!publication) {
+        return NextResponse.json(
+          { error: 'Publication not found' },
+          { status: 404 }
+        );
+      }
+      
+      return NextResponse.json(publication);
+    }
+    
+    // If no ID is provided, fetch all publications
     const publications = await prisma.publication.findMany({
       include: {
         keywords: true,
-        areas: true
+        researchAreas: true
       },
       orderBy: {
         updatedAt: 'desc'
@@ -60,34 +93,65 @@ export async function POST(request: Request) {
   }
   
   try {
-    const data = await request.json();
+    // Parse the multipart form data
+    const formData = await request.formData();
     
-    // Extract keywords and areas to handle the relationships
-    const { keywords, areas, ...publicationData } = data;
+    // Get the file if it exists
+    const pdfFile = formData.get('pdfFile') as File | null;
     
-    // Create the publication with connected keywords and areas
+    // Get the publication data
+    const publicationDataStr = formData.get('publicationData') as string;
+    const data = JSON.parse(publicationDataStr);
+    
+    // Extract relationships to handle properly
+    const { keywords, researchAreas, publicationAuthors, ...publicationData } = data;
+    
+    // Handle file upload if a file was provided
+    let pdfFilePath = publicationData.pdfFile;
+    
+    if (pdfFile && pdfFile.name) {
+      // In a real app, you would upload the file to a storage service like AWS S3
+      // and store the returned URL. For this example, we'll just simulate storing the file name.
+      // Replace this with your actual file upload logic.
+      pdfFilePath = `/uploads/publications/${Date.now()}-${pdfFile.name}`;
+      
+      // Simulating file upload - in a real app, you'd implement actual file storage:
+      // await uploadFileToStorage(pdfFile, pdfFilePath);
+      
+      console.log(`File would be uploaded to: ${pdfFilePath}`);
+    }
+    
+    // Create the publication with all relationships
     const publication = await prisma.publication.create({
       data: {
         ...publicationData,
+        pdfFile: pdfFilePath,
+        // Add keywords
         keywords: {
-          connectOrCreate: keywords.map((keyword: string) => ({
-            where: { name: keyword },
-            create: { name: keyword }
-          }))
+          connect: keywords?.map((id: string) => ({ id })) || []
         },
-        areas: {
-          connectOrCreate: areas.map((area: { name: string, description: string }) => ({
-            where: { name: area.name },
-            create: { 
-              name: area.name,
-              description: area.description || '' 
-            }
-          }))
+        // Add research areas
+        researchAreas: {
+          connect: researchAreas?.map((id: string) => ({ id })) || []
+        },
+        // Add structured authors
+        publicationAuthors: {
+          create: publicationAuthors?.map((pa: any) => ({
+            authorId: pa.authorId,
+            position: pa.position,
+            isCorresponding: pa.isCorresponding,
+            equalContribution: pa.equalContribution
+          })) || []
         }
       },
       include: {
         keywords: true,
-        areas: true
+        researchAreas: true,
+        publicationAuthors: {
+          include: {
+            author: true
+          }
+        }
       }
     });
     
@@ -101,7 +165,7 @@ export async function POST(request: Request) {
   }
 }
 
-// PUT /api/admin/publications/:id
+// PUT /api/admin/publications
 // Update an existing publication
 export async function PUT(request: Request) {
   const isAuthenticated = await checkAuth();
@@ -114,8 +178,32 @@ export async function PUT(request: Request) {
   }
   
   try {
-    const data = await request.json();
-    const { id, keywords, areas, ...publicationData } = data;
+    // Parse the multipart form data
+    const formData = await request.formData();
+    
+    // Get the file if it exists
+    const pdfFile = formData.get('pdfFile') as File | null;
+    
+    // Get the publication data
+    const publicationDataStr = formData.get('publicationData') as string;
+    const data = JSON.parse(publicationDataStr);
+    
+    const { id, keywords, researchAreas, publicationAuthors, ...publicationData } = data;
+    
+    // Handle file upload if a file was provided
+    let pdfFilePath = publicationData.pdfFile;
+    
+    if (pdfFile && pdfFile.name) {
+      // In a real app, you would upload the file to a storage service like AWS S3
+      // and store the returned URL. For this example, we'll just simulate storing the file name.
+      // Replace this with your actual file upload logic.
+      pdfFilePath = `/uploads/publications/${Date.now()}-${pdfFile.name}`;
+      
+      // Simulating file upload - in a real app, you'd implement actual file storage:
+      // await uploadFileToStorage(pdfFile, pdfFilePath);
+      
+      console.log(`File would be uploaded to: ${pdfFilePath}`);
+    }
     
     // First disconnect all existing relationships
     await prisma.publication.update({
@@ -124,36 +212,45 @@ export async function PUT(request: Request) {
         keywords: {
           set: []
         },
-        areas: {
+        researchAreas: {
           set: []
+        },
+        publicationAuthors: {
+          deleteMany: {} // Delete all existing publication-author relationships
         }
       }
     });
     
-    // Then update with new data and relationships
+    // Then update with the new data and reconnect relationships
     const publication = await prisma.publication.update({
       where: { id },
       data: {
         ...publicationData,
+        pdfFile: pdfFilePath,
         keywords: {
-          connectOrCreate: keywords.map((keyword: string) => ({
-            where: { name: keyword },
-            create: { name: keyword }
-          }))
+          connect: keywords?.map((id: string) => ({ id })) || []
         },
-        areas: {
-          connectOrCreate: areas.map((area: { name: string, description: string }) => ({
-            where: { name: area.name },
-            create: { 
-              name: area.name,
-              description: area.description || '' 
-            }
-          }))
+        researchAreas: {
+          connect: researchAreas?.map((id: string) => ({ id })) || []
+        },
+        // Create new publication-author relationships
+        publicationAuthors: {
+          create: publicationAuthors?.map((pa: any) => ({
+            authorId: pa.authorId,
+            position: pa.position,
+            isCorresponding: pa.isCorresponding,
+            equalContribution: pa.equalContribution
+          })) || []
         }
       },
       include: {
         keywords: true,
-        areas: true
+        researchAreas: true,
+        publicationAuthors: {
+          include: {
+            author: true
+          }
+        }
       }
     });
     

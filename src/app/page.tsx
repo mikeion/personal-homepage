@@ -1,176 +1,215 @@
-import Image from 'next/legacy/image'
-import Link from 'next/link'
-import { FaGithub, FaLinkedin, FaEnvelope, FaArrowRight } from 'react-icons/fa'
+'use client';
 
-const ResearchHighlight = ({ emoji, title, description }: { 
-  emoji: string
-  title: string
-  description: string 
-}) => (
-  <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-    <div className="text-3xl mb-3">{emoji}</div>
-    <h3 className="text-xl font-semibold mb-2">{title}</h3>
-    <p className="text-gray-600 dark:text-gray-300">{description}</p>
-  </div>
-)
-
-const LatestPublication = ({ title, venue, date, href }: {
-  title: string
-  venue: string
-  date: string
-  href?: string  // Optional link to research page section
-}) => (
-  <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
-    <Link href={href || '/research'}>
-      <div className="cursor-pointer">
-        <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">{date}</p>
-        <h3 className="font-semibold mb-2">{title}</h3>
-        <p className="text-gray-600 dark:text-gray-300 text-sm">{venue}</p>
-      </div>
-    </Link>
-  </div>
-)
+import Link from 'next/link';
+import Image from 'next/image';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { FaGraduationCap, FaLaptopCode, FaChalkboardTeacher, FaFileAlt, FaArrowRight } from 'react-icons/fa';
 
 export default function Home() {
+  // Areas of expertise
+  const areas = [
+    {
+      title: 'Academic Research',
+      icon: <FaGraduationCap size={40} className="text-blue-600" />,
+      description: 'Investigating how AI and computational methods can enhance education, with a focus on mathematics teaching and learning.',
+      link: '/academics',
+      color: 'border-blue-500'
+    },
+    {
+      title: 'Software Development',
+      icon: <FaLaptopCode size={40} className="text-teal-600" />,
+      description: 'Creating educational software and tools that leverage data science and machine learning to solve real-world problems.',
+      link: '/programming',
+      color: 'border-teal-500'
+    },
+    {
+      title: 'Teaching & Mentorship',
+      icon: <FaChalkboardTeacher size={40} className="text-indigo-600" />,
+      description: 'Sharing knowledge through university courses, workshops, and mentoring students in education and technology.',
+      link: '/teaching',
+      color: 'border-indigo-500'
+    },
+    {
+      title: 'Consulting & Writing',
+      icon: <FaFileAlt size={40} className="text-amber-600" />,
+      description: 'Helping organizations apply research-based approaches to educational challenges and communicating insights through writing.',
+      link: '/practice',
+      color: 'border-amber-500'
+    }
+  ];
+
+  // Recent highlights
+  const highlights = [
+    {
+      title: 'Recent Publication',
+      content: 'Text-as-Data in Mathematics Education: Harnessing LLMs to Analyze Student Conversations at Scale',
+      link: '/publications',
+      category: 'Research'
+    },
+    {
+      title: 'Latest Project',
+      content: 'Developing AI tools to assist mathematics instructors in understanding student misconceptions',
+      link: '/programming',
+      category: 'Development'
+    },
+    {
+      title: 'Upcoming Talk',
+      content: 'Joint Mathematics Meeting (2025) in Seattle on Generative AI in Mathematics Education',
+      link: '/talks',
+      category: 'Speaking'
+    }
+  ];
+
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="py-20 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="w-full md:w-1/2">
-              <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-                Bridging AI and Human Learning
+      {/* Hero Section with clean gradient background */}
+      <div className="bg-gradient-to-tr from-blue-50 via-slate-50 to-indigo-50 dark:from-slate-900 dark:via-slate-800 dark:to-blue-900">        
+        <Container className="py-16 md:py-24">
+          <Row className="align-items-center">
+            <Col lg={7} className="mb-10 lg:mb-0">
+              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-slate-800 dark:text-white">
+                Bridging Research & Practice
               </h1>
-              <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Investigating how we can use large language models to understand the complexities of teaching and learning, 
-                while ensuring AI-enhanced education remains authentic and effective.
+              <h2 className="text-2xl md:text-3xl text-slate-600 dark:text-slate-300 mb-8 font-light">
+                Educator · Researcher · Developer · Consultant
+              </h2>
+              <p className="text-lg text-slate-600 dark:text-slate-300 mb-10 max-w-2xl leading-relaxed">
+                I bridge academic research with practical applications, using computational 
+                methods and AI to enhance teaching and learning while developing
+                tools that make education more effective and accessible.
               </p>
-              <div className="flex gap-4">
-                <Link 
-                  href="/research" 
-                  className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2"
-                >
-                  View Research <FaArrowRight />
+              <div className="flex flex-wrap gap-4">
+                <Link href="/academics" passHref>
+                  <Button className="bg-blue-600 hover:bg-blue-700 border-0 px-8 py-3 text-white font-medium rounded-lg transition-colors">
+                    Academic Work
+                  </Button>
                 </Link>
-                <Link 
-                  href="/about"
-                  className="border border-gray-300 dark:border-gray-600 px-6 py-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                >
-                  About Me
+                <Link href="/practice" passHref>
+                  <Button variant="outline-primary" className="px-8 py-3 font-medium rounded-lg border-blue-500 text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+                    Professional Services
+                  </Button>
                 </Link>
               </div>
-            </div>
-            <div className="w-full md:w-1/2">
-              <div className="relative w-full aspect-square max-w-md mx-auto">
-                <img
-                  src="/images/headshot.jpg"
-                  alt="Mike Ion"
-                  className="w-full h-full rounded-2xl object-cover shadow-lg"
+            </Col>
+            <Col lg={5} className="text-center">
+              <div className="relative mx-auto overflow-hidden rounded-full border-4 border-white dark:border-slate-700 shadow-lg" style={{ width: '360px', height: '360px' }}>
+                {/* Use a fallback div with gradient if image fails to load */}
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-indigo-500"></div>
+                <Image 
+                  src="/images/headshot.jpg" 
+                  alt="Mike Ion" 
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  priority
+                  className="z-10"
+                  onError={(e) => {
+                    // If image fails to load, fallback is already present
+                    console.log("Image failed to load");
+                  }}
                 />
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </Col>
+          </Row>
+        </Container>
+      </div>
 
-      {/* Research Highlights */}
-      <section className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-12 text-center">Research Focus Areas</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <ResearchHighlight
-              emoji="🔄"
-              title="AI Learning Design"
-              description="Balancing simulation fidelity with learning effectiveness in AI-based educational environments"
-            />
-            <ResearchHighlight
-              emoji="🎯"
-              title="Learning Effectiveness"
-              description="Measuring how different teaching strategies affect learning progress in AI-enhanced environments"
-            />
-            <ResearchHighlight
-              emoji="🧠"
-              title="Teaching Practice"
-              description="Understanding the specialized knowledge needed for effective instruction in the age of AI"
-            />
-            <ResearchHighlight
-              emoji="🔍"
-              title="Educational AI"
-              description="Developing frameworks to evaluate and improve AI-based educational interactions"
-            />
+      {/* Professional Areas Section */}
+      <div className="bg-white dark:bg-slate-900">
+        <Container className="py-20">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-4xl font-bold mb-4 text-slate-800 dark:text-white">
+              Professional Focus Areas
+            </h2>
+            <div className="w-24 h-1 bg-blue-500 mx-auto mb-6 rounded-full"></div>
+            <p className="text-lg text-slate-600 dark:text-slate-300">
+              My work spans multiple disciplines, combining research and application to create meaningful impact.
+            </p>
           </div>
-        </div>
-      </section>
+          
+          <Row>
+            {areas.map((area, index) => (
+              <Col key={index} md={6} lg={3} className="mb-8">
+                <div className={`group h-full bg-white dark:bg-slate-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border-t-4 ${area.color}`}>
+                  <div className="p-6 flex flex-col h-full">
+                    <div className="flex justify-center items-center w-16 h-16 bg-slate-50 dark:bg-slate-700 rounded-lg mb-5 group-hover:scale-110 transition-transform duration-300">
+                      {area.icon}
+                    </div>
+                    <h3 className="text-xl font-bold mb-3 text-slate-800 dark:text-white">{area.title}</h3>
+                    <p className="text-slate-600 dark:text-slate-300 mb-5 flex-grow">
+                      {area.description}
+                    </p>
+                    <Link href={area.link} className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium">
+                      Learn more <FaArrowRight className="ml-2 text-sm group-hover:translate-x-1 transition-transform" />
+                    </Link>
+                  </div>
+                </div>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </div>
 
-      {/* Latest Publications */}
-      <section className="py-16 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex justify-between items-center mb-12">
-            <h2 className="text-3xl font-bold">Latest Work</h2>
-            <Link 
-              href="/research" 
-              className="text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-2"
-            >
-              View All <FaArrowRight className="text-sm" />
-            </Link>
+      {/* Recent Highlights Section */}
+      <div className="bg-slate-50 dark:bg-slate-800">
+        <Container className="py-20">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-4xl font-bold mb-4 text-slate-800 dark:text-white">
+              Recent Highlights
+            </h2>
+            <div className="w-24 h-1 bg-blue-500 mx-auto mb-6 rounded-full"></div>
+            <p className="text-lg text-slate-600 dark:text-slate-300">
+              Selected examples of my latest work, publications, and speaking engagements.
+            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <LatestPublication
-              title="Teaching and Learning in the Age of Generative AI"
-              venue="For the Learning of Mathematics"
-              date="In Progress"
-              href="/research#generative-ai"
-            />
-            <LatestPublication
-              title="Text-as-Data in Mathematics Education"
-              venue="AMS Special Session on SoTL"
-              date="Jan 2025"
-              href="/research#text-as-data"
-            />
-            <LatestPublication
-              title="Teaching Geometry for Secondary Teachers"
-              venue="International Journal of Research in Undergraduate Mathematics Education"
-              date="2023"
-              href="/research#geometry"
-            />
-          </div>
-        </div>
-      </section>
+          
+          <Row>
+            {highlights.map((item, index) => (
+              <Col key={index} md={4} className="mb-8">
+                <div className="h-full">
+                  <div className="h-full bg-white dark:bg-slate-700 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 p-6">
+                    <div className="mb-4">
+                      <span className={`inline-block px-3 py-1 text-xs font-semibold rounded-full
+                        ${item.category === 'Research' ? 'bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-100' : 
+                        item.category === 'Development' ? 'bg-teal-100 text-teal-800 dark:bg-teal-900/50 dark:text-teal-100' :
+                        'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/50 dark:text-indigo-100'}`}>
+                        {item.category}
+                      </span>
+                    </div>
+                    <h3 className="text-xl font-bold mb-3 text-slate-800 dark:text-white">{item.title}</h3>
+                    <p className="text-slate-600 dark:text-slate-300 mb-4">
+                      {item.content}
+                    </p>
+                    <Link href={item.link} className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium mt-auto">
+                      View details <FaArrowRight className="ml-2 text-sm group-hover:translate-x-1 transition-transform" />
+                    </Link>
+                  </div>
+                </div>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </div>
 
       {/* Connect Section */}
-      <section className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">Let's Connect</h2>
-          <div className="flex justify-center gap-8">
-            <a 
-              href="https://github.com/mikeion"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-            >
-              <FaGithub className="text-2xl" />
-              <span>GitHub</span>
-            </a>
-            <a 
-              href="https://www.linkedin.com/in/mikeion"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-            >
-              <FaLinkedin className="text-2xl" />
-              <span>LinkedIn</span>
-            </a>
-            <a 
-              href="mailto:mikeion@umich.edu"
-              className="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-            >
-              <FaEnvelope className="text-2xl" />
-              <span>Email</span>
-            </a>
+      <div className="bg-white dark:bg-slate-900">
+        <Container className="py-20 text-center">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold mb-4 text-slate-800 dark:text-white">
+              Let's Connect
+            </h2>
+            <div className="w-24 h-1 bg-blue-500 mx-auto mb-6 rounded-full"></div>
+            <p className="text-lg text-slate-600 dark:text-slate-300 mb-10">
+              I'm always interested in collaborating on research, educational initiatives, consulting opportunities, 
+              or just discussing ideas at the intersection of education and technology.
+            </p>
+            <Link href="/about" passHref>
+              <Button className="bg-blue-600 hover:bg-blue-700 border-0 px-8 py-3 text-white font-medium rounded-lg transition-colors">
+                Get in Touch
+              </Button>
+            </Link>
           </div>
-        </div>
-      </section>
+        </Container>
+      </div>
     </div>
-  )
+  );
 }

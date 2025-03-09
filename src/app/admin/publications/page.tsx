@@ -3,26 +3,8 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-// We'll need to install these packages
-// import { useSession } from 'next-auth/react';
-
-// Temporary mock session until we install next-auth
-const useSession = () => {
-  return {
-    data: { user: { email: 'admin@example.com' } },
-    status: 'authenticated'
-  };
-};
-
-type Publication = {
-  id: string;
-  title: string;
-  authors: string[];
-  year: number;
-  type: string;
-  venue?: string;
-  status?: string;
-};
+import { useSession } from 'next-auth/react';
+import type { Publication } from '@/types/publications';
 
 export default function PublicationsManagementPage() {
   const { data: session, status } = useSession();
@@ -279,7 +261,7 @@ export default function PublicationsManagementPage() {
                       </div>
                       <div className="flex space-x-2">
                         <Link
-                          href={`/admin/publications/edit/${publication.id}`}
+                          href={`/admin/publications/edit-${publication.id}`}
                           className="inline-flex items-center px-3 py-1 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
                         >
                           Edit

@@ -1,19 +1,38 @@
 export interface Publication {
+  id: string
   title: string
   authors: string[]
-  journal?: string
+  description?: string
+  abstract?: string
   venue?: string
-  year?: string | number
+  year: number | string
   date?: string
   status?: string
-  type?: string
+  type: string
   doi?: string
+  pdfLink?: string
+  projectLink?: string
   location?: string
   award?: string
-  description?: string
   volume?: string
-  keywords?: string[]
-  id: string
   pages?: string
   publisher?: string
+  
+  // Relationships
+  keywords?: Keyword[]
+  researchAreas?: ResearchArea[]
+  
+  createdAt?: Date
+  updatedAt?: Date
+}
+
+export interface Keyword {
+  id: string
+  name: string
+}
+
+export interface ResearchArea {
+  id: string
+  name: string
+  description?: string
 } 

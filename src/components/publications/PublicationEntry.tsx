@@ -1,3 +1,5 @@
+import React from 'react'
+
 interface Publication {
   title: string
   authors: string[]
@@ -30,16 +32,14 @@ function cleanLatexFormatting(text: string): string {
     .trim()
 }
 
-function cleanAuthorNames(authors: string[]): string {
-  return authors
-    .map(author => {
-      let cleaned = cleanLatexFormatting(author)
-      cleaned = cleaned
-        .replace(/\s*,\s*/g, ', ')
-        .replace(/\s*\.\s*/g, '. ')
-      return cleaned
-    })
-    .join(', ')
+function cleanAuthorNames(authors: string[]): string[] {
+  return authors.map(author => {
+    let cleaned = cleanLatexFormatting(author)
+    cleaned = cleaned
+      .replace(/\s*,\s*/g, ', ')
+      .replace(/\s*\.\s*/g, '. ')
+    return cleaned
+  })
 }
 
 function formatStatus(status: string): string {
@@ -62,13 +62,27 @@ export function PublicationEntry({ publication, type }: { publication: Publicati
     book_chapter: 'border-purple-500'
   }
 
+  // Check if an author name is the user (Ion, M.)
+  const isUserName = (name: string) => {
+    return name === 'Ion, M.' || name === 'Ion, M' || name.startsWith('Ion, M.') || name.startsWith('Ion, M')
+  }
+
   return (
     <div className={`border-l-4 ${borderColors[type as keyof typeof borderColors]} pl-4 py-2`}>
       <div className="flex justify-between items-start">
         <div className="flex-1">
           <h3 className="font-medium mb-1">{cleanLatexFormatting(publication.title)}</h3>
           <p className="text-sm text-gray-600">
-            {cleanAuthorNames(publication.authors)}
+            {cleanAuthorNames(publication.authors).map((author, index) => (
+              <React.Fragment key={index}>
+                {index > 0 && ', '}
+                {isUserName(author) ? (
+                  <span className="font-bold text-blue-700">{author}</span>
+                ) : (
+                  <span>{author}</span>
+                )}
+              </React.Fragment>
+            ))}
           </p>
           
           <div className="text-sm text-gray-600 mt-1">

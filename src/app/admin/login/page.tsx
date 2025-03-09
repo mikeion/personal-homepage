@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-// import { signIn } from 'next-auth/react';
+import { signIn } from 'next-auth/react';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -18,25 +18,18 @@ export default function LoginPage() {
     setLoading(true);
 
     try {
-      // In a real app, we would use NextAuth's signIn function
-      // const result = await signIn('credentials', {
-      //   redirect: false,
-      //   email,
-      //   password,
-      // });
+      const result = await signIn('credentials', {
+        redirect: false,
+        email,
+        password,
+      });
       
-      // For demo purposes, we'll just simulate a login
-      // with a hardcoded admin user
-      if (email === 'admin@example.com' && password === 'password') {
-        // Simulate successful login
-        setTimeout(() => {
-          router.push('/admin/dashboard');
-        }, 1000);
-        return;
+      if (result?.error) {
+        throw new Error(result.error);
       }
       
-      // Simulate failed login
-      throw new Error('Invalid email or password');
+      // Redirect on successful login
+      router.push('/admin/dashboard');
       
     } catch (error) {
       console.error('Login error:', error);

@@ -23,7 +23,9 @@ model User {
 model Publication {
   id          String   @id @default(cuid())
   title       String
-  authors     String[] // Array of author names
+  authors     String[] // Legacy field - will keep for backward compatibility
+  // New relationship for structured authors
+  publicationAuthors PublicationAuthor[] // Ordered authors with position information
   description String   @db.Text
   venue       String?  // Conference/journal name
   year        Int
@@ -32,16 +34,22 @@ model Publication {
   type        String   // "journal", "conference", "workshop", "talk", "poster", "book_chapter", "grant"
   doi         String?
   pdfLink     String?
+  pdfFile     String?  // Path to uploaded PDF file
   projectLink String?  // Link to project website or code
   location    String?  // For conferences/talks
   award       String?  // "Best Paper", "Honorable Mention", etc.
   volume      String?
+  issue       String?  // For journal articles
   pages       String?
   publisher   String?
+  isbn        String?  // For books/book chapters
+  acceptanceRate String? // For conferences (e.g. "25%")
+  seriesTitle String?  // For conference proceedings
+  edition     String?  // For books
   
   // Relationships
   keywords    Keyword[] // Many-to-many relationship with keywords
-  areas       ResearchArea[] // Many-to-many relationship with research areas
+  researchAreas ResearchArea[] // Many-to-many relationship with research areas
   
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -51,6 +59,8 @@ model Keyword {
   id           String        @id @default(cuid())
   name         String        @unique
   publications Publication[] // Many-to-many relationship with publications
+  researchAreas ResearchArea[] // Many-to-many relationship with research areas
+  grants       Grant[]       // Many-to-many relationship with grants
   
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -65,4 +75,107 @@ model ResearchArea {
   
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+}
+
+// New models inspired by Saba's CV
+
+model Grant {
+  id          String   @id @default(cuid())
+  title       String
+  funder      String
+  amount      String
+  role        String   // PI, Co-PI, etc.
+  description String?  @db.Text
+  startDate   DateTime
+  endDate     DateTime?
+  status      String   // "active", "completed", "pending", etc.
+  
+  // Relationships
+  collaborators String[] // Array of collaborator names
+  keywords      Keyword[] // Linked keywords
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Award {
+  id          String   @id @default(cuid())
+  title       String
+  organization String
+  year        Int
+  description String?  @db.Text
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ProfessionalService {
+  id          String   @id @default(cuid())
+  role        String   // "Reviewer", "Committee Member", "Chair", etc.
+  organization String
+  description String?  @db.Text
+  startDate   DateTime
+  endDate     DateTime?
+  type        String   // "Conference", "Journal", "Committee", "Editorial Board", etc.
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Teaching {
+  id          String   @id @default(cuid())
+  title       String
+  institution String
+  course      String?
+  level       String?  // "Undergraduate", "Graduate", etc.
+  role        String   // "Instructor", "TA", etc.
+  startDate   DateTime
+  endDate     DateTime?
+  description String?  @db.Text
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// New model for structured author data
+model Author {
+  id          String   @id @default(cuid())
+  firstName   String
+  lastName    String
+  middleName  String?
+  email       String?
+  affiliation String?
+  
+  // Flag for the website owner/CV owner
+  isYou       Boolean  @default(false)
+  
+  // Publications this author has contributed to
+  publications PublicationAuthor[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@unique([firstName, lastName, middleName])
+}
+
+// Join model to handle author order and additional publication-specific author data
+model PublicationAuthor {
+  id            String     @id @default(cuid())
+  author        Author     @relation(fields: [authorId], references: [id])
+  authorId      String
+  publication   Publication @relation(fields: [publicationId], references: [id], onDelete: Cascade)
+  publicationId String
+  
+  // Author's position in the author list (1-based)
+  position      Int
+  
+  // Additional publication-specific author information
+  isCorresponding Boolean   @default(false)
+  equalContribution Boolean @default(false)
+  
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+  
+  @@unique([publicationId, authorId])
+  @@unique([publicationId, position])
 } 
