@@ -1,6 +1,9 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '../../../../lib/prisma';
 
+// Define the route as dynamic to avoid static generation errors
+export const dynamic = 'force-dynamic';
+
 // GET /api/publications
 // Public route to get all publications
 export async function GET(request: Request) {
