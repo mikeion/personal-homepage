@@ -170,37 +170,156 @@ export default function About() {
       </div>
 
       {/* Personal Section */}
-      <div>
+      <div className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-slate-800 dark:text-white">Beyond Work</h2>
-        <Row>
-          <Col md={6} className="mb-6 md:mb-0">
-            <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm p-8 h-full">
-              <h3 className="text-xl font-bold mb-4 text-blue-600 dark:text-blue-400">What I'm Reading</h3>
-              <p className="text-slate-600 dark:text-slate-300 mb-4">
-                I'm currently exploring books that examine societal biases and diverse perspectives through different lenses:
-              </p>
-              <ul className="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-300">
-                <li>Invisible Women: Data Bias in a World Designed for Men by Caroline Criado Pérez</li>
-                <li>Reading Lolita in Tehran: A Memoir in Books by Azar Nafisi</li>
-                <li>Poverty, by America by Matthew Desmond</li>
-              </ul>
+        
+        {/* What I'm Reading Section */}
+        <div className="mb-8 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-blue-900/30 rounded-xl shadow-sm overflow-hidden">
+          <div className="p-8">
+            <div className="flex items-center mb-6">
+              <div className="bg-blue-100 dark:bg-blue-900/50 rounded-full p-3 mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-slate-800 dark:text-white">What I'm Reading</h3>
             </div>
-          </Col>
-          <Col md={6}>
-            <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm p-8 h-full">
-              <h3 className="text-xl font-bold mb-4 text-blue-600 dark:text-blue-400">Beyond Academia</h3>
-              <p className="text-slate-600 dark:text-slate-300 mb-4">
-                When I'm not researching or teaching, you might find me:
-              </p>
-              <ul className="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-300">
-                <li>Hiking and exploring the outdoors</li>
-                <li>Experimenting with new programming languages</li>
-                <li>Supporting initiatives that broaden participation in STEM</li>
-                <li>Enjoying coffee and conversations with friends and colleagues</li>
-              </ul>
+            <p className="text-lg text-slate-600 dark:text-slate-300 mb-6 max-w-3xl">
+              Some books I've been enjoying lately that explore different perspectives:
+            </p>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white dark:bg-slate-800/70 rounded-lg p-5 shadow-sm hover:shadow-md transition-all">
+                <h4 className="font-bold text-slate-800 dark:text-white">Invisible Women</h4>
+                <p className="text-slate-500 dark:text-slate-400 text-sm mb-2">by Caroline Criado Pérez</p>
+                <details className="text-slate-600 dark:text-slate-300 cursor-pointer">
+                  <summary className="text-sm font-medium text-blue-600 dark:text-blue-400 mb-1 hover:text-blue-700">About this book</summary>
+                  <div className="pl-4 pt-2 text-sm">
+                    <p>An eye-opening look at how data bias in design creates a world that ignores women's needs. Fascinating examples of how seemingly neutral systems often default to male perspectives.</p>
+                  </div>
+                </details>
+              </div>
+              <div className="bg-white dark:bg-slate-800/70 rounded-lg p-5 shadow-sm hover:shadow-md transition-all">
+                <h4 className="font-bold text-slate-800 dark:text-white">Reading Lolita in Tehran</h4>
+                <p className="text-slate-500 dark:text-slate-400 text-sm mb-2">by Azar Nafisi</p>
+                <details className="text-slate-600 dark:text-slate-300 cursor-pointer">
+                  <summary className="text-sm font-medium text-blue-600 dark:text-blue-400 mb-1 hover:text-blue-700">About this book</summary>
+                  <div className="pl-4 pt-2 text-sm">
+                    <p>A memoir about teaching forbidden Western literature in Iran. Shows how books create spaces for personal freedom even in restrictive societies.</p>
+                  </div>
+                </details>
+              </div>
+              <div className="bg-white dark:bg-slate-800/70 rounded-lg p-5 shadow-sm hover:shadow-md transition-all">
+                <h4 className="font-bold text-slate-800 dark:text-white">Poverty, by America</h4>
+                <p className="text-slate-500 dark:text-slate-400 text-sm mb-2">by Matthew Desmond</p>
+                <details className="text-slate-600 dark:text-slate-300 cursor-pointer">
+                  <summary className="text-sm font-medium text-blue-600 dark:text-blue-400 mb-1 hover:text-blue-700">About this book</summary>
+                  <div className="pl-4 pt-2 text-sm">
+                    <p>A thought-provoking look at how economic inequality persists despite abundance. Makes you think about systemic issues rather than individual ones.</p>
+                  </div>
+                </details>
+              </div>
             </div>
-          </Col>
-        </Row>
+          </div>
+        </div>
+        
+        {/* Beyond Academia Section */}
+        <div className="bg-gradient-to-r from-slate-50 to-blue-50 dark:from-slate-800 dark:to-slate-900 rounded-xl shadow-sm overflow-hidden">
+          <div className="p-8">
+            <div className="flex items-center mb-6">
+              <div className="bg-indigo-100 dark:bg-indigo-900/50 rounded-full p-3 mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-slate-800 dark:text-white">Outside of Work</h3>
+            </div>
+            <p className="text-lg text-slate-600 dark:text-slate-300 mb-6 max-w-3xl">
+              A few things I enjoy in my free time:
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Hobbies Section */}
+              <div className="space-y-6">
+                {/* Hiking */}
+                <div className="bg-white dark:bg-slate-800/70 rounded-lg p-6 shadow-sm">
+                  <div className="flex items-center mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 dark:text-green-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 9l7 7 7-7" />
+                    </svg>
+                    <h4 className="font-bold text-slate-800 dark:text-white">Hiking</h4>
+                  </div>
+                  <p className="text-slate-600 dark:text-slate-300 pl-7 text-sm">
+                    I love exploring trails and spending time outdoors whenever I can.
+                  </p>
+                </div>
+                
+                {/* Programming */}
+                <div className="bg-white dark:bg-slate-800/70 rounded-lg p-6 shadow-sm">
+                  <div className="flex items-center mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-teal-600 dark:text-teal-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    </svg>
+                    <h4 className="font-bold text-slate-800 dark:text-white">Coding Projects</h4>
+                  </div>
+                  <p className="text-slate-600 dark:text-slate-300 pl-7 text-sm">
+                    I enjoy tinkering with new programming languages and tools on personal projects.
+                  </p>
+                </div>
+              </div>
+              
+              {/* Music and Gaming Section */}
+              <div className="space-y-6">
+                {/* Music */}
+                <div className="bg-white dark:bg-slate-800/70 rounded-lg p-6 shadow-sm">
+                  <div className="flex items-center mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-purple-600 dark:text-purple-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                    </svg>
+                    <h4 className="font-bold text-slate-800 dark:text-white">Making Music</h4>
+                  </div>
+                  <p className="text-slate-600 dark:text-slate-300 pl-7 text-sm mb-3">
+                    I play guitar and ukulele, and occasionally dabble with digital music production.
+                  </p>
+                  <div className="mt-3 bg-slate-50 dark:bg-slate-900/50 p-4 rounded-lg">
+                    <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">A small track I made:</p>
+                    <audio controls className="w-full">
+                      <source src="/sounds/stormy_waves.mp3" type="audio/mpeg" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                </div>
+                
+                {/* Gaming */}
+                <div className="bg-white dark:bg-slate-800/70 rounded-lg p-6 shadow-sm">
+                  <div className="flex items-center mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-red-600 dark:text-red-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+                    </svg>
+                    <h4 className="font-bold text-slate-800 dark:text-white">Smash Bros</h4>
+                  </div>
+                  <p className="text-slate-600 dark:text-slate-300 pl-7 text-sm mb-3">
+                    I play Super Smash Bros Melee in local tournaments. Currently #4 in SLO's PR.
+                    <a href="https://smashers.app/melee/player/mathandsurf?id=S898035" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 underline ml-1">
+                      View profile
+                    </a>
+                  </p>
+                  <div className="mt-2 bg-slate-50 dark:bg-slate-900/50 p-3 rounded-lg">
+                    <Image 
+                      src="/images/slo_pr.jpg" 
+                      alt="San Luis Obispo Power Ranking" 
+                      width={500} 
+                      height={300} 
+                      className="rounded-md shadow-sm w-full"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </Container>
   );
