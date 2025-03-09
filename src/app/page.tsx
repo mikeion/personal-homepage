@@ -96,7 +96,7 @@ export default function Home() {
                 {/* Use a fallback div with gradient if image fails to load */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-indigo-500"></div>
                 <Image 
-                  src="/images/headshot.jpg" 
+                  src="/images/headshot_optimized.jpg" 
                   alt="Mike Ion" 
                   fill
                   style={{ objectFit: 'cover' }}

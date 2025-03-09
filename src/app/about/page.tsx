@@ -59,9 +59,10 @@ export default function About() {
           <div className="relative w-full max-w-xs mx-auto lg:mx-0">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
               <Image 
-                src="/images/bio_pic.jpeg" 
+                src="/images/bio_pic_optimized.jpg" 
                 alt="Mike Ion" 
                 fill
+                priority
                 style={{ objectFit: 'cover' }}
                 className="transform transition-transform hover:scale-105 duration-500"
               />
