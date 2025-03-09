@@ -3,9 +3,15 @@ import { getServerSession } from 'next-auth';
 import { authOptions } from '../../../../../lib/auth';
 import OpenAI from 'openai';
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Initialize OpenAI only if API key exists
+const apiKey = process.env.OPENAI_API_KEY;
+let openai: OpenAI | null = null;
+
+if (apiKey) {
+  openai = new OpenAI({
+    apiKey
+  });
+}
 
 // Ensure only admin can access this endpoint
 async function checkAuth() {
@@ -38,6 +44,16 @@ export async function POST(request: Request) {
         { error: 'Title is required' },
         { status: 400 }
       );
+    }
+    
+    // Check if OpenAI is configured
+    if (!openai) {
+      console.warn('OpenAI API key is missing. Returning fallback response.');
+      return NextResponse.json({
+        description: "Please add an OpenAI API key to enable AI-assisted description generation.",
+        keywords: ["add", "openai", "api", "key"],
+        isPlaceholder: true
+      });
     }
     
     // Prepare the prompt for the LLM
