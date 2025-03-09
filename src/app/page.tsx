@@ -3,39 +3,27 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import { FaGraduationCap, FaLaptopCode, FaChalkboardTeacher, FaFileAlt, FaArrowRight } from 'react-icons/fa';
+import { FaGraduationCap, FaLaptopCode, FaChalkboardTeacher, FaEnvelope, FaGithub, FaLinkedin, FaArrowRight } from 'react-icons/fa';
+import { SiBluesky } from 'react-icons/si';
 
 export default function Home() {
-  // Areas of expertise
-  const areas = [
+  // Education details
+  const education = [
     {
-      title: 'Academic Research',
-      icon: <FaGraduationCap size={40} className="text-blue-600" />,
-      description: 'Investigating how AI and computational methods can enhance education, with a focus on mathematics teaching and learning.',
-      link: '/academics',
-      color: 'border-blue-500'
+      degree: "Ph.D. in Mathematics Education",
+      institution: "University of Michigan",
+      year: "2024"
     },
     {
-      title: 'Software Development',
-      icon: <FaLaptopCode size={40} className="text-teal-600" />,
-      description: 'Creating educational software and tools that leverage data science and machine learning to solve real-world problems.',
-      link: '/programming',
-      color: 'border-teal-500'
+      degree: "M.S. in Mathematics",
+      institution: "Cal Poly",
+      year: "2015"
     },
     {
-      title: 'Teaching & Mentorship',
-      icon: <FaChalkboardTeacher size={40} className="text-indigo-600" />,
-      description: 'Sharing knowledge through university courses, workshops, and mentoring students in education and technology.',
-      link: '/teaching',
-      color: 'border-indigo-500'
+      degree: "B.S. in Mathematics",
+      institution: "Cal Poly",
+      year: "2013"
     },
-    {
-      title: 'Consulting & Writing',
-      icon: <FaFileAlt size={40} className="text-amber-600" />,
-      description: 'Helping organizations apply research-based approaches to educational challenges and communicating insights through writing.',
-      link: '/practice',
-      color: 'border-amber-500'
-    }
   ];
 
   // Recent highlights
@@ -49,7 +37,7 @@ export default function Home() {
     {
       title: 'Latest Project',
       content: 'Developing AI tools to assist mathematics instructors in understanding student misconceptions',
-      link: '/programming',
+      link: '/software-development',
       category: 'Development'
     },
     {
@@ -64,35 +52,67 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section with clean gradient background */}
       <div className="bg-gradient-to-tr from-blue-50 via-slate-50 to-indigo-50 dark:from-slate-900 dark:via-slate-800 dark:to-blue-900">        
-        <Container className="py-16 md:py-24">
+        <Container className="py-10 md:py-16">
           <Row className="align-items-center">
-            <Col lg={7} className="mb-10 lg:mb-0">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-slate-800 dark:text-white">
-                Bridging Research & Practice
-              </h1>
-              <h2 className="text-2xl md:text-3xl text-slate-600 dark:text-slate-300 mb-8 font-light">
-                Educator · Researcher · Developer · Consultant
-              </h2>
-              <p className="text-lg text-slate-600 dark:text-slate-300 mb-10 max-w-2xl leading-relaxed">
-                I bridge academic research with practical applications, using computational 
-                methods and AI to enhance teaching and learning while developing
-                tools that make education more effective and accessible.
+            <Col lg={7} className="mb-6 lg:mb-0 pr-lg-5">
+              <div className="mb-5">
+                <h1 className="text-4xl md:text-5xl font-bold mb-2 text-slate-800 dark:text-white">
+                  Mike Ion
+                </h1>
+                <h2 className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-3 font-light">
+                  Educator · Researcher · Developer
+                </h2>
+                <div className="h-1 w-32 bg-blue-500 mb-4 rounded-full"></div>
+              </div>
+              
+              <p className="text-base text-slate-600 dark:text-slate-300 mb-5 max-w-2xl leading-relaxed">
+                I'm an educator, researcher, and developer working at the intersection of mathematics, statistics, data science, and AI. My work integrates computational methods and statistical modeling with insights from educational research, exploring how teachers and learners strategically interact to build effective learning environments. I am particularly committed to developing innovative tools and strategies that account for learners' diverse backgrounds, support adaptive teaching methods, and promote meaningful feedback and learner agency.
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Link href="/academics" passHref>
-                  <Button className="bg-blue-600 hover:bg-blue-700 border-0 px-8 py-3 text-white font-medium rounded-lg transition-colors">
-                    Academic Work
-                  </Button>
-                </Link>
-                <Link href="/practice" passHref>
-                  <Button variant="outline-primary" className="px-8 py-3 font-medium rounded-lg border-blue-500 text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
-                    Professional Services
-                  </Button>
-                </Link>
+
+              <div className="grid md:grid-cols-2 gap-4 mb-5">
+                {/* Education Section */}
+                <div className="bg-white/50 dark:bg-slate-800/50 p-4 rounded-lg shadow-sm">
+                  <h3 className="text-lg font-semibold mb-3 text-slate-700 dark:text-slate-200 flex items-center">
+                    <FaGraduationCap className="mr-2 text-blue-500" /> Education
+                  </h3>
+                  {education.map((edu, index) => (
+                    <div key={index} className="mb-2">
+                      <div className="font-medium text-sm">{edu.degree}</div>
+                      <div className="text-slate-500 dark:text-slate-400 text-sm">{edu.institution}, {edu.year}</div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Contact Info */}
+                <div className="bg-white/50 dark:bg-slate-800/50 p-4 rounded-lg shadow-sm">
+                  <h3 className="text-lg font-semibold mb-3 text-slate-700 dark:text-slate-200 flex items-center">
+                    <FaEnvelope className="mr-2 text-blue-500" /> Contact
+                  </h3>
+                  <div className="flex flex-col gap-2">
+                    <a href="mailto:mikeion@umich.edu" className="flex items-center text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm">
+                      <FaEnvelope className="mr-2 text-blue-500" /> mikeion@umich.edu
+                    </a>
+                    <div className="flex gap-3 flex-wrap">
+                      <a href="https://github.com/mikeion" className="flex items-center px-2 py-1 bg-white dark:bg-slate-700 rounded-md shadow-sm text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm">
+                        <FaGithub className="mr-1" /> GitHub
+                      </a>
+                      <a href="https://linkedin.com/in/mikeion" className="flex items-center px-2 py-1 bg-white dark:bg-slate-700 rounded-md shadow-sm text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm">
+                        <FaLinkedin className="mr-1" /> LinkedIn
+                      </a>
+                      <a href="https://bsky.app/profile/mike-ion.bsky.social" className="flex items-center px-2 py-1 bg-white dark:bg-slate-700 rounded-md shadow-sm text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm">
+                        <SiBluesky className="mr-1" /> Bluesky
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </Col>
             <Col lg={5} className="text-center">
-              <div className="relative mx-auto overflow-hidden rounded-full border-4 border-white dark:border-slate-700 shadow-lg" style={{ width: '360px', height: '360px' }}>
+              <div className="relative mx-auto overflow-hidden rounded-full border-4 border-white dark:border-slate-700 shadow-xl" style={{ width: '320px', height: '320px' }}>
+                {/* Decorative element */}
+                <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-blue-500/20 rounded-full blur-xl z-0"></div>
+                <div className="absolute -top-6 -left-6 w-20 h-20 bg-indigo-500/20 rounded-full blur-xl z-0"></div>
+                
                 {/* Use a fallback div with gradient if image fails to load */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-indigo-500"></div>
                 <Image 
@@ -109,42 +129,6 @@ export default function Home() {
                 />
               </div>
             </Col>
-          </Row>
-        </Container>
-      </div>
-
-      {/* Professional Areas Section */}
-      <div className="bg-white dark:bg-slate-900">
-        <Container className="py-20">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-4xl font-bold mb-4 text-slate-800 dark:text-white">
-              Professional Focus Areas
-            </h2>
-            <div className="w-24 h-1 bg-blue-500 mx-auto mb-6 rounded-full"></div>
-            <p className="text-lg text-slate-600 dark:text-slate-300">
-              My work spans multiple disciplines, combining research and application to create meaningful impact.
-            </p>
-          </div>
-          
-          <Row>
-            {areas.map((area, index) => (
-              <Col key={index} md={6} lg={3} className="mb-8">
-                <div className={`group h-full bg-white dark:bg-slate-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border-t-4 ${area.color}`}>
-                  <div className="p-6 flex flex-col h-full">
-                    <div className="flex justify-center items-center w-16 h-16 bg-slate-50 dark:bg-slate-700 rounded-lg mb-5 group-hover:scale-110 transition-transform duration-300">
-                      {area.icon}
-                    </div>
-                    <h3 className="text-xl font-bold mb-3 text-slate-800 dark:text-white">{area.title}</h3>
-                    <p className="text-slate-600 dark:text-slate-300 mb-5 flex-grow">
-                      {area.description}
-                    </p>
-                    <Link href={area.link} className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium">
-                      Learn more <FaArrowRight className="ml-2 text-sm group-hover:translate-x-1 transition-transform" />
-                    </Link>
-                  </div>
-                </div>
-              </Col>
-            ))}
           </Row>
         </Container>
       </div>
@@ -190,23 +174,24 @@ export default function Home() {
         </Container>
       </div>
 
-      {/* Connect Section */}
+      {/* Contact Section */}
       <div className="bg-white dark:bg-slate-900">
         <Container className="py-20 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-bold mb-4 text-slate-800 dark:text-white">
-              Let's Connect
+              Contact Me
             </h2>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-6 rounded-full"></div>
-            <p className="text-lg text-slate-600 dark:text-slate-300 mb-10">
-              I'm always interested in collaborating on research, educational initiatives, consulting opportunities, 
-              or just discussing ideas at the intersection of education and technology.
+            <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
+              I offer a complimentary 15-minute consultation to discuss potential collaborations in research, 
+              educational initiatives, or development projects. Whether you're interested in AI applications in 
+              education, mathematics teaching and learning, or technical development, I'd be happy to connect.
             </p>
-            <Link href="/about" passHref>
+            <a href="https://calendly.com/mikeion/15min" target="_blank" rel="noopener noreferrer">
               <Button className="bg-blue-600 hover:bg-blue-700 border-0 px-8 py-3 text-white font-medium rounded-lg transition-colors">
-                Get in Touch
+                Schedule a Free 15-Minute Consultation
               </Button>
-            </Link>
+            </a>
           </div>
         </Container>
       </div>
