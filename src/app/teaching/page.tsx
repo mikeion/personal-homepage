@@ -1,7 +1,9 @@
 'use client';
+
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
+import { FaGraduationCap, FaChalkboardTeacher, FaUsers } from 'react-icons/fa';
 
 // Define interfaces for teaching data types
 interface TeachingPosition {
@@ -38,118 +40,119 @@ interface TeachingData {
 // Teaching areas
 const teachingAreas = [
   {
-    title: "Mathematics",
-    description: "Prioritizing conceptual understanding, collaborative problem-solving, and the creation of inclusive learning spaces to make mathematics accessible and engaging for all students."
+    title: "Mathematics & Statistics",
+    description: "Designing learning experiences that prioritize conceptual understanding over procedure, using collaborative problem-solving approaches and inclusive learning spaces to make quantitative reasoning accessible for students from diverse backgrounds."
   },
   {
-    title: "Data Science \& Programming",
-    description: "Introducing students to computational thinking and data science fundamentals through practical and relevant real-world applications aligned closely with theoretical insights."
+    title: "Data Science & AI",
+    description: "Integrating computational methods with statistical modeling through practical applications that connect theoretical foundations to real-world contexts, emphasizing both technical skills and ethical considerations in data-driven decision making."
   },
   {
-    title: "Teacher Education",
-    description: "Equipping future educators with pedagogical content knowledge, research-informed practices, and strategies to build equitable classroom environments."
+    title: "Computing Education",
+    description: "Developing innovative computational tools and pedagogical strategies that support adaptive learning, facilitate meaningful feedback, and promote learner agency in computer science and programming environments."
   }
 ];
 
 // Teaching Philosophy points
 const philosophyPoints = [
-  "Promoting active, student-centered learning through structured, collaborative explorations rather than passive information transmission.",
-  "Creating inclusive educational environments that honor diverse perspectives, learning styles, and cultural backgrounds, drawing on my extensive international and cross-cultural teaching experiences.",
-  "Emphasizing metacognitive skills and reflective practices, equipping students to become independent, reflective, and autonomous learners.",
-  "Integrating technology thoughtfully to enrich educational experiences without diminishing interpersonal teaching interactions.",
-  "Using assessment as an ongoing opportunity for feedback-focused developmental learning rather than solely for summative evaluation."
+  "Facilitating active, student-centered learning through structured note frameworks, collaborative group activities, and guided exploratory exercises that develop deeper conceptual understanding rather than rote procedural knowledge.",
+  "Creating inclusive educational environments that honor diverse perspectives and learning needs, drawing on experiences from teaching in Botswana's Kalahari region to Johns Hopkins' Center for Talented Youth in Hong Kong and Seattle.",
+  "Bridging educational divides by implementing methods such as peer-facilitated study groups in students' local dialects alongside formal instruction, addressing both academic achievement and intellectual self-efficacy.",
+  "Fostering metacognitive awareness and self-regulated learning strategies that challenge assumptions linking mathematical talent solely to speed, promoting exploratory inquiry and resilient thought processes.",
+  "Integrating technology thoughtfully to enrich rather than replace meaningful educational interactions, as demonstrated through globally accessible online courses with hands-on, contextually relevant projects.",
+  "Approaching assessment as an integral component of learning through authentic projects that emphasize methodological rigor and analytical clarity over simple memorization, supporting transferable professional skills."
 ];
 
 function TeachingPosition({ position }: { position: TeachingPosition }) {
   return (
-    <Card className="mb-4 shadow-sm">
-      <Card.Body>
-        <h3 className="h4 mb-2">{position.institution}</h3>
-        <h4 className="h5 text-muted mb-3">{position.role}</h4>
-        
-        {/* Courses */}
-        <div className="mb-3">
-          {position.courses.map((course, index) => (
-            <div key={index} className="border-start border-primary ps-3 py-2 mb-2">
-              <div className="d-flex justify-content-between align-items-start">
-                <div>
-                  {course.url ? (
-                    <a 
-                      href={course.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="fw-medium text-decoration-none"
-                    >
-                      {course.name}
-                    </a>
-                  ) : (
-                    <span className="fw-medium">{course.name}</span>
-                  )}
-                  {course.code && (
-                    <span className="text-muted ms-2">
-                      ({course.code})
-                    </span>
-                  )}
-                </div>
-                <span className="text-muted small">
-                  {course.date}
-                </span>
+    <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 mb-4 p-5">
+      <h3 className="text-xl font-bold text-slate-800 dark:text-white mb-2">{position.institution}</h3>
+      <h4 className="text-lg text-slate-600 dark:text-slate-300 mb-4">{position.role}</h4>
+      
+      {/* Courses */}
+      <div className="space-y-3 mb-4">
+        {position.courses.map((course, index) => (
+          <div key={index} className="border-l-4 border-blue-500 pl-4 py-2">
+            <div className="flex justify-between items-start">
+              <div>
+                {course.url ? (
+                  <a 
+                    href={course.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+                  >
+                    {course.name}
+                  </a>
+                ) : (
+                  <span className="font-medium">{course.name}</span>
+                )}
+                {course.code && (
+                  <span className="text-slate-500 dark:text-slate-400 ml-2">
+                    ({course.code})
+                  </span>
+                )}
               </div>
-              {course.description && (
-                <p className="text-muted small mt-1">
-                  {course.description}
-                </p>
-              )}
+              <span className="text-sm text-slate-500 dark:text-slate-400">
+                {course.date}
+              </span>
             </div>
-          ))}
-        </div>
+            {course.description && (
+              <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
+                {course.description}
+              </p>
+            )}
+          </div>
+        ))}
+      </div>
 
-        {/* Description and Responsibilities */}
-        {position.description && (
-          <p className="text-muted mb-3">
-            {position.description}
-          </p>
-        )}
-        {position.responsibilities && (
-          <ul className="text-muted">
+      {/* Description and Responsibilities */}
+      {position.description && (
+        <p className="text-slate-600 dark:text-slate-400 mb-3">
+          {position.description}
+        </p>
+      )}
+      {position.responsibilities && (
+        <div>
+          <h5 className="text-md font-medium text-slate-700 dark:text-slate-300 mb-2">Responsibilities:</h5>
+          <ul className="list-disc list-inside space-y-1 text-slate-600 dark:text-slate-400">
             {position.responsibilities.map((resp, index) => (
               <li key={index}>{resp}</li>
             ))}
           </ul>
-        )}
-      </Card.Body>
-    </Card>
+        </div>
+      )}
+    </div>
   );
 }
 
 function MentorshipSection({ groups }: { groups: MenteeGroup[] }) {
   return (
-    <div className="mb-5">
-      <h2 className="mb-4">Mentorship</h2>
-      <Row>
+    <div className="mt-10">
+      <div className="flex items-center mb-6">
+        <FaUsers className="text-blue-500 mr-3 text-xl" />
+        <h2 className="text-2xl font-bold text-slate-800 dark:text-white">Mentorship</h2>
+      </div>
+      <div className="grid md:grid-cols-2 gap-6">
         {groups.map((group, index) => (
-          <Col key={index} md={6} className="mb-4">
-            <Card className="h-100 shadow-sm">
-              <Card.Body>
-                <h3 className="h4 mb-3">{group.type} Students</h3>
-                <div>
-                  {group.students.map((student, idx) => (
-                    <div 
-                      key={idx}
-                      className="d-flex justify-content-between align-items-center py-2 border-bottom"
-                    >
-                      <span>{student.name}</span>
-                      <span className="text-muted small">
-                        {student.period}
-                      </span>
-                    </div>
-                  ))}
+          <div key={index} className="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 p-5">
+            <h3 className="text-xl font-bold text-slate-800 dark:text-white mb-4">{group.type} Students</h3>
+            <div className="space-y-2">
+              {group.students.map((student, idx) => (
+                <div 
+                  key={idx}
+                  className="flex justify-between items-center py-2 border-b border-slate-200 dark:border-slate-700"
+                >
+                  <span className="text-slate-700 dark:text-slate-300">{student.name}</span>
+                  <span className="text-sm text-slate-500 dark:text-slate-400">
+                    {student.period}
+                  </span>
                 </div>
-              </Card.Body>
-            </Card>
-          </Col>
+              ))}
+            </div>
+          </div>
         ))}
-      </Row>
+      </div>
     </div>
   );
 }
@@ -158,6 +161,12 @@ export default function Teaching() {
   const [teachingData, setTeachingData] = useState<TeachingData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
+
+  // Mount animation effect
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Fetch teaching data from API
   useEffect(() => {
@@ -181,79 +190,117 @@ export default function Teaching() {
   }, []);
 
   return (
-    <Container className="py-5">
-      <h1 className="mb-3">Teaching</h1>
-      
-      <p className="mb-5">
-        As an educator in mathematics, statistics, and data science, my teaching combines active learning, inclusive classroom practices, and real-world applicable knowledge. Built upon diverse experiences—from classrooms in rural Botswana to programs such as Johns Hopkins University's Center for Talented Youth, Stanford University's Education Program for Gifted Youth, Cal Poly, and global online instruction—I aim each day to support students in developing autonomy, critical thinking skills, and confidence in their own intellectual capacities.
-      </p>
-
-      {/* Teaching Areas Section */}
-      <h2 className="mb-4">Teaching Areas</h2>
-      <Row className="mb-5">
-        {teachingAreas.map((area, idx) => (
-          <Col md={4} key={idx} className="mb-4">
-            <Card className="h-100 shadow-sm">
-              <Card.Body>
-                <h3 className="h5">{area.title}</h3>
-                <p>{area.description}</p>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
-
-      {/* Teaching Philosophy */}
-      <h2 className="mb-4">Teaching Philosophy</h2>
-      <Card className="shadow-sm mb-5">
-        <Card.Body>
-          <ul className="mb-0">
-            {philosophyPoints.map((point, idx) => (
-              <li key={idx} className="mb-2">{point}</li>
-            ))}
-          </ul>
-          <div className="mt-3">
-            <a 
-              href="/Teaching_Philosophy_Statement.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Read my full Teaching Philosophy (PDF)
-            </a>
-          </div>
-        </Card.Body>
-      </Card>
-
-      {/* Teaching Experience */}
-      <h2 className="mb-4">Teaching Experience</h2>
-      <p className="mb-4">
-        My full teaching experience—including details on previous teaching positions, courses taught, and student mentorship—is available below. Please explore my detailed track record, illustrating a diverse set of experiences across different locations, institutions, and teaching roles.
-      </p>
-
-      {/* Display teaching positions and mentorship data */}
-      {loading ? (
-        <div className="text-center py-4">
-          <p>Loading teaching data...</p>
+    <div className="min-h-screen bg-gradient-to-b from-white to-blue-50 dark:from-slate-900 dark:to-slate-800">
+      {/* Hero Section */}
+      <div className="relative overflow-hidden border-b border-slate-200 dark:border-slate-700">
+        <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-100 dark:bg-blue-900/30 rounded-full filter blur-3xl opacity-30"></div>
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-indigo-100 dark:bg-indigo-900/30 rounded-full filter blur-3xl opacity-30"></div>
         </div>
-      ) : error ? (
-        <div className="alert alert-danger">{error}</div>
-      ) : teachingData ? (
-        <>
-          {/* Teaching Positions */}
-          <div className="mb-5">
-            {teachingData.positions.map((position, index) => (
-              <TeachingPosition key={index} position={position} />
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+          <div className={`transition-all duration-700 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+            <div className="max-w-3xl">
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-800 dark:text-white mb-4">Teaching</h1>
+              <div className="h-1 w-20 bg-blue-500 rounded-full mb-6"></div>
+              <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
+                As an educator in mathematics, statistics, and data science, my teaching combines active learning, inclusive classroom practices, and real-world applicable knowledge. Built upon diverse experiences—from classrooms in rural Botswana to programs such as Johns Hopkins University's Center for Talented Youth, Stanford University's Education Program for Gifted Youth, Cal Poly, and global online instruction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Content */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Expertise Areas */}
+        <div className={`transition-all duration-700 delay-100 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div className="flex items-center mb-6">
+            <FaChalkboardTeacher className="text-blue-500 mr-3 text-xl" />
+            <h2 className="text-2xl font-bold text-slate-800 dark:text-white">Areas of Expertise</h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            {teachingAreas.map((area, idx) => (
+              <div 
+                key={idx}
+                className="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 p-6 hover:shadow-md transition-shadow"
+              >
+                <h3 className="text-xl font-bold text-slate-800 dark:text-white mb-3">{area.title}</h3>
+                <p className="text-slate-600 dark:text-slate-300">{area.description}</p>
+              </div>
             ))}
+          </div>
+        </div>
+
+        {/* Teaching Philosophy */}
+        <div className={`transition-all duration-700 delay-200 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div className="flex items-center mb-6">
+            <FaGraduationCap className="text-blue-500 mr-3 text-xl" />
+            <h2 className="text-2xl font-bold text-slate-800 dark:text-white">Philosophy</h2>
+          </div>
+          <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 p-6 mb-12">
+            <div className="space-y-5">
+              {philosophyPoints.map((point, idx) => (
+                <div key={idx} className="flex items-start">
+                  <div className="flex-shrink-0 h-6 w-6 flex items-center justify-center mr-3">
+                    <span className="text-blue-500 text-lg">•</span>
+                  </div>
+                  <p className="text-slate-600 dark:text-slate-300">{point}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-6 pt-5 border-t border-slate-200 dark:border-slate-700">
+              <a 
+                href="/Teaching_Philosophy_Statement.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                Full Teaching Philosophy Statement (PDF)
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Teaching Experience */}
+        <div className={`transition-all duration-700 delay-300 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div className="flex items-center mb-6">
+            <FaGraduationCap className="text-blue-500 mr-3 text-xl" />
+            <h2 className="text-2xl font-bold text-slate-800 dark:text-white">Experience</h2>
           </div>
           
-          {/* Mentorship */}
-          {teachingData.mentorship && teachingData.mentorship.length > 0 && (
-            <MentorshipSection groups={teachingData.mentorship} />
+          {loading ? (
+            <div className="text-center py-10">
+              <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-500 border-r-transparent"></div>
+              <p className="mt-4 text-slate-600 dark:text-slate-300">Loading teaching data...</p>
+            </div>
+          ) : error ? (
+            <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4">
+              <p className="text-red-600 dark:text-red-400">{error}</p>
+            </div>
+          ) : teachingData ? (
+            <>
+              <div className="space-y-6">
+                {teachingData.positions.map((position, index) => (
+                  <TeachingPosition key={index} position={position} />
+                ))}
+              </div>
+              
+              {/* Mentorship */}
+              {teachingData.mentorship && teachingData.mentorship.length > 0 && (
+                <MentorshipSection groups={teachingData.mentorship} />
+              )}
+            </>
+          ) : (
+            <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
+              <p className="text-blue-600 dark:text-blue-400">No teaching data available.</p>
+            </div>
           )}
-        </>
-      ) : (
-        <div className="alert alert-info">No teaching data available.</div>
-      )}
-    </Container>
+        </div>
+      </div>
+    </div>
   );
 }

@@ -55,7 +55,7 @@ export default function Navigation() {
   return (
     <div className="flex justify-between items-center w-full">
       {/* Site Logo/Title */}
-      <Link href="/" className="font-serif text-2xl font-bold tracking-tight text-blue-700 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors">
+      <Link href="/" className="px-4 py-2 text-xl font-bold text-slate-800 dark:text-white bg-white/80 dark:bg-slate-800/80 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow transition-shadow">
         Mike Ion
       </Link>
 
