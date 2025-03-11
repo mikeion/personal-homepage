@@ -2,191 +2,119 @@
   "positions": [
     {
       "institution": "Uplimit (formerly Corise)",
-      "role": "Teaching Assistant (TA) and Quality Assurance (QA)",
-      "courses": [
+      "years": "2023",
+      "roles": [
         {
-          "name": "Fine-tuning Large Language Models",
-          "role": "QA",
-          "date": "Fall 2023",
-          "url": "https://uplimit.com/course/fine-tuning-language-models"
+          "title": "Teaching Assistant and Quality Assurance",
+          "courses": [
+            "Fine-tuning Large Language Models",
+            "Prompt Design and Building AI Products",
+            "Building AI Products with OpenAI",
+            "R for Data Science"
+          ]
         },
         {
-          "name": "Prompt Design and Building AI Products",
-          "role": "QA and TA",
-          "date": "Summer 2023",
-          "url": "https://uplimit.com/course/prompt-design-building-ai-products"
-        },
-        {
-          "name": "Building AI Products with OpenAI",
-          "role": "QA and TA",
-          "date": "Summer 2023",
-          "url": "https://uplimit.com/course/building-ai-products-with-openai"
-        },
-        {
-          "name": "R for Data Science",
-          "role": "QA and TA",
-          "date": "Summer 2023",
-          "url": "https://github.com/ramnathv/corise-r-for-ds"
-        },
-        {
-          "name": "Python for Data Science",
-          "role": "QA",
-          "date": "Summer 2023"
+          "title": "Teaching Assistant",
+          "courses": [
+            "Python for Data Science"
+          ]
         }
-      ],
-      "description": "Uplimit is an online education platform that offers courses in data science, machine learning, and artificial intelligence. These courses hundreds to thousands of students from all around the world.",
-      "responsibilities": [
-        "Running office hours",
-        "Leading project walkthroughs",
-        "Replying to student questions about the material in Slack and reviewing and debugging code",
-        "Quality assurance of course materials, including reviewing and debugging code",
-        "Weekly meetings with instructors and course management staff",
-        "Ensuring course materials are up-to-date",
-        "Providing feedback to course instructors"
       ]
     },
     {
       "institution": "University of Michigan",
-      "location": "Ann Arbor, MI",
-      "role": "Graduate Student Instructor",
-      "courses": [
+      "years": "2018-2019",
+      "roles": [
         {
-          "name": "Introduction to Quantitative Methods",
-          "code": "EDUC 793",
-          "date": "Sept. 2018-Dec. 2022"
+          "title": "Graduate Student Instructor",
+          "courses": [
+            {
+              "name": "Introduction to Quantitative Methods (EDUC 793)",
+              "sections": [
+                "Fall 2019: 1 section",
+                "Fall 2018: 1 section"
+              ]
+            }
+          ]
         }
-      ],
-      "responsibilities": [
-        "Delivering weekly lab instruction on Stata software",
-        "Attending lectures and providing instructional support",
-        "One-on-one office hours with students",
-        "Exam-preparation sessions and creating review materials for the students",
-        "Grading assignments and exams"
       ]
     },
     {
       "institution": "Johns Hopkins University",
-      "location": "Hong Kong & Seattle",
-      "role": "Instructor",
-      "courses": [
+      "years": "2018-2019",
+      "roles": [
         {
-          "name": "Paradoxes and Infinities",
-          "date": "Jul. 2018 & 2019"
-        }
-      ],
-      "responsibilities": [
-        "Curriculum development for 'Paradoxes and Infinities'",
-        "100+ contact hours across 3 weeks, each course had 20 students ages 12-15 from around the world",
-        "Writing evaluations for students",
-        "Supervising a teaching assistant"
-      ]
-    },
-    {
-      "institution": "Cal Poly",
-      "location": "San Luis Obispo, CA",
-      "role": "Lecturer",
-      "courses": [
-        {
-          "name": "Calculus for Life Sciences",
-          "code": "Math 161",
-          "date": "Summer 2017"
-        },
-        {
-          "name": "Precalculus",
-          "code": "Math 118",
-          "date": "Spring 2017"
-        },
-        {
-          "name": "Calculus for Life Sciences",
-          "code": "Math 161",
-          "date": "Spring 2017"
-        },
-        {
-          "name": "Precalculus",
-          "code": "Math 118",
-          "date": "Winter 2017"
-        },
-        {
-          "name": "Trigonometry",
-          "code": "Math 119",
-          "date": "Winter 2017"
+          "title": "Lead Instructor",
+          "courses": [
+            {
+              "name": "Paradoxes and Infinities",
+              "sections": [
+                "Summer 2019: Hong Kong program",
+                "Summer 2018: Seattle program"
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "institution": "Cal Poly",
-      "location": "San Luis Obispo, CA",
-      "role": "Graduate Teaching Associate",
-      "description": "Instructor of record",
-      "courses": [
+      "institution": "California Polytechnic State University",
+      "years": "2013-2015, 2017",
+      "roles": [
         {
-          "name": "Calculus for Business and Economics",
-          "code": "Math 221",
-          "date": "Spring 2015"
+          "title": "Instructor of Record",
+          "courses": [
+            {
+              "name": "Calculus for Life Sciences (Math 161)",
+              "sections": [
+                "Fall 2017: 2 sections"
+              ]
+            },
+            {
+              "name": "Precalculus (Math 118)",
+              "sections": [
+                "Spring 2017: 2 sections",
+                "Winter 2015: 2 sections",
+                "Fall 2014: 2 sections",
+                "Winter 2014: 1 section"
+              ]
+            },
+            {
+              "name": "Trigonometry (Math 119)",
+              "sections": [
+                "Spring 2017: 1 section"
+              ]
+            },
+            {
+              "name": "Calculus for Business and Economics (Math 221)",
+              "sections": [
+                "Spring 2015: 2 sections"
+              ]
+            },
+            {
+              "name": "Precalculus I (Math 116)",
+              "sections": [
+                "Fall 2013: 1 section"
+              ]
+            }
+          ]
         },
         {
-          "name": "Precalculus",
-          "code": "Math 118",
-          "date": "Winter 2015"
-        },
-        {
-          "name": "Calculus for Life Sciences",
-          "code": "Math 161",
-          "date": "Winter 2015"
-        },
-        {
-          "name": "Precalculus",
-          "code": "Math 118",
-          "date": "Fall 2014"
-        },
-        {
-          "name": "Calculus for Business and Economics",
-          "code": "Math 221",
-          "date": "Spring 2014"
-        },
-        {
-          "name": "Precalculus",
-          "code": "Math 118",
-          "date": "Winter 2014"
-        },
-        {
-          "name": "Precalculus",
-          "code": "Math 116",
-          "date": "Fall 2013"
+          "title": "Workshop Facilitator",
+          "courses": [
+            {
+              "name": "Calculus Workshop",
+              "sections": [
+                "Spring 2013: Calculus II Workshop, 1 section",
+                "Winter 2013: Calculus III Workshop, 1 section",
+                "Fall 2012: Calculus II Workshop, 1 section",
+                "Spring 2012: Calculus III Workshop, 1 section",
+                "Winter 2012: Calculus II Workshop, 1 section",
+                "Fall 2011: Calculus I Workshop, 1 section"
+              ]
+            }
+          ]
         }
-      ]
-    },
-    {
-      "institution": "Cal Poly",
-      "location": "San Luis Obispo, CA",
-      "role": "Calculus Workshop Facilitator",
-      "courses": [
-        {
-          "name": "Calculus I, II, III",
-          "date": "Sept. 2011-Jun. 2013"
-        }
-      ],
-      "responsibilities": [
-        "Attending the content course",
-        "Preparing worksheets, quizzes, and games",
-        "One-on-one student meetings",
-        "Weekly meetings with course instructor and Math Program Staff",
-        "Conducting workshops assisting students with content"
-      ]
-    },
-    {
-      "institution": "Stanford University",
-      "location": "Palo Alto, CA",
-      "role": "Residential Counselor/Teaching Assistant",
-      "courses": [
-        {
-          "name": "Stanford Pre-Collegiate Studies Program",
-          "date": "Jun. 2011 - Aug. 2012"
-        }
-      ],
-      "responsibilities": [
-        "Provided educational support for gifted middle school students in mathematics courses",
-        "Collected specific instances of good work by individual students to help write evaluations"
       ]
     }
   ],
@@ -198,8 +126,8 @@
         { "name": "Soobin Jeon", "period": "2022-2023" },
         { "name": "Anna Paulson", "period": "2019-2023" },
         { "name": "Jason Godfrey", "period": "2018-2023" },
-        { "name": "Davinia Rodriguez-Wilhelm", "period": "2018-2020" },
         { "name": "Matt Park", "period": "2019-2021" },
+        { "name": "Davinia Rodriguez-Wilhelm", "period": "2018-2020" },
         { "name": "Scott Bridges", "period": "2019-2020" }
       ]
     },

@@ -4,6 +4,7 @@ import "./globals.css";
 import MainLayout from "../components/layout/MainLayout";
 import AuthProvider from "../components/providers/AuthProvider";
 import BootstrapProvider from "../components/providers/BootstrapProvider";
+import NewsProvider from "../providers/NewsProvider";
 
 export const metadata: Metadata = {
   title: "Mike Ion | Academic & Developer",
@@ -20,7 +21,9 @@ export default function RootLayout({
       <body>
         <AuthProvider>
           <BootstrapProvider>
-            <MainLayout>{children}</MainLayout>
+            <NewsProvider>
+              <MainLayout>{children}</MainLayout>
+            </NewsProvider>
           </BootstrapProvider>
         </AuthProvider>
       </body>

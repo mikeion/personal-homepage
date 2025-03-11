@@ -12,11 +12,23 @@
       "fullName": "Kevyn Collins-Thompson",
       "website": "https://websites.umich.edu/~kevynct/"
     },
+    "Brooks, C.": {
+      "firstName": "Christopher",
+      "lastName": "Brooks",
+      "fullName": "Christopher Brooks",
+      "website": "https://www.si.umich.edu/people/christopher-brooks"
+    },
+    "Oney, S.": {
+      "firstName": "Steve",
+      "lastName": "Oney",
+      "fullName": "Steve Oney",
+      "website": "https://www.oney.info/"
+    },
     "Asthana, S.": {
       "firstName": "Sumit",
       "lastName": "Asthana",
       "fullName": "S. Asthana",
-      "website": ""
+      "website": "https://sumitasthana.xyz/index.html"
     },
     "Ball, Lowenberg D.": {
       "firstName": "Deborah",
@@ -28,25 +40,25 @@
       "firstName": "Pat",
       "lastName": "Herbst",
       "fullName": "Pat Herbst",
-      "website": "https://www.soe.umich.edu/people/profile/pat_herbst/"
+      "website": "https://marsal.umich.edu/directory/faculty-staff/patricio-g-herbst"
     },
-    "Brown, A.M.": {
+    "Brown, A.": {
       "firstName": "Amanda",
       "lastName": "Brown",
-      "fullName": "Amanda Milewski Brown",
-      "website": ""
+      "fullName": "Amanda Brown",
+      "website": "https://marsal.umich.edu/directory/faculty-staff/amanda-brown"
     },
     "Margolis, C.": {
       "firstName": "Claudine",
       "lastName": "Margolis",
       "fullName": "Claudine Margolis",
-      "website": ""
+      "website": "https://www.researchgate.net/profile/Claudine-Margolis"
     },
     "Gere, A.": {
       "firstName": "Anne",
       "lastName": "Gere",
       "fullName": "Anne Ruggles Gere",
-      "website": ""
+      "website": "https://sites.google.com/umich.edu/anne-ruggles-gere/home"
     },
     "Godfrey, J.": {
       "firstName": "Jason",
@@ -58,145 +70,223 @@
       "firstName": "Marquise",
       "lastName": "Griffin",
       "fullName": "Marquise Griffin",
-      "website": ""
+      "website": "https://ginsberg.umich.edu/person/marquise-griffin"
     },
     "Limlamai, N.": {
       "firstName": "Naitnaphit",
       "lastName": "Limlamai",
       "fullName": "N. Limlamai",
-      "website": ""
+      "website": "https://www.libarts.colostate.edu/people/limlamai/"
     },
     "Moos, A.": {
       "firstName": "Andrew",
       "lastName": "Moos",
       "fullName": "Andrew Moos",
-      "website": ""
+      "website": "https://www.colby.edu/people/people-directory/andrew-moos/"
     },
     "Van Zanen, K.": {
       "firstName": "Kathryn",
       "lastName": "Van Zanen",
       "fullName": "Kathryn Van Zanen",
-      "website": ""
+      "website": "https://reformedjournal.com/author/katie-van-zanen/"
     },
     "Ko, I.": {
       "firstName": "Inah",
       "lastName": "Ko",
       "fullName": "Inah Ko",
-      "website": ""
+      "website": "https://scholar.google.com/citations?user=_OnuuDIAAAAJ&hl=en"
     },
     "Hetrick, C.": {
       "firstName": "Carolyn",
       "lastName": "Hetrick",
       "fullName": "Carolyn Hetrick",
-      "website": ""
+      "website": "https://www.researchgate.net/profile/Carolyn-Hetrick"
     },
     "Boyce, S.": {
       "firstName": "Steve",
       "lastName": "Boyce",
       "fullName": "Steve Boyce",
-      "website": ""
+      "website": "https://web.pdx.edu/~sboyce/"
     },
     "An, T.": {
       "firstName": "Tuyin",
       "lastName": "An",
       "fullName": "Tuyin An",
-      "website": ""
+      "website": "https://www.researchgate.net/profile/Tuyin-An"
     },
     "Pyzdrowski, L.": {
       "firstName": "Laura",
       "lastName": "Pyzdrowski",
       "fullName": "Laura Pyzdrowski",
-      "website": ""
+      "website": "https://mathanddata.wvu.edu/directory/faculty/laura-wohler-pyzdrowski"
     },
     "Oppong-Wadie, K.": {
       "firstName": "Kwadwo",
       "lastName": "Oppong-Wadie",
       "fullName": "Kwadwo Oppong-Wadie",
-      "website": ""
+      "website": "https://independent.academia.edu/KwadwoOppongWadie"
     },
     "St. Goar, J.": {
       "firstName": "Julia",
       "lastName": "St. Goar",
       "fullName": "Julia St. Goar",
-      "website": ""
-    },
-    "Milewski, A.": {
-      "firstName": "Amanda",
-      "lastName": "Milewski",
-      "fullName": "Amanda Milewski",
-      "website": ""
+      "website": "https://www.merrimack.edu/profiles/julia-st-goar/"
     },
     "Shultz, M.": {
       "firstName": "Mollee",
       "lastName": "Shultz",
       "fullName": "Mollee Shultz",
-      "website": ""
+      "website": "https://aaas-iuse.org/team/mollee-shultz/"
     },
     "Bardelli, E.": {
       "firstName": "Emanuele",
       "lastName": "Bardelli",
       "fullName": "Emanuele Bardelli",
-      "website": ""
+      "website": "https://ebardelli.com/"
     },
     "Bleecker, H.": {
       "firstName": "Heather",
       "lastName": "Bleecker",
       "fullName": "Heather Bleecker",
-      "website": ""
+      "website": "https://education.skc.edu/dr-heather-bleecker/"
     },
     "Buchbinder, O.": {
       "firstName": "Orly",
       "lastName": "Buchbinder",
       "fullName": "Orly Buchbinder",
-      "website": ""
+      "website": "http://orlybuchbinder.com/"
     },
     "Cohen, S.": {
       "firstName": "Steve",
       "lastName": "Cohen",
       "fullName": "Steve Cohen",
-      "website": ""
+      "website": "https://www.roosevelt.edu/profile/scohen"
     },
     "Dumitrascu, D.": {
       "firstName": "Dorin",
       "lastName": "Dumitrascu",
       "fullName": "Dorin Dumitrascu",
-      "website": ""
+      "website": "https://www.adrian.edu/staff-contact/dorin-dumitrascu"
     },
     "Escuadro, H.": {
       "firstName": "Henry",
       "lastName": "Escuadro",
       "fullName": "Henry Escuadro",
-      "website": ""
+      "website": "https://jcsites.juniata.edu/faculty/escuadro/"
     },
     "Krupa, E.": {
       "firstName": "Erin",
       "lastName": "Krupa",
       "fullName": "Erin Krupa",
-      "website": ""
+      "website": "https://erinkrupa.wordpress.ncsu.edu/"
     },
     "Miller, N.": {
       "firstName": "Nathaniel",
       "lastName": "Miller",
       "fullName": "Nathaniel Miller",
-      "website": ""
+      "website": "https://www.unco.edu/nhs/mathematical-sciences/faculty/miller.aspx"
     },
     "Sears, R.": {
       "firstName": "Ruthmae",
       "lastName": "Sears",
       "fullName": "Ruthmae Sears",
-      "website": ""
+      "website": "https://www.usf.edu/education/faculty/faculty-profiles/ruthmae-sears.aspx"
     },
     "Szydlik, S.": {
       "firstName": "Steve",
       "lastName": "Szydlik",
       "fullName": "Steve Szydlik",
-      "website": ""
+      "website": "https://www.uwosh.edu/faculty_staff/szydliks/"
     },
     "Vestal, S.": {
       "firstName": "Sharon",
       "lastName": "Vestal",
       "fullName": "Sharon Vestal",
+      "website": "https://www.sdstate.edu/directory/sharon-vestal"
+    },
+    "Gere, A.R.": {
+      "firstName": "Anne",
+      "lastName": "Gere",
+      "fullName": "Anne Ruggles Gere",
+      "website": "https://sites.google.com/umich.edu/anne-ruggles-gere/home"
+    },
+    "Paulson, A.": {
+      "firstName": "Annaliese",
+      "lastName": "Paulson",
+      "fullName": "Annaliese Paulson",
+      "website": "https://sites.google.com/umich.edu/annaliese-paulson"
+    },
+    "Danai, A.": {
+      "firstName": "Amirali",
+      "lastName": "Danai",
+      "fullName": "Amirali Danai",
+      "website": "https://github.com/danaiamirali"
+    },
+    "Quimper Osores, A.": {
+      "firstName": "Andre",
+      "lastName": "Quimper Osores",
+      "fullName": "Andre Quimper Osores",
+      "website": "https://www.jobzmall.com/profile/andre-quimper-osores"
+    },
+    "Beckemeyer, R.": {
+      "firstName": "Bobby",
+      "lastName": "Beckemeyer",
+      "fullName": "Bobby Beckemeyer",
+      "website": "https://www.kansascityfed.org/research-staff/bobby-beckemeyer/"
+    },
+    "Spiteri, A.": {
+      "firstName": "Andrew",
+      "lastName": "Spiteri",
+      "fullName": "Andrew Spiteri",
+      "website": "https://www.linkedin.com/in/andrewgspiteri/"
+    },
+    "Berzina Pitcher, I.": {
+      "firstName": "Inese",
+      "lastName": "Berzina Pitcher",
+      "fullName": "Inese Berzina Pitcher",
+      "website": "https://www.researchgate.net/profile/Inese-Berzina-Pitcher"
+    },
+    "Stevens, I.": {
+      "firstName": "Irma",
+      "lastName": "Stevens",
+      "fullName": "Irma Stevens",
+      "website": "https://www.math.uri.edu/meet/irma-stevens/"
+    },
+    "Lai, Y.": {
+      "firstName": "Yvonne",
+      "lastName": "Lai",
+      "fullName": "Yvonne Lai",
+      "website": "https://yvonnexlai.com/"
+    },
+    "McLeod, K.": {
+      "firstName": "Kevin",
+      "lastName": "McLeod",
+      "fullName": "Kevin McLeod",
+      "website": "https://uwm.edu/math/people/mcleod-kevin/"
+    },
+    "Jiao, F.": {
+      "firstName": "Fengquan",
+      "lastName": "Jiao",
+      "fullName": "Fengquan Jiao",
       "website": ""
+    },
+    "Wang, T.": {
+      "firstName": "Tianyi",
+      "lastName": "Wang",
+      "fullName": "Tianyi Wang",
+      "website": "https://www.linkedin.com/in/tianyi-wang-t99/"
+    },
+    "Frisby, M.": {
+      "firstName": "Michael",
+      "lastName": "Frisby",
+      "fullName": "Michael Frisby",
+      "website": "https://education.gsu.edu/profile/michael-frisby/"
+    },
+    "Prasad, P.": {
+      "firstName": "Priya",
+      "lastName": "Prasad",
+      "fullName": "Priya Prasad",
+      "website": "https://scholar.google.com/citations?user=TC9U8owAAAAJ&hl=en"
     }
   }
 } 

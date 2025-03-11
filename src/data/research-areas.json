@@ -1,0 +1,190 @@
+{
+  "researchAreas": [
+    {
+      "id": "ai-mathematics-education",
+      "title": "Learning Analytics in Educational Settings",
+      "description": "Using computational approaches to understand teaching and learning processes across educational contexts.",
+      "icon": "ai",
+      "color": "blue",
+      "startYear": 2019,
+      "tags": [
+        "learning-analytics",
+        "educational-dialogues",
+        "simulated-teaching",
+        "conceptual-understanding",
+        "discourse-analysis"
+      ],
+      "coreQuestions": [
+        "How can we analyze educational discourse to improve teaching and learning?",
+        "What aspects of effective teaching can be modeled and studied systematically?",
+        "How do we evaluate and improve educational dialogues in diverse learning contexts?"
+      ],
+      "publications": [
+        "Simulated Teaching and Learning at Scale: Balancing Fidelity and Effectiveness in Tutoring Interactions"
+      ]
+    },
+    {
+      "id": "data-science-education",
+      "title": "Educational Data Science",
+      "description": "Applying quantitative methods to analyze educational phenomena and improve learning outcomes.",
+      "icon": "data",
+      "color": "purple",
+      "startYear": 2018,
+      "tags": [
+        "educational-data-mining",
+        "text-analytics",
+        "statistical-modeling",
+        "computational-analysis",
+        "large-scale-data"
+      ],
+      "coreQuestions": [
+        "How can data science methods enhance our understanding of learning?",
+        "What patterns emerge when analyzing educational discourse at scale?",
+        "How can statistical models help us understand student learning trajectories?"
+      ],
+      "publications": [
+        "Large Language Models: A New Lens for Examining Derivative Conceptions at Scale"
+      ]
+    },
+    {
+      "id": "mathematical-knowledge-teaching",
+      "title": "Mathematical Knowledge for Teaching",
+      "description": "Investigating the specialized knowledge needed for effective mathematics teaching, particularly for teacher preparation.",
+      "icon": "teaching",
+      "color": "green",
+      "startYear": 2016,
+      "tags": [
+        "geometry-teaching",
+        "teacher-preparation",
+        "instructional-capacity",
+        "pedagogical-content-knowledge",
+        "teaching-tensions"
+      ],
+      "coreQuestions": [
+        "What specialized knowledge do mathematics teachers need?",
+        "What tensions do instructors face when teaching mathematics to future teachers?",
+        "How can we assess and develop mathematical knowledge for teaching?"
+      ],
+      "publications": [
+        "Teaching Geometry for Secondary Teachers: What are the Tensions Instructors Need to Manage?"
+      ]
+    },
+    {
+      "id": "technical-learning",
+      "title": "Technical Skills Education",
+      "description": "Exploring innovative approaches to technical skills development with a focus on data science education.",
+      "icon": "technical",
+      "color": "orange",
+      "startYear": 2022,
+      "tags": [
+        "technical-interviews",
+        "data-science-education",
+        "computer-supported-learning",
+        "personalized-learning",
+        "skill-assessment"
+      ],
+      "coreQuestions": [
+        "How can we create effective technical interview preparation experiences?",
+        "What role can technology play in personalized technical skill development?",
+        "How do we balance technology with human mentorship in technical education?"
+      ],
+      "publications": [
+        "Learning Through Technical Interviews: Combining Data Science Mentorship with AI-Powered Practice"
+      ]
+    },
+    {
+      "id": "liberal-arts-education",
+      "title": "Liberal Arts Education Outcomes",
+      "description": "Examining the long-term impacts of liberal arts education on career trajectories and life outcomes.",
+      "icon": "liberal-arts",
+      "color": "red",
+      "startYear": 2017,
+      "tags": [
+        "writing-education",
+        "educational-impacts",
+        "lifelong-learning",
+        "undergraduate-education",
+        "career-outcomes"
+      ],
+      "coreQuestions": [
+        "What are the long-term impacts of liberal arts education?",
+        "How does undergraduate writing experience influence later career outcomes?",
+        "What aspects of liberal arts education have the most lasting value?"
+      ],
+      "publications": [
+        "Alumni Perspectives on General Education: How Writing Can Increase What We Know"
+      ]
+    }
+  ],
+  "timelineEvents": [
+    {
+      "year": 2016,
+      "event": "Joined the Grasping Rationality and Instructional Practices (GRIP) Lab",
+      "area": "mathematical-knowledge-teaching",
+      "description": "Began work on the Geometry for Teachers (GeT) Support Project under a $2.3 million NSF IUSE Grant."
+    },
+    {
+      "year": 2017,
+      "event": "College and Beyond II Project",
+      "area": "liberal-arts-education",
+      "description": "Joined research team analyzing impacts of liberal arts education on life outcomes."
+    },
+    {
+      "year": 2018,
+      "event": "Started Computational Analysis of Mathematics Education",
+      "area": "data-science-education",
+      "description": "Began applying computational methods to analyze educational discourse at scale."
+    },
+    {
+      "year": 2019,
+      "event": "Dissertation Research",
+      "area": "ai-mathematics-education",
+      "description": "Initiated research on analyzing conceptual understanding in educational contexts using computational methods."
+    },
+    {
+      "year": 2022,
+      "event": "Editorial Board of JRME",
+      "area": "mathematical-knowledge-teaching",
+      "description": "Served as Editorial Assistant for the Journal for Research in Mathematics Education."
+    },
+    {
+      "year": 2022,
+      "event": "Technical Education Research",
+      "area": "technical-learning",
+      "description": "Began research on technical interview preparation and AI-assisted practice."
+    },
+    {
+      "year": 2023,
+      "event": "Simulated Teaching Research",
+      "area": "ai-mathematics-education",
+      "description": "Started research on evaluating technology-supported educational dialogues."
+    }
+  ],
+  "allTags": [
+    "learning-analytics",
+    "educational-dialogues",
+    "simulated-teaching",
+    "conceptual-understanding",
+    "discourse-analysis",
+    "educational-data-mining",
+    "text-analytics",
+    "statistical-modeling",
+    "computational-analysis",
+    "large-scale-data",
+    "geometry-teaching",
+    "teacher-preparation",
+    "instructional-capacity",
+    "pedagogical-content-knowledge",
+    "teaching-tensions",
+    "technical-interviews",
+    "data-science-education",
+    "computer-supported-learning",
+    "personalized-learning",
+    "skill-assessment",
+    "writing-education",
+    "educational-impacts",
+    "lifelong-learning",
+    "undergraduate-education",
+    "career-outcomes"
+  ]
+} 

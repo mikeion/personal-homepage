@@ -1,0 +1,32 @@
+{
+  "news": [
+    {
+      "date": "2025-01-15",
+      "title": "Paper accepted at Joint Statistical Meetings",
+      "description": "Our paper on Bayesian Hierarchical Modeling of Large-Scale Math Tutoring Dialogues has been accepted at JSM 2025.",
+      "category": "publication",
+      "link": null
+    },
+    {
+      "date": "2024-12-05",
+      "title": "Academic Innovation Fund Grant Awarded",
+      "description": "Received $12,435 to develop AI-powered technical interview practice tools for data science students.",
+      "category": "award",
+      "link": null
+    },
+    {
+      "date": "2024-11-20",
+      "title": "Invited Talk at JMM 2025",
+      "description": "Will be presenting 'Text-as-Data in Mathematics Education' at the Joint Mathematics Meeting in Seattle.",
+      "category": "speaking",
+      "link": null
+    },
+    {
+      "date": "2024-10-15",
+      "title": "New collaboration with MIDAS",
+      "description": "Started a new research collaboration with Michigan Institute for Data Science on large-scale analysis of educational dialogues.",
+      "category": "research",
+      "link": null
+    }
+  ]
+} 

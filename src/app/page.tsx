@@ -6,7 +6,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FaGraduationCap, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiBluesky } from 'react-icons/si';
 import { useEffect, useState } from 'react';
-import { LatestProjectCard, UpcomingTalkCard } from '@/components/home/ProjectAndTalkCards';
+import { HomePageNewsFeed, UpcomingTalkCard } from '@/components/home/ProjectAndTalkCards';
+import FeaturedProjects from '@/components/home/FeaturedProjects';
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -158,7 +159,7 @@ export default function Home() {
           <div className={`transition-all duration-700 delay-200 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <LatestProjectCard />
+                <HomePageNewsFeed />
               </div>
               <div>
                 <UpcomingTalkCard />
@@ -173,32 +174,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`transition-all duration-700 delay-200 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-slate-800 dark:text-white mb-2">Current Research</h2>
+              <h2 className="text-3xl font-bold text-slate-800 dark:text-white mb-2">Featured Research</h2>
               <div className="h-1 w-20 bg-blue-500 mx-auto rounded-full"></div>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-6">
-              {highlights.map((item, index) => (
-                <div 
-                  key={index} 
-                  className={`transition-all duration-700 delay-${index * 100} transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-                >
-                  <div className="h-full bg-white dark:bg-slate-800 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 p-6 border border-slate-100 dark:border-slate-700 flex flex-col group hover:scale-[1.02]">
-                    <div className="mb-4">
-                      <span className={`inline-block px-3 py-1 text-xs font-semibold rounded-full
-                        ${item.category === 'Research' ? 'bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-100' : 
-                        'bg-teal-100 text-teal-800 dark:bg-teal-900/50 dark:text-teal-100'}`}>
-                        {item.category}
-                      </span>
-                    </div>
-                    <h3 className="text-lg font-bold mb-3 text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">{item.title}</h3>
-                    <p className="text-slate-600 dark:text-slate-300 mb-4 flex-grow">
-                      {item.content}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <FeaturedProjects />
           </div>
         </div>
       </div>

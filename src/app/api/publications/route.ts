@@ -5,6 +5,14 @@ import { NextResponse } from 'next/server';
 // Define the route as dynamic to avoid static generation errors
 export const dynamic = 'force-dynamic';
 
+// Helper function to normalize author names for comparison
+function normalizeAuthorName(name: string): string {
+  return name.toLowerCase()
+    .replace(/\./g, '') // Remove periods
+    .replace(/\s+/g, '') // Remove spaces
+    .trim();
+}
+
 // GET /api/publications
 // Public route to get all publications with author details
 export async function GET() {
@@ -23,25 +31,25 @@ export async function GET() {
 
     // Add author details to each publication
     const publicationsWithAuthors = publications.map((pub: any) => {
-      // Keep original authors array for reference
-      const originalAuthors = Array.isArray(pub.authors) ? pub.authors : [pub.authors];
+      // Ensure authors is always an array
+      const rawAuthors = Array.isArray(pub.authors) ? pub.authors : [pub.authors];
       
-      // Create a Set to track unique authors
-      const uniqueAuthors = new Set<string>();
+      // Create a set of normalized author names to track uniqueness
+      const uniqueNormalizedNames = new Set<string>();
+      const uniqueAuthors: string[] = [];
       
-      // Process each author string to handle combined authors
-      const processedAuthors = originalAuthors.flatMap((authorString: string) => {
-        // Split by commas and clean up
-        return authorString.split(/,\s*(?:and\s+)?|\s+and\s+/)
-          .map(a => a.trim())
-          .filter(author => {
-            // Only include author if not already seen and not empty
-            if (author && !uniqueAuthors.has(author)) {
-              uniqueAuthors.add(author);
-              return true;
-            }
-            return false;
-          });
+      // Process each author
+      rawAuthors.forEach((author: string) => {
+        if (!author || author.trim() === '') return;
+        
+        // Normalize the name for comparison
+        const normalizedName = normalizeAuthorName(author);
+        
+        // Only add if we haven't seen this normalized name before
+        if (!uniqueNormalizedNames.has(normalizedName)) {
+          uniqueNormalizedNames.add(normalizedName);
+          uniqueAuthors.push(author.trim());
+        }
       });
 
       // Remove the location field if it matches an author name
@@ -49,10 +57,8 @@ export async function GET() {
 
       return {
         ...pubWithoutLocation,
-        // Keep original authors array for reference
-        originalAuthors,
-        // Update authors array to use deduplicated list
-        authors: processedAuthors,
+        // Use the deduplicated author list
+        authors: uniqueAuthors,
         // Add author details mapping
         authorDetails: authors
       };

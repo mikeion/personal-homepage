@@ -7,7 +7,7 @@ import publicationsData from '@/data/publications.json';
 type Publication = {
   title: string;
   authors: string[];
-  year: number;
+  year?: number;
   venue: string;
   type: string;
   status?: string;
@@ -46,7 +46,7 @@ export default function Publications() {
   }
   
   // Sort by year (most recent first)
-  filteredPublications.sort((a, b) => b.year - a.year);
+  filteredPublications.sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
   
   // Count publications by type
   const counts = {
@@ -66,7 +66,7 @@ export default function Publications() {
   
   // Group publications by year
   const publicationsByYear = filteredPublications.reduce((acc, pub) => {
-    const year = pub.year;
+    const year = pub.year ?? 0; // Use 0 as default if year is undefined
     if (!acc[year]) {
       acc[year] = [];
     }
