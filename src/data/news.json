@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "date": "2025-10-01",
+      "title": "Started Postdoctoral Position",
+      "description": "Began a postdoctoral fellowship with the University of Michigan School of Information.",
+      "category": "research",
+      "link": null
+    },
+    {
+      "date": "2025-02-23",
+      "title": "Academic Innovation Fund Grant Awarded",
+      "description": "Received $12,435 to develop AI-powered technical interview practice tools for data science students.",
+      "category": "award",
+      "link": null
+    },
+    {
       "date": "2025-01-10",
       "title": "Talk at JMM 2025",
       "description": "Presented \"Text-as-Data in Mathematics Education: Harnessing LLMs to Analyze Student Conversations at Scale\" at the Joint Mathematics Meeting in Seattle.",
@@ -8,18 +22,18 @@
       "link": "https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Paper/45743"
     },
     {
-      "date": "2024-02-24",
-      "title": "Academic Innovation Fund Grant Awarded",
-      "description": "Received $12,435 to develop AI-powered technical interview practice tools for data science students.",
-      "category": "award",
-      "link": null
-    },
-    {
       "date": "2024-10-15",
       "title": "New collaboration with MIDAS",
       "description": "Started a new research collaboration with Michigan Institute for Data Science on large-scale analysis of educational dialogues.",
       "category": "research",
       "link": null
+    },
+    {
+      "date": "2024-03-22",
+      "title": "PhD Dissertation Defense",
+      "description": "Successfully defended dissertation titled \"MathConverse: A New Lens for Examining Mathematical Conversations at Scale with Natural Language Processing\".",
+      "category": "research",
+      "link": "https://marsal.umich.edu/events/dissertation-defense-mike-ion"
     }
   ]
 } 
