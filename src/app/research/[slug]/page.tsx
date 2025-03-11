@@ -177,7 +177,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
           
           {/* Team members */}
           {project.team && project.team.length > 0 && (
-            <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+            <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-sm mb-6">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Research Team</h3>
               <ul className="space-y-4">
                 {project.team.map((member, index) => (
@@ -190,6 +190,22 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               </ul>
             </div>
           )}
+          
+          {/* Related Scholarship */}
+          <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Related Scholarship</h3>
+            <div className="space-y-4">
+              <Link href="/publications" className="block p-3 bg-white dark:bg-gray-700 rounded border border-gray-200 dark:border-gray-600 hover:bg-blue-50 dark:hover:bg-gray-600 transition-colors">
+                <h4 className="font-medium text-gray-900 dark:text-white mb-1">Publications</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">View related papers and publications</p>
+              </Link>
+              
+              <Link href="/talks" className="block p-3 bg-white dark:bg-gray-700 rounded border border-gray-200 dark:border-gray-600 hover:bg-blue-50 dark:hover:bg-gray-600 transition-colors">
+                <h4 className="font-medium text-gray-900 dark:text-white mb-1">Talks & Presentations</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">View related talks and conference presentations</p>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
