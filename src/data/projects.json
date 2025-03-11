@@ -12,27 +12,35 @@
       "startDate": "2023-09",
       "team": [
         {
-          "name": "Michael Ion",
+          "name": "Kevyn Collins-Thompson",
           "role": "Principal Investigator",
           "affiliation": "University of Michigan"
         },
         {
-          "name": "Kevyn Collins-Thompson",
-          "role": "Co-Investigator",
+          "name": "Michael Ion",
+          "role": "Research Lead and Postdoctoral Fellow",
           "affiliation": "University of Michigan"
         },
         {
           "name": "Sumit Asthana",
-          "role": "Research Assistant",
+          "role": "Research Assistant (PhD Student)",
+          "affiliation": "University of Michigan"
+        },
+        {
+          "name": "Tianyi Wang",
+          "role": "Research Assistant (Undergraduate)",
+          "affiliation": "University of Michigan"
+        },
+        {
+          "name": "Fengquan Jiao",
+          "role": "Research Assistant (Undergraduate)",
           "affiliation": "University of Michigan"
         }
       ],
       "relatedPublications": [
         "Simulated Teaching and Learning at Scale: Balancing Fidelity and Effectiveness in Tutoring Interactions"
       ],
-      "grants": [
-        "Academic Innovation Fund (2024)"
-      ],
+      "grants": [],
       "tags": ["AI", "education", "dialogue systems", "LLMs", "teaching", "learning"]
     },
     {
