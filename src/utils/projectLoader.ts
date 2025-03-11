@@ -25,24 +25,15 @@ type ProjectsData = {
   projects: Project[];
 };
 
-import fs from 'fs';
-import path from 'path';
+// Import the project data directly
+import projectsData from '@/data/projects.json';
 
 /**
- * Load all projects from the JSON file
+ * Load all projects
  * @returns Array of project objects
  */
 export function getProjects(): Project[] {
-  try {
-    const dataDirectory = path.join(process.cwd(), 'src', 'data');
-    const filePath = path.join(dataDirectory, 'projects.json');
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    const data: ProjectsData = JSON.parse(fileContents);
-    return data.projects;
-  } catch (error) {
-    console.error('Error loading projects data:', error);
-    return [];
-  }
+  return projectsData.projects;
 }
 
 /**
