@@ -204,7 +204,7 @@ export default function Teaching() {
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-800 dark:text-white mb-4">Teaching</h1>
               <div className="h-1 w-20 bg-blue-500 rounded-full mb-6"></div>
               <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
-                As an educator in mathematics, statistics, and data science, my teaching combines active learning, inclusive classroom practices, and real-world applicable knowledge. Built upon diverse experiences—from classrooms in rural Botswana to programs such as Johns Hopkins University's Center for Talented Youth, Stanford University's Education Program for Gifted Youth, Cal Poly, and global online instruction.
+              As an educator specializing in mathematics, statistics, and data science, my teaching emphasizes active engagement, inclusive practices, and skills that students can readily apply in real-world settings. My approach has developed through diverse teaching experiences, ranging from classrooms in rural Botswana to leading courses with Johns Hopkins University's Center for Talented Youth, Stanford University's Education Program for Gifted Youth, Cal Poly, and through online instruction reaching students globally.
               </p>
             </div>
           </div>

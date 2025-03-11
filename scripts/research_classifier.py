@@ -47,7 +47,7 @@ class Grant(BaseModel):
     year: int
     role: str
     pi: str
-    collaborators: List[str]
+    collaborators: Optional[List[str]] = None
     classification: ResearchArea
 
 @dataclass
@@ -365,7 +365,8 @@ def generate_research_areas_json(publications: List[Publication],
         area = grant.classification.primary_area
         if area in research_areas:
             research_areas[area]["grants"].append(grant)
-            research_areas[area]["collaborators"].update(grant.collaborators)
+            if hasattr(grant, 'collaborators') and grant.collaborators:
+                research_areas[area]["collaborators"].update(grant.collaborators)
     
     return research_areas
 

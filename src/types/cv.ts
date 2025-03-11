@@ -71,7 +71,7 @@ export interface Grant {
   status: 'awarded' | 'submitted' | 'in_preparation'
   start_date: string
   end_date: string
-  collaborators: string[]
+  collaborators?: string[]
   grant_number?: string
 }
 

@@ -1,0 +1,202 @@
+{
+  "authors": {
+    "Ion, M.": {
+      "firstName": "Michael",
+      "lastName": "Ion",
+      "fullName": "Michael Ion",
+      "website": "https://mikeion.com"
+    },
+    "Collins-Thompson, K.": {
+      "firstName": "Kevyn",
+      "lastName": "Collins-Thompson",
+      "fullName": "Kevyn Collins-Thompson",
+      "website": "https://websites.umich.edu/~kevynct/"
+    },
+    "Asthana, S.": {
+      "firstName": "Sumit",
+      "lastName": "Asthana",
+      "fullName": "S. Asthana",
+      "website": ""
+    },
+    "Ball, Lowenberg D.": {
+      "firstName": "Deborah",
+      "lastName": "Ball",
+      "fullName": "Deborah Lowenberg Ball",
+      "website": "https://deborahloewenbergball.com/"
+    },
+    "Herbst, P.": {
+      "firstName": "Pat",
+      "lastName": "Herbst",
+      "fullName": "Pat Herbst",
+      "website": "https://www.soe.umich.edu/people/profile/pat_herbst/"
+    },
+    "Brown, A.M.": {
+      "firstName": "Amanda",
+      "lastName": "Brown",
+      "fullName": "Amanda Milewski Brown",
+      "website": ""
+    },
+    "Margolis, C.": {
+      "firstName": "Claudine",
+      "lastName": "Margolis",
+      "fullName": "Claudine Margolis",
+      "website": ""
+    },
+    "Gere, A.": {
+      "firstName": "Anne",
+      "lastName": "Gere",
+      "fullName": "Anne Ruggles Gere",
+      "website": ""
+    },
+    "Godfrey, J.": {
+      "firstName": "Jason",
+      "lastName": "Godfrey",
+      "fullName": "Jason Godfrey",
+      "website": "https://www.jasongodfrey.info/"
+    },
+    "Griffin, M.": {
+      "firstName": "Marquise",
+      "lastName": "Griffin",
+      "fullName": "Marquise Griffin",
+      "website": ""
+    },
+    "Limlamai, N.": {
+      "firstName": "Naitnaphit",
+      "lastName": "Limlamai",
+      "fullName": "N. Limlamai",
+      "website": ""
+    },
+    "Moos, A.": {
+      "firstName": "Andrew",
+      "lastName": "Moos",
+      "fullName": "Andrew Moos",
+      "website": ""
+    },
+    "Van Zanen, K.": {
+      "firstName": "Kathryn",
+      "lastName": "Van Zanen",
+      "fullName": "Kathryn Van Zanen",
+      "website": ""
+    },
+    "Ko, I.": {
+      "firstName": "Inah",
+      "lastName": "Ko",
+      "fullName": "Inah Ko",
+      "website": ""
+    },
+    "Hetrick, C.": {
+      "firstName": "Carolyn",
+      "lastName": "Hetrick",
+      "fullName": "Carolyn Hetrick",
+      "website": ""
+    },
+    "Boyce, S.": {
+      "firstName": "Steve",
+      "lastName": "Boyce",
+      "fullName": "Steve Boyce",
+      "website": ""
+    },
+    "An, T.": {
+      "firstName": "Tuyin",
+      "lastName": "An",
+      "fullName": "Tuyin An",
+      "website": ""
+    },
+    "Pyzdrowski, L.": {
+      "firstName": "Laura",
+      "lastName": "Pyzdrowski",
+      "fullName": "Laura Pyzdrowski",
+      "website": ""
+    },
+    "Oppong-Wadie, K.": {
+      "firstName": "Kwadwo",
+      "lastName": "Oppong-Wadie",
+      "fullName": "Kwadwo Oppong-Wadie",
+      "website": ""
+    },
+    "St. Goar, J.": {
+      "firstName": "Julia",
+      "lastName": "St. Goar",
+      "fullName": "Julia St. Goar",
+      "website": ""
+    },
+    "Milewski, A.": {
+      "firstName": "Amanda",
+      "lastName": "Milewski",
+      "fullName": "Amanda Milewski",
+      "website": ""
+    },
+    "Shultz, M.": {
+      "firstName": "Mollee",
+      "lastName": "Shultz",
+      "fullName": "Mollee Shultz",
+      "website": ""
+    },
+    "Bardelli, E.": {
+      "firstName": "Emanuele",
+      "lastName": "Bardelli",
+      "fullName": "Emanuele Bardelli",
+      "website": ""
+    },
+    "Bleecker, H.": {
+      "firstName": "Heather",
+      "lastName": "Bleecker",
+      "fullName": "Heather Bleecker",
+      "website": ""
+    },
+    "Buchbinder, O.": {
+      "firstName": "Orly",
+      "lastName": "Buchbinder",
+      "fullName": "Orly Buchbinder",
+      "website": ""
+    },
+    "Cohen, S.": {
+      "firstName": "Steve",
+      "lastName": "Cohen",
+      "fullName": "Steve Cohen",
+      "website": ""
+    },
+    "Dumitrascu, D.": {
+      "firstName": "Dorin",
+      "lastName": "Dumitrascu",
+      "fullName": "Dorin Dumitrascu",
+      "website": ""
+    },
+    "Escuadro, H.": {
+      "firstName": "Henry",
+      "lastName": "Escuadro",
+      "fullName": "Henry Escuadro",
+      "website": ""
+    },
+    "Krupa, E.": {
+      "firstName": "Erin",
+      "lastName": "Krupa",
+      "fullName": "Erin Krupa",
+      "website": ""
+    },
+    "Miller, N.": {
+      "firstName": "Nathaniel",
+      "lastName": "Miller",
+      "fullName": "Nathaniel Miller",
+      "website": ""
+    },
+    "Sears, R.": {
+      "firstName": "Ruthmae",
+      "lastName": "Sears",
+      "fullName": "Ruthmae Sears",
+      "website": ""
+    },
+    "Szydlik, S.": {
+      "firstName": "Steve",
+      "lastName": "Szydlik",
+      "fullName": "Steve Szydlik",
+      "website": ""
+    },
+    "Vestal, S.": {
+      "firstName": "Sharon",
+      "lastName": "Vestal",
+      "fullName": "Sharon Vestal",
+      "website": ""
+    }
+  }
+} 

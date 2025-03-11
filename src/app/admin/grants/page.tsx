@@ -22,7 +22,7 @@ type Grant = {
   startDate: Date;
   endDate?: Date;
   status: string;
-  collaborators: string[];
+  collaborators?: string[];
 };
 
 export default function GrantsManagementPage() {
@@ -159,17 +159,16 @@ export default function GrantsManagementPage() {
   const handleEdit = (grant: Grant) => {
     setIsEditing(true);
     setCurrentGrant(grant);
-    
     setFormData({
       title: grant.title,
       funder: grant.funder,
       amount: grant.amount,
       role: grant.role,
       description: grant.description || '',
-      startDate: new Date(grant.startDate).toISOString().split('T')[0],
+      startDate: grant.startDate ? new Date(grant.startDate).toISOString().split('T')[0] : '',
       endDate: grant.endDate ? new Date(grant.endDate).toISOString().split('T')[0] : '',
       status: grant.status,
-      collaborators: grant.collaborators.length > 0 ? grant.collaborators : ['']
+      collaborators: grant.collaborators && grant.collaborators.length > 0 ? grant.collaborators : ['']
     });
     
     setFormError(null);
@@ -594,7 +593,7 @@ export default function GrantsManagementPage() {
                             {grant.description && (
                               <p className="mt-2 text-sm text-gray-600 line-clamp-2">{grant.description}</p>
                             )}
-                            {grant.collaborators.length > 0 && grant.collaborators[0] !== '' && (
+                            {grant.collaborators && grant.collaborators.length > 0 && (
                               <div className="mt-2 text-sm text-gray-500">
                                 <span className="font-medium">Collaborators:</span> {grant.collaborators.join(', ')}
                               </div>

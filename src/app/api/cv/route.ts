@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const cvPath = path.join(process.cwd(), 'src/data/cv/cv.pdf');
+    const cvPath = path.join(process.cwd(), 'public/cv-ion-mar2025.pdf');
     const cvFile = await fs.readFile(cvPath);
     
     return new NextResponse(cvFile, {
