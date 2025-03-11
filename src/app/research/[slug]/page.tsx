@@ -194,16 +194,34 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
           {/* Related Scholarship */}
           <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-sm">
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Related Scholarship</h3>
-            <div className="space-y-4">
-              <Link href="/publications" className="block p-3 bg-white dark:bg-gray-700 rounded border border-gray-200 dark:border-gray-600 hover:bg-blue-50 dark:hover:bg-gray-600 transition-colors">
-                <h4 className="font-medium text-gray-900 dark:text-white mb-1">Publications</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">View related papers and publications</p>
-              </Link>
+            <div className="space-y-6">
+              {/* Papers */}
+              <div>
+                <h4 className="font-medium text-gray-900 dark:text-white mb-3 pb-2 border-b border-gray-200 dark:border-gray-700">Papers</h4>
+                <ul className="space-y-4">
+                  <li className="space-y-1">
+                    <p className="font-medium text-gray-800 dark:text-gray-200">Simulated Teaching and Learning at Scale: Balancing Fidelity and Effectiveness in Tutoring Interactions</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Michael Ion, Kevyn Collins-Thompson, S. Asthana</p>
+                  </li>
+                  <li className="space-y-1">
+                    <p className="font-medium text-gray-800 dark:text-gray-200">Bayesian Hierarchical Modeling of Large-Scale Math Tutoring Dialogues</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Michael Ion, Kevyn Collins-Thompson</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-500 italic">Joint Statistical Meetings (2025) - Under review</p>
+                  </li>
+                </ul>
+              </div>
               
-              <Link href="/talks" className="block p-3 bg-white dark:bg-gray-700 rounded border border-gray-200 dark:border-gray-600 hover:bg-blue-50 dark:hover:bg-gray-600 transition-colors">
-                <h4 className="font-medium text-gray-900 dark:text-white mb-1">Talks & Presentations</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">View related talks and conference presentations</p>
-              </Link>
+              {/* Talks & Presentations */}
+              <div>
+                <h4 className="font-medium text-gray-900 dark:text-white mb-3 pb-2 border-b border-gray-200 dark:border-gray-700">Talks & Presentations</h4>
+                <ul className="space-y-4">
+                  <li className="space-y-1">
+                    <p className="font-medium text-gray-800 dark:text-gray-200">Adaptive Knowledge Assessment in Simulated Coding Interviews</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Michael Ion, S. Asthana, Fengquan Jiao, Tianyi Wang, Kevyn Collins-Thompson</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-500 italic">iRAISE Workshop at AAAI Conference (2025)</p>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
