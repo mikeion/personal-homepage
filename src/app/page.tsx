@@ -3,10 +3,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaGraduationCap, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { SiBluesky } from 'react-icons/si';
+import { FaGraduationCap, FaCode, FaBook, FaChalkboardTeacher, FaDesktop, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiBluesky, SiNextdotjs, SiTailwindcss, SiReact, SiPython } from 'react-icons/si';
+import { MdKeyboardArrowRight } from 'react-icons/md';
+import { Metadata } from 'next';
 import { useEffect, useState } from 'react';
-import { HomePageNewsFeed, UpcomingTalkCard } from '@/components/home/ProjectAndTalkCards';
+import { HomePageNewsFeed } from '@/components/home/ProjectAndTalkCards';
 import FeaturedProjects from '@/components/home/FeaturedProjects';
 
 export default function Home() {
@@ -157,13 +159,8 @@ export default function Home() {
       <div className="py-16 bg-gradient-to-b from-white to-blue-50 dark:from-slate-900 dark:to-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`transition-all duration-700 delay-200 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <HomePageNewsFeed />
-              </div>
-              <div>
-                <UpcomingTalkCard />
-              </div>
+            <div className="max-w-3xl mx-auto">
+              <HomePageNewsFeed />
             </div>
           </div>
         </div>
