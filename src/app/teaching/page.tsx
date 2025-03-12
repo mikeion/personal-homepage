@@ -39,15 +39,19 @@ interface TeachingData {
 const teachingAreas = [
   {
     title: "Mathematics & Statistics",
-    description: "Designing learning experiences that prioritize conceptual understanding over procedure, using collaborative problem-solving approaches and inclusive learning spaces to make quantitative reasoning accessible for students from diverse backgrounds."
+    description: "At Cal Poly, I embraced the ethos of \"productive struggle\" and \"learn by doing\" while teaching Precalculus, Calculus for Life Sciences, and Business Calculus. Rather than presenting mathematics as a collection of procedures to memorize, I design learning experiences that foster conceptual understanding through collaborative problem-solving. For example, in my Calculus courses, I developed guided note packets that students completed during active learning sessions, significantly increasing engagement and confidence even among students who previously struggled with mathematics."
   },
   {
     title: "Data Science & AI",
-    description: "Integrating computational methods with statistical modeling through practical applications that connect theoretical foundations to real-world contexts, emphasizing both technical skills and ethical considerations in data-driven decision making."
+    description: "Through my work with Uplimit (formerly CoRise) and at the University of Michigan, I've developed approaches for making complex computational concepts accessible to diverse learners. I integrate statistical modeling with real-world applications, emphasizing the ethical implications of data-driven decisions. My students work with authentic datasets on projects they find personally meaningful—from creating AI-generated podcasts to analyzing social patterns in educational data—building both technical proficiency and critical awareness of how these tools impact society."
   },
   {
     title: "Computing Education",
-    description: "Developing innovative computational tools and pedagogical strategies that support adaptive learning, facilitate meaningful feedback, and promote learner agency in computer science and programming environments."
+    description: "My experiences mentoring undergraduate researchers at Michigan have shaped my approach to computing education. Working with students like Amirali and Andre on projects involving citation mapping and machine learning, I've developed scaffolded learning experiences that build technical skills while nurturing research capabilities. I focus on creating environments where students can develop agency in programming, providing structured support that gradually transfers responsibility as learners gain confidence with computational tools and methodologies."
+  },
+  {
+    title: "Inclusive Teaching Practices",
+    description: "Teaching in Botswana's Kalahari region, where many students spoke English as a third or fourth language and faced significant resource limitations, profoundly influenced my commitment to educational equity. Later, at Cal Poly, I facilitated difficult conversations about campus climate issues affecting minoritized students and worked closely with neurodivergent learners to develop supportive accommodations. These experiences inform my ongoing efforts to create learning environments where all students feel valued and capable, regardless of their background or starting point."
   }
 ];
 
@@ -60,6 +64,30 @@ const philosophyPoints = [
   "Integrating technology thoughtfully to enrich rather than replace meaningful educational interactions, as demonstrated through globally accessible online courses with hands-on, contextually relevant projects.",
   "Approaching assessment as an integral component of learning through authentic projects that emphasize methodological rigor and analytical clarity over simple memorization, supporting transferable professional skills."
 ];
+
+// Opening intro section
+const teachingIntro = (
+  <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6 mb-10">
+    <p className="text-slate-700 dark:text-slate-300 mb-4">
+      My teaching journey spans diverse contexts—from classrooms in rural Botswana to prestigious U.S. universities to online platforms reaching global audiences. Each experience has shaped my belief that with appropriate guidance, every student can excel.
+    </p>
+    
+    <p className="text-slate-700 dark:text-slate-300 mb-4">
+      As an educator, I am committed to creating inclusive learning environments where students from all backgrounds can thrive. I recognize the historical barriers that have made subjects like mathematics, statistics, and data science less accessible to many—particularly students from underrepresented groups. This awareness guides my approach to teaching, where I emphasize:
+    </p>
+    
+    <ul className="list-disc pl-6 mb-4 text-slate-700 dark:text-slate-300 space-y-2">
+      <li><span className="font-medium">Active learning</span> over passive note-taking. In my Calculus courses, I've distributed guided note packets that students fill in during lectures and group exercises, leading to higher engagement and confidence.</li>
+      <li><span className="font-medium">Real-world applications</span> that connect theoretical concepts to practical contexts. In teaching statistics and machine learning, I underscore the importance of projects with intriguing datasets, allowing students to choose directions meaningful to them.</li>
+      <li><span className="font-medium">Clear communication</span> of expectations while building a sense of community. I invest time in learning about my students' backgrounds and creating an environment where everyone feels they belong.</li>
+      <li><span className="font-medium">Adaptable methods</span> that respond to diverse student needs, whether working with neurodivergent students at Cal Poly, English-language learners in Botswana, or online learners from varied cultural backgrounds at Uplimit.</li>
+    </ul>
+    
+    <p className="text-slate-700 dark:text-slate-300">
+      My teaching philosophy is deeply intertwined with my research interests in mathematics education, learning technologies, and equity. I strive to bridge theory and practice, using evidence-based approaches while remaining attuned to the unique contexts and needs of my students.
+    </p>
+  </div>
+);
 
 function TeachingPosition({ position }: { position: TeachingPosition }) {
   // Special handling for Cal Poly to combine years
@@ -212,9 +240,7 @@ export default function Teaching() {
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-800 dark:text-white mb-4">Teaching</h1>
               <div className="h-1 w-20 bg-blue-500 rounded-full mb-6"></div>
-              <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
-                As an educator specializing in mathematics, statistics, and data science, my teaching emphasizes active engagement, inclusive practices, and skills that students can readily apply in real-world settings. My approach has developed through diverse teaching experiences, ranging from classrooms in rural Botswana to leading courses with Johns Hopkins University's Center for Talented Youth, Stanford University's Education Program for Gifted Youth, Cal Poly, and through online instruction reaching students globally.
-              </p>
+              {teachingIntro}
             </div>
           </div>
         </div>
@@ -222,19 +248,17 @@ export default function Teaching() {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Areas of Expertise */}
-        <div className={`transition-all duration-700 delay-100 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        {/* Teaching Areas */}
+        <div className={`transition-all duration-700 delay-100 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'} mb-12`}>
           <div className="flex items-center mb-6">
             <FaChalkboardTeacher className="text-blue-500 mr-3 text-xl" />
             <h2 className="text-2xl font-bold text-slate-800 dark:text-white">Areas of Expertise</h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            {teachingAreas.map((area, idx) => (
-              <div 
-                key={idx}
-                className="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 p-6 hover:shadow-md transition-shadow"
-              >
-                <h3 className="text-xl font-bold text-slate-800 dark:text-white mb-3">{area.title}</h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {teachingAreas.map((area, index) => (
+              <div key={index} className="bg-white dark:bg-slate-800 rounded-xl shadow-sm p-6 border border-slate-100 dark:border-slate-700 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-slate-800 dark:text-white mb-3">{area.title}</h3>
                 <p className="text-slate-600 dark:text-slate-300">{area.description}</p>
               </div>
             ))}
