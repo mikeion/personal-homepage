@@ -39,19 +39,19 @@ interface TeachingData {
 const teachingAreas = [
   {
     title: "Mathematics & Statistics",
-    description: "At Cal Poly, I embraced the ethos of \"productive struggle\" and \"learn by doing\" while teaching Precalculus, Calculus for Life Sciences, and Business Calculus. Rather than presenting mathematics as a collection of procedures to memorize, I design learning experiences that foster conceptual understanding through collaborative problem-solving. For example, in my Calculus courses, I developed guided note packets that students completed during active learning sessions, significantly increasing engagement and confidence even among students who previously struggled with mathematics."
+    description: "In teaching mathematics at Cal Poly, I found that collaborative problem-solving and guided exploration helped students move beyond memorizing procedures. Students in my Precalculus and Calculus courses worked with guided note packets during active learning sessions, which seemed to boost engagement even among those who initially struggled with the material. This experience shaped how I approach quantitative subjects, focusing on conceptual understanding rather than mechanical solutions."
   },
   {
     title: "Data Science & AI",
-    description: "Through my work with Uplimit (formerly CoRise) and at the University of Michigan, I've developed approaches for making complex computational concepts accessible to diverse learners. I integrate statistical modeling with real-world applications, emphasizing the ethical implications of data-driven decisions. My students work with authentic datasets on projects they find personally meaningful—from creating AI-generated podcasts to analyzing social patterns in educational data—building both technical proficiency and critical awareness of how these tools impact society."
+    description: "Working with students at Uplimit and Michigan has shown me how connecting technical concepts to real-world applications makes complex ideas more accessible. Students respond positively when they can work with meaningful datasets and choose project directions that interest them personally—whether creating AI-generated podcasts or analyzing educational data. I've learned to balance technical instruction with discussions of ethical implications in data-driven work."
   },
   {
     title: "Computing Education",
-    description: "My experiences mentoring undergraduate researchers at Michigan have shaped my approach to computing education. Working with students like Amirali and Andre on projects involving citation mapping and machine learning, I've developed scaffolded learning experiences that build technical skills while nurturing research capabilities. I focus on creating environments where students can develop agency in programming, providing structured support that gradually transfers responsibility as learners gain confidence with computational tools and methodologies."
+    description: "Mentoring undergraduate researchers like Amirali and Andre on projects involving citation mapping and machine learning has taught me the value of scaffolded learning experiences. I've found that gradually transferring responsibility as students gain confidence with computational tools helps them develop both technical skills and research capabilities. This approach has informed how I structure learning activities in programming and computational environments."
   },
   {
-    title: "Inclusive Teaching Practices",
-    description: "Teaching in Botswana's Kalahari region, where many students spoke English as a third or fourth language and faced significant resource limitations, profoundly influenced my commitment to educational equity. Later, at Cal Poly, I facilitated difficult conversations about campus climate issues affecting minoritized students and worked closely with neurodivergent learners to develop supportive accommodations. These experiences inform my ongoing efforts to create learning environments where all students feel valued and capable, regardless of their background or starting point."
+    title: "Inclusive Teaching",
+    description: "My time teaching in Botswana's Kalahari region, where many students spoke English as a third or fourth language, fundamentally shaped my approach to inclusive teaching. Later experiences at Cal Poly, facilitating discussions about campus climate and working with neurodivergent students, reinforced the importance of creating learning environments responsive to diverse needs. These experiences continue to influence how I structure courses and interact with students."
   }
 ];
 
@@ -67,25 +67,68 @@ const philosophyPoints = [
 
 // Opening intro section
 const teachingIntro = (
-  <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6 mb-10">
-    <p className="text-slate-700 dark:text-slate-300 mb-4">
-      My teaching journey spans diverse contexts—from classrooms in rural Botswana to prestigious U.S. universities to online platforms reaching global audiences. Each experience has shaped my belief that with appropriate guidance, every student can excel.
-    </p>
+  <div className="relative overflow-hidden bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/30 dark:to-indigo-900/20 rounded-xl shadow-sm border border-blue-100 dark:border-blue-800/30 p-8">
+    {/* Decorative elements */}
+    <div className="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-blue-200 dark:bg-blue-700 rounded-full mix-blend-multiply dark:mix-blend-soft-light opacity-20 blur-xl"></div>
+    <div className="absolute bottom-0 left-0 -mb-6 -ml-6 w-32 h-32 bg-indigo-200 dark:bg-indigo-700 rounded-full mix-blend-multiply dark:mix-blend-soft-light opacity-20 blur-xl"></div>
     
-    <p className="text-slate-700 dark:text-slate-300 mb-4">
-      As an educator, I am committed to creating inclusive learning environments where students from all backgrounds can thrive. I recognize the historical barriers that have made subjects like mathematics, statistics, and data science less accessible to many—particularly students from underrepresented groups. This awareness guides my approach to teaching, where I emphasize:
-    </p>
-    
-    <ul className="list-disc pl-6 mb-4 text-slate-700 dark:text-slate-300 space-y-2">
-      <li><span className="font-medium">Active learning</span> over passive note-taking. In my Calculus courses, I've distributed guided note packets that students fill in during lectures and group exercises, leading to higher engagement and confidence.</li>
-      <li><span className="font-medium">Real-world applications</span> that connect theoretical concepts to practical contexts. In teaching statistics and machine learning, I underscore the importance of projects with intriguing datasets, allowing students to choose directions meaningful to them.</li>
-      <li><span className="font-medium">Clear communication</span> of expectations while building a sense of community. I invest time in learning about my students' backgrounds and creating an environment where everyone feels they belong.</li>
-      <li><span className="font-medium">Adaptable methods</span> that respond to diverse student needs, whether working with neurodivergent students at Cal Poly, English-language learners in Botswana, or online learners from varied cultural backgrounds at Uplimit.</li>
-    </ul>
-    
-    <p className="text-slate-700 dark:text-slate-300">
-      My teaching philosophy is deeply intertwined with my research interests in mathematics education, learning technologies, and equity. I strive to bridge theory and practice, using evidence-based approaches while remaining attuned to the unique contexts and needs of my students.
-    </p>
+    <div className="relative">
+      <h2 className="text-2xl font-bold text-blue-800 dark:text-blue-300 mb-6">Teaching Philosophy</h2>
+      
+      <p className="text-slate-700 dark:text-slate-300 mb-6 leading-relaxed">
+        My teaching journey spans diverse contexts—from classrooms in rural Botswana to prestigious U.S. universities to online platforms reaching global audiences. Each experience has shaped my belief that with appropriate guidance, every student can excel.
+      </p>
+      
+      <p className="text-slate-700 dark:text-slate-300 mb-6 leading-relaxed">
+        As an educator, I am committed to creating inclusive learning environments where students from all backgrounds can thrive. I recognize the historical barriers that have made subjects like mathematics, statistics, and data science less accessible to many—particularly students from underrepresented groups.
+      </p>
+      
+      <div className="space-y-4 mb-6">
+        <div className="flex gap-4">
+          <div className="mt-1.5 flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center">
+            <span className="text-blue-600 dark:text-blue-400 font-medium">1</span>
+          </div>
+          <div>
+            <h3 className="font-medium text-slate-800 dark:text-white mb-1">Active Learning</h3>
+            <p className="text-slate-600 dark:text-slate-400">Engaging students through collaborative activities and guided exploration rather than passive note-taking.</p>
+          </div>
+        </div>
+        
+        <div className="flex gap-4">
+          <div className="mt-1.5 flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center">
+            <span className="text-blue-600 dark:text-blue-400 font-medium">2</span>
+          </div>
+          <div>
+            <h3 className="font-medium text-slate-800 dark:text-white mb-1">Real-world Applications</h3>
+            <p className="text-slate-600 dark:text-slate-400">Connecting theoretical concepts to practical contexts through projects with meaningful datasets.</p>
+          </div>
+        </div>
+        
+        <div className="flex gap-4">
+          <div className="mt-1.5 flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center">
+            <span className="text-blue-600 dark:text-blue-400 font-medium">3</span>
+          </div>
+          <div>
+            <h3 className="font-medium text-slate-800 dark:text-white mb-1">Community Building</h3>
+            <p className="text-slate-600 dark:text-slate-400">Creating environments where students feel they belong through clear communication and understanding diverse backgrounds.</p>
+          </div>
+        </div>
+        
+        <div className="flex gap-4">
+          <div className="mt-1.5 flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center">
+            <span className="text-blue-600 dark:text-blue-400 font-medium">4</span>
+          </div>
+          <div>
+            <h3 className="font-medium text-slate-800 dark:text-white mb-1">Adaptable Methods</h3>
+            <p className="text-slate-600 dark:text-slate-400">Responding to diverse student needs with flexible approaches, whether working with neurodivergent students or language learners.</p>
+          </div>
+        </div>
+      </div>
+      
+      <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
+        My teaching philosophy is intertwined with my research interests in mathematics education, learning technologies, and equity. I continue to learn from my students as I bridge theory and practice in varied educational contexts.
+      </p>
+    </div>
   </div>
 );
 
@@ -248,11 +291,11 @@ export default function Teaching() {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Teaching Areas */}
+        {/* Teaching Approaches */}
         <div className={`transition-all duration-700 delay-100 transform ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'} mb-12`}>
           <div className="flex items-center mb-6">
             <FaChalkboardTeacher className="text-blue-500 mr-3 text-xl" />
-            <h2 className="text-2xl font-bold text-slate-800 dark:text-white">Areas of Expertise</h2>
+            <h2 className="text-2xl font-bold text-slate-800 dark:text-white">Teaching Approaches</h2>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
