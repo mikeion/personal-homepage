@@ -3,6 +3,21 @@
     {
       "authors": [
         "Ion, M.",
+        "Collins-Thompson, K.",
+        "Herbst, P."
+      ],
+      "year": 2026,
+      "location": "Ion, M.",
+      "type": "conference",
+      "subcategory": "Journal Publications and Peer-Reviewed Conference Proceedings",
+      "description": "MathMentorDB: A comprehensive dataset of 200,332 mathematics tutoring conversations from Discord, with validated question-type classifications and conversation structure metadata. Includes 5.5 million messages, pseudonymized participants, and annotations for over 1 million student questions.",
+      "title": "MathMentorDB: A Large-Scale Dataset for Analyzing Mathematics Tutoring Conversations",
+      "venue": "Language Resources and Evaluation Conference (LREC 2026)",
+      "status": "under_review"
+    },
+    {
+      "authors": [
+        "Ion, M.",
         "Collins-Thompson, K."
       ],
       "year": 2025,
@@ -55,7 +70,9 @@
       "description": "Study of the challenges and decisions instructors face when teaching geometry to future teachers.",
       "title": "Teaching Geometry for Secondary Teachers: What are the Tensions Instructors Need to Manage?",
       "venue": "International Journal of Research in Undergraduate Mathematics Education",
-      "status": "published"
+      "status": "published",
+      "doi": "10.1007/s40753-023-00216-0",
+      "url": "https://doi.org/10.1007/s40753-023-00216-0"
     },
     {
       "authors": [
@@ -74,7 +91,9 @@
       "description": "Research on how writing assignments in general education courses contribute to long-term learning outcomes.",
       "title": "Alumni Perspectives on General Education: How Writing Can Increase What We Know",
       "venue": "Journal of General Education",
-      "status": "published"
+      "status": "published",
+      "doi": "10.5325/jgeneeduc.72.1-2.0001",
+      "url": "https://doi.org/10.5325/jgeneeduc.72.1-2.0001"
     },
     {
       "authors": [
@@ -139,7 +158,9 @@
       "description": "Contention and Coalescence in Mathematical Knowledge: Undergraduate Geometry Instructors' Cooperative Design of Student Learning Objectives. American Educational Research Association. San Diego, CA.",
       "title": "",
       "venue": "American Educational Research Association",
-      "status": "published"
+      "status": "published",
+      "doi": "10.3102/2017977",
+      "url": "https://doi.org/10.3102/2017977"
     },
     {
       "authors": [
@@ -170,7 +191,9 @@
       "description": "Understanding instructional capacity for high school geometry as a systemic problem through stakeholder interviews. Psychology of Mathematics Education, North America. Mexico.",
       "title": "",
       "venue": "Psychology of Mathematics Education, North America",
-      "status": "published"
+      "status": "published",
+      "doi": "10.51272/pmena.42.2020-94",
+      "url": "https://doi.org/10.51272/pmena.42.2020-94"
     },
     {
       "authors": [
@@ -186,7 +209,9 @@
       "description": "Who Benefits from Mathematics Courses for Teachers? An Analysis of MKT-G Growth During Geometry for Teachers Courses. American Education Research Association. San Francisco, CA.",
       "title": "",
       "venue": "American Education Research Association",
-      "status": "published"
+      "status": "published",
+      "doi": "10.3102/1583884",
+      "url": "https://doi.org/10.3102/1583884"
     },
     {
       "authors": [
@@ -221,7 +246,9 @@
       "description": "Tensions in Teaching Mathematics to Future Teachers: Understanding the Practice of Undergraduate Mathematics Instructors. American Education Research Association Conference. Toronto, Canada.",
       "title": "",
       "venue": "American Education Research Association",
-      "status": "published"
+      "status": "published",
+      "doi": "10.3102/1437264",
+      "url": "https://doi.org/10.3102/1437264"
     },
     {
       "authors": [
@@ -262,10 +289,11 @@
       "location": "An, T.",
       "type": "book_chapter",
       "subcategory": "Book Chapters",
-      "description": "(Toward) Essential student learning objectives for teaching geometry to pre-service secondary teachers. The AMTE Handbook of Mathematics Teacher Education: Reflection on Past, Present and Future – Paving the Way for the Future of Mathematics Teacher Education, 175-197.",
+      "description": "(Toward) Essential student learning objectives for teaching geometry to pre-service secondary teachers. The AMTE Handbook of Mathematics Teacher Education: Reflection on Past, Present and Future \u2013 Paving the Way for the Future of Mathematics Teacher Education, 175-197.",
       "title": "",
       "venue": "AMTE Handbook of Mathematics Teacher Education",
-      "status": "published"
+      "status": "published",
+      "url": "https://www.infoagepub.com/products/The-AMTE-Handbook-of-Mathematics-Teacher-Education-Vol-5"
     },
     {
       "authors": [
@@ -279,7 +307,8 @@
       "description": "A Contribution to Stewarding the SLOs: Developing SLO Assessment Items and Examining Item Responses. GeT: The News!, 3(1).",
       "title": "",
       "venue": "GeT: The News!",
-      "status": "published"
+      "status": "published",
+      "url": "https://www.gripumich.org/v3-i1-f2021/"
     },
     {
       "authors": [
@@ -293,7 +322,8 @@
       "description": "A Deeper Dive into an SLO Item: Examining Students' Ways of Reasoning about Relationships between Euclidean and Non-Euclidean Geometries. GeT: The News!, 3(1).",
       "title": "",
       "venue": "GeT: The News!",
-      "status": "published"
+      "status": "published",
+      "url": "https://www.gripumich.org/v3-i1-f2021/"
     },
     {
       "authors": [
@@ -312,7 +342,8 @@
       "description": "Best-Laid Co-Plans for a Lesson on Creating a Mathematical Definition. AMS Blogs: On Teaching and Learning Mathematics.",
       "title": "",
       "venue": "AMS Blogs: On Teaching and Learning Mathematics",
-      "status": "published"
+      "status": "published",
+      "url": "https://blogs.ams.org/matheducation/2021/05/06/best-laid-co-plans-for-a-lesson-on-creating-a-mathematical-definition/"
     },
     {
       "authors": [
@@ -404,7 +435,9 @@
       "description": "Learning and Participating in Scholarship of Teaching and Learning through a Faculty Online Learning Community. American Education Research Association. San Diego, CA.",
       "title": "",
       "venue": "American Education Research Association",
-      "status": "published"
+      "status": "published",
+      "doi": "10.3102/1891357",
+      "url": "https://doi.org/10.3102/1891357"
     },
     {
       "authors": [
@@ -453,7 +486,9 @@
       "description": "Preparing Teachers for Secondary Geometry: Understanding the Tensions in Teaching Undergraduate Mathematics Courses for Future Teachers. Association of Mathematics Teacher Educators Annual Conference. Orlando, FL.",
       "title": "",
       "venue": "Association of Mathematics Teacher Educators Annual Conference",
-      "status": "published"
+      "status": "published",
+      "doi": "10.3102/1437264",
+      "url": "https://doi.org/10.3102/1437264"
     },
     {
       "authors": [
@@ -725,33 +760,6 @@
   ],
   "grants": [
     {
-      "status": "in_review",
-      "collaborators": [
-        "Kevyn Collins-Thompson (PI)",
-        "Christopher Brooks (co-PI)",
-        "Steve Oney (co-PI)",
-        "Michael Ion (Senior Personnel)"
-      ],
-      "years": "2025-2026, if funded",
-      "role": "Senior Personnel and Co-Author",
-      "title": "Instructor-centered Holistic Modeling of Student Engagement and Progress in Data Science",
-      "funder": "NSF 23-624: RITEL",
-      "amount": "750000"
-    },
-    {
-      "status": "in_review",
-      "collaborators": [
-        "Kevyn Collins-Thompson (PI)",
-        "Christopher Brooks (co-PI)",
-        "Michael Ion (Senior Personnel)"
-      ],
-      "years": "2025-2026, if funded",
-      "role": "Senior Personnel and Co-Author",
-      "title": "Test Beds for Higher Education",
-      "funder": "NSF 24-111: AI-Ready Test Beds",
-      "amount": "100000"
-    },
-    {
       "status": "awarded",
       "collaborators": [
         "Kevyn Collins-Thompson (co-PI)",
@@ -774,6 +782,33 @@
       "title": "GeT Support: An online professional learning community to support the geometry course for teachers",
       "funder": "NSF IUSE Grant #1725837",
       "amount": "2300000"
+    },
+    {
+      "status": "not_funded",
+      "collaborators": [
+        "Kevyn Collins-Thompson (PI)",
+        "Christopher Brooks (co-PI)",
+        "Steve Oney (co-PI)",
+        "Michael Ion (Senior Personnel)"
+      ],
+      "years": "2025-2026",
+      "role": "Senior Personnel and Co-Author",
+      "title": "Instructor-centered Holistic Modeling of Student Engagement and Progress in Data Science",
+      "funder": "NSF 23-624: RITEL",
+      "amount": "750000"
+    },
+    {
+      "status": "not_funded",
+      "collaborators": [
+        "Kevyn Collins-Thompson (PI)",
+        "Christopher Brooks (co-PI)",
+        "Michael Ion (Senior Personnel)"
+      ],
+      "years": "2025-2026",
+      "role": "Senior Personnel and Co-Author",
+      "title": "Test Beds for Higher Education",
+      "funder": "NSF 24-111: AI-Ready Test Beds",
+      "amount": "100000"
     }
   ]
 }

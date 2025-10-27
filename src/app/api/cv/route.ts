@@ -4,9 +4,9 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const cvPath = path.join(process.cwd(), 'public/cv-ion-mar2025.pdf');
+    const cvPath = path.join(process.cwd(), 'public/cv_v1.pdf');
     const cvFile = await fs.readFile(cvPath);
-    
+
     return new NextResponse(cvFile, {
       headers: {
         'Content-Type': 'application/pdf',
@@ -16,7 +16,7 @@ export async function GET() {
   } catch (error) {
     console.error('Error loading CV file:', error);
     return NextResponse.json(
-      { error: 'Failed to load CV file' }, 
+      { error: 'Failed to load CV file' },
       { status: 500 }
     );
   }

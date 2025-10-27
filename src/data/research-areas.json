@@ -1,118 +1,78 @@
 {
   "researchAreas": [
     {
-      "id": "ai-mathematics-education",
-      "title": "Learning Analytics in Educational Settings",
-      "description": "Using computational approaches to understand teaching and learning processes across educational contexts.",
-      "icon": "ai",
+      "id": "conversational-learning-analytics",
+      "title": "Conversational Learning Analytics",
+      "description": "Building statistical classifiers and temporal models to capture patterns of effective instruction from large-scale conversational data—question types, scaffolding moves, breakthrough moments, and engagement dynamics.",
+      "icon": "data",
       "color": "blue",
-      "startYear": 2019,
+      "startYear": 2018,
       "tags": [
-        "learning-analytics",
-        "educational-dialogues",
-        "simulated-teaching",
-        "conceptual-understanding",
-        "discourse-analysis"
+        "text-classification",
+        "temporal-modeling",
+        "hawkes-processes",
+        "breakthrough-moments",
+        "scaffolding-detection",
+        "large-scale-datasets",
+        "MathMentorDB"
       ],
       "coreQuestions": [
-        "How can we analyze educational discourse to improve teaching and learning?",
-        "What aspects of effective teaching can be modeled and studied systematically?",
-        "How do we evaluate and improve educational dialogues in diverse learning contexts?"
+        "What patterns in tutoring conversations predict learning outcomes?",
+        "How can we extract temporal features that capture engagement beyond content?",
+        "Do classifiers trained on mathematics tutoring transfer to other domains?"
+      ],
+      "publications": [
+        "MathMentorDB: A Large-Scale Dataset for Analyzing Mathematics Tutoring Conversations",
+        "Bayesian Hierarchical Modeling of Large-Scale Math Tutoring Dialogues"
+      ]
+    },
+    {
+      "id": "validated-simulation",
+      "title": "Validated Simulation for Education Research",
+      "description": "Using simulation-based calibration to test hypotheses about teaching strategies at scales impossible with human participants—distinguishing simulation fidelity from interaction effectiveness.",
+      "icon": "ai",
+      "color": "purple",
+      "startYear": 2022,
+      "tags": [
+        "simulation-based-calibration",
+        "llm-validation",
+        "hypothesis-testing",
+        "generative-models",
+        "causal-inference",
+        "fidelity-vs-effectiveness"
+      ],
+      "coreQuestions": [
+        "How do we validate that simulated students behave authentically?",
+        "Can simulation test what teaching strategies actually work?",
+        "How do we distinguish fidelity (realistic behavior) from effectiveness (genuine learning)?"
       ],
       "publications": [
         "Simulated Teaching and Learning at Scale: Balancing Fidelity and Effectiveness in Tutoring Interactions"
       ]
     },
     {
-      "id": "data-science-education",
-      "title": "Educational Data Science",
-      "description": "Applying quantitative methods to analyze educational phenomena and improve learning outcomes.",
-      "icon": "data",
-      "color": "purple",
-      "startYear": 2018,
-      "tags": [
-        "educational-data-mining",
-        "text-analytics",
-        "statistical-modeling",
-        "computational-analysis",
-        "large-scale-data"
-      ],
-      "coreQuestions": [
-        "How can data science methods enhance our understanding of learning?",
-        "What patterns emerge when analyzing educational discourse at scale?",
-        "How can statistical models help us understand student learning trajectories?"
-      ],
-      "publications": [
-        "Large Language Models: A New Lens for Examining Derivative Conceptions at Scale"
-      ]
-    },
-    {
-      "id": "mathematical-knowledge-teaching",
-      "title": "Mathematical Knowledge for Teaching",
-      "description": "Investigating the specialized knowledge needed for effective mathematics teaching, particularly for teacher preparation.",
-      "icon": "teaching",
-      "color": "green",
-      "startYear": 2016,
-      "tags": [
-        "geometry-teaching",
-        "teacher-preparation",
-        "instructional-capacity",
-        "pedagogical-content-knowledge",
-        "teaching-tensions"
-      ],
-      "coreQuestions": [
-        "What specialized knowledge do mathematics teachers need?",
-        "What tensions do instructors face when teaching mathematics to future teachers?",
-        "How can we assess and develop mathematical knowledge for teaching?"
-      ],
-      "publications": [
-        "Teaching Geometry for Secondary Teachers: What are the Tensions Instructors Need to Manage?"
-      ]
-    },
-    {
-      "id": "technical-learning",
-      "title": "Technical Skills Education",
-      "description": "Exploring innovative approaches to technical skills development with a focus on data science education.",
+      "id": "ai-enhanced-learning",
+      "title": "AI-Enhanced Learning Environments",
+      "description": "Developing AI-powered tools that combine expert human mentorship with adaptive simulation for technical skills education and personalized learning at scale.",
       "icon": "technical",
-      "color": "orange",
-      "startYear": 2022,
+      "color": "green",
+      "startYear": 2024,
       "tags": [
         "technical-interviews",
-        "data-science-education",
-        "computer-supported-learning",
+        "adaptive-assessment",
+        "ai-tutoring",
+        "human-ai-collaboration",
         "personalized-learning",
-        "skill-assessment"
+        "data-science-education"
       ],
       "coreQuestions": [
-        "How can we create effective technical interview preparation experiences?",
-        "What role can technology play in personalized technical skill development?",
-        "How do we balance technology with human mentorship in technical education?"
+        "How can AI simulation complement expert human mentorship?",
+        "What adaptive strategies optimize learning in technical domains?",
+        "How do we balance automation with authentic human interaction?"
       ],
       "publications": [
-        "Learning Through Technical Interviews: Combining Data Science Mentorship with AI-Powered Practice"
-      ]
-    },
-    {
-      "id": "liberal-arts-education",
-      "title": "Liberal Arts Education Outcomes",
-      "description": "Examining the long-term impacts of liberal arts education on career trajectories and life outcomes.",
-      "icon": "liberal-arts",
-      "color": "red",
-      "startYear": 2017,
-      "tags": [
-        "writing-education",
-        "educational-impacts",
-        "lifelong-learning",
-        "undergraduate-education",
-        "career-outcomes"
-      ],
-      "coreQuestions": [
-        "What are the long-term impacts of liberal arts education?",
-        "How does undergraduate writing experience influence later career outcomes?",
-        "What aspects of liberal arts education have the most lasting value?"
-      ],
-      "publications": [
-        "Alumni Perspectives on General Education: How Writing Can Increase What We Know"
+        "Learning Through Technical Interviews: Combining Data Science Mentorship with AI-Powered Practice",
+        "Adaptive Knowledge Assessment in Simulated Coding Interviews"
       ]
     }
   ],

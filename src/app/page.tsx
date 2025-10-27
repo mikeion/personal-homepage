@@ -84,8 +84,11 @@ export default function Home() {
                 </div>
                 
                 <div className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm rounded-xl p-5 shadow-sm border border-slate-100 dark:border-slate-700">
+                  <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+                    I develop <span className="font-semibold text-slate-800 dark:text-slate-100">statistical methods to measure and simulate effective teaching at scale</span>. Using natural language processing and Bayesian modeling on large-scale conversational data, I build classifiers that detect patterns predicting learning outcomes: breakthrough moments, scaffolding moves, and engagement dynamics.
+                  </p>
                   <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-                    I'm an educator, researcher, and developer working at the intersection of mathematics, statistics, data science, and AI. My work integrates computational methods and statistical modeling with insights from educational research, exploring how teachers and learners strategically interact to build effective learning environments. I am particularly committed to developing innovative tools and strategies that account for learners' diverse backgrounds, support adaptive teaching methods, and promote meaningful feedback and learner agency.
+                    My research combines measurement with simulation. I build statistical classifiers from observational data, then use validated simulation to test hypotheses about which teaching strategies work best. This approach enables testing at scales impossible with human participants alone.
                   </p>
                 </div>
                 

@@ -73,13 +73,13 @@ export default function About() {
           <h1 className="text-4xl font-bold mb-6 text-slate-800 dark:text-white">Hi, I'm Mike Ion</h1>
           <div className="mb-6 text-slate-600 dark:text-slate-300 text-lg space-y-4">
             <p>
-              I'm a researcher, educator, and technologist with a passion for using computational methods to understand and enhance how people learn—especially in mathematics.
+              I'm a researcher, educator, and technologist who develops <span className="font-semibold text-slate-800 dark:text-white">statistical methods to measure and simulate effective teaching at scale</span>. My work combines natural language processing, Bayesian modeling, and validated simulation to understand what makes instruction work.
             </p>
             <p>
-              My work sits at the intersection of education research, artificial intelligence, and natural language processing. I'm particularly interested in how we can analyze and support learning conversations at scale, whether they happen in classrooms or online communities.
+              Working with <span className="font-semibold">5.5 million tutoring messages</span> and validated annotation frameworks, I build classifiers that detect patterns predicting learning outcomes—breakthrough moments, scaffolding moves, and engagement dynamics. Then I use these measurements in simulation frameworks to test hypotheses about what instructional strategies support learning.
             </p>
             <p>
-              What drives me is the belief that technology, when thoughtfully applied, can make learning more accessible, personalized, and effective for all students.
+              What drives me is the belief that rigorous statistical methods, when thoughtfully applied, can help us understand teaching and learning in ways that inform practice and policy.
             </p>
           </div>
           <div className="flex gap-4">
@@ -118,21 +118,21 @@ export default function About() {
         <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm p-8">
           <Row>
             <Col md={4} className="mb-6 md:mb-0">
-              <h3 className="text-xl font-bold mb-4 text-blue-600 dark:text-blue-400">Interdisciplinary Mindset</h3>
+              <h3 className="text-xl font-bold mb-4 text-blue-600 dark:text-blue-400">Measurement at Scale</h3>
               <p className="text-slate-600 dark:text-slate-300">
-                I believe the most interesting solutions emerge at the boundaries between disciplines. My work combines methods from education research, computer science, and data science to tackle complex learning challenges.
+                I build statistical classifiers that capture subtle patterns in teaching and learning from massive conversational datasets (200K+ conversations). Using LLMs as feature extractors within statistical frameworks, I detect breakthrough moments, scaffolding moves, and engagement dynamics with validated reliability.
               </p>
             </Col>
             <Col md={4} className="mb-6 md:mb-0">
-              <h3 className="text-xl font-bold mb-4 text-blue-600 dark:text-blue-400">Human-Centered Technology</h3>
+              <h3 className="text-xl font-bold mb-4 text-blue-600 dark:text-blue-400">Validated Simulation</h3>
               <p className="text-slate-600 dark:text-slate-300">
-                While I'm excited about AI's potential in education, I always center the human experience. Technology should enhance human capabilities and connections, not replace them. This philosophy shapes how I design and evaluate educational tools.
+                I use simulation-based calibration to test what teaching strategies actually work. By treating AI models as components within statistical frameworks (not black boxes), I can run hypothesis tests at scales impossible with human participants alone—distinguishing genuine learning from surface-level behavior.
               </p>
             </Col>
             <Col md={4}>
-              <h3 className="text-xl font-bold mb-4 text-blue-600 dark:text-blue-400">Research to Practice</h3>
+              <h3 className="text-xl font-bold mb-4 text-blue-600 dark:text-blue-400">Cross-Domain Validation</h3>
               <p className="text-slate-600 dark:text-slate-300">
-                I'm committed to ensuring research findings make their way into practical applications. Whether through developing tools, consulting with organizations, or teaching, I work to bridge the gap between academic insights and real-world impact.
+                Methods matter when they generalize. I validate classification and temporal models across contexts: Discord tutoring, elementary classrooms (NCTE), and K-12 instruction (TalkMoves). This ensures findings transfer beyond the specific settings where they were developed.
               </p>
             </Col>
           </Row>

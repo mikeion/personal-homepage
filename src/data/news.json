@@ -1,10 +1,24 @@
 {
   "news": [
     {
-      "date": "2024-10-01",
-      "title": "Started Postdoctoral Position",
-      "description": "Began a postdoctoral fellowship with the University of Michigan School of Information.",
+      "date": "2025-10-22",
+      "title": "Paper Submitted to LREC 2026",
+      "description": "Submitted \"MathMentorDB: A Massive Dataset of Authentic Online Mathematics Tutoring Dialogues\" to the Language Resources and Evaluation Conference with co-author Kevyn Collins-Thompson.",
       "category": "research",
+      "link": "https://lrec2026.info/"
+    },
+    {
+      "date": "2025-09-18",
+      "title": "Started Position as Lecturer in Statistics",
+      "description": "Began a new position as Lecturer in the Statistics Department at California Polytechnic State University, San Luis Obispo.",
+      "category": "research",
+      "link": null
+    },
+    {
+      "date": "2025-08-07",
+      "title": "Talk at JSM 2025",
+      "description": "Presented at the Joint Statistical Meetings in Nashville.",
+      "category": "speaking",
       "link": null
     },
     {
@@ -20,6 +34,13 @@
       "description": "Presented \"Text-as-Data in Mathematics Education: Harnessing LLMs to Analyze Student Conversations at Scale\" at the Joint Mathematics Meeting in Seattle.",
       "category": "speaking",
       "link": "https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Paper/45743"
+    },
+    {
+      "date": "2024-10-01",
+      "title": "Started Postdoctoral Position",
+      "description": "Began a postdoctoral fellowship with the University of Michigan School of Information.",
+      "category": "research",
+      "link": null
     },
     {
       "date": "2024-03-22",

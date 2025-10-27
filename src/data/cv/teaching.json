@@ -122,28 +122,29 @@
     {
       "type": "Graduate",
       "students": [
-        { "name": "Megan Pouncy", "period": "2024-Present" },
-        { "name": "Soobin Jeon", "period": "2022-2023" },
-        { "name": "Anna Paulson", "period": "2019-2023" },
-        { "name": "Jason Godfrey", "period": "2018-2023" },
-        { "name": "Matt Park", "period": "2019-2021" },
-        { "name": "Davinia Rodriguez-Wilhelm", "period": "2018-2020" },
-        { "name": "Scott Bridges", "period": "2019-2020" }
+        { "name": "Megan Pouncy", "period": "2024-Present", "currentPosition": "PhD Student, University of Michigan" }
       ]
     },
     {
       "type": "Undergraduate",
       "students": [
-        { "name": "Fengquan Jiao", "period": "2024-Present" },
-        { "name": "Tianyi Wang", "period": "2024-Present" },
-        { "name": "Andre Quimper Osores", "period": "2022-2023" },
-        { "name": "Amirali Danai", "period": "2022-2023" },
-        { "name": "Noah Boudrie", "period": "2022-2023" },
-        { "name": "Robert Beckemeyer", "period": "2021-2022" },
-        { "name": "Andrew Spiteri", "period": "2021-2022" },
-        { "name": "Alan Zhang", "period": "2020-2021" },
-        { "name": "Michael Green", "period": "2020-2021" }
+        { "name": "Sumit Asthana", "period": "2022-2024", "currentPosition": "Researcher, Microsoft Research" },
+        { "name": "Fengquan Jiao", "period": "2024-Present", "currentPosition": "Undergraduate Student, University of Michigan" },
+        { "name": "Tianyi Wang", "period": "2024-Present", "currentPosition": "Undergraduate Student, University of Michigan" },
+        { "name": "Andre Quimper Osores", "period": "2022-2023", "currentPosition": "MS Student, University of Michigan" },
+        { "name": "Amirali Danai", "period": "2022-2023", "currentPosition": "MS Student, University of Michigan" },
+        { "name": "Noah Boudrie", "period": "2022-2023", "currentPosition": "Software Engineer, Thomson Reuters" },
+        { "name": "Robert Beckemeyer", "period": "2021-2022", "currentPosition": "MS Student, Carnegie Mellon University" },
+        { "name": "Andrew Spiteri", "period": "2021-2022", "currentPosition": "Consultant, Bain & Company" },
+        { "name": "Alan Zhang", "period": "2020-2021", "currentPosition": "Data Scientist, Google" }
       ]
+    }
+  ],
+  "awards": [
+    {
+      "year": 2015,
+      "title": "Outstanding Teaching Associate Award",
+      "institution": "California Polytechnic State University"
     }
   ]
 } 
