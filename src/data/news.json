@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "date": "2025-10-30",
+      "title": "New Preprint: Chip-Firing and the R10 Matroid",
+      "description": "Published \"Chip-Firing and the Sandpile Group of the R10 Matroid\" on arXiv with co-author Alex McDonough. We provide a simple description of chip-firing on R10 using complex numbers and describe representatives for the 162 equivalence classes of its sandpile group.",
+      "category": "research",
+      "link": "https://arxiv.org/abs/2510.26021"
+    },
+    {
       "date": "2025-10-22",
       "title": "Paper Submitted to LREC 2026",
       "description": "Submitted \"MathMentorDB: A Massive Dataset of Authentic Online Mathematics Tutoring Dialogues\" to the Language Resources and Evaluation Conference with co-author Kevyn Collins-Thompson.",

@@ -3,6 +3,21 @@
     {
       "authors": [
         "Ion, M.",
+        "McDonough, A."
+      ],
+      "year": 2025,
+      "location": "Ion, M.",
+      "type": "preprint",
+      "subcategory": "Preprints",
+      "description": "A simple description of chip-firing on the R10 matroid using complex numbers on the vertices of a pentagon, with an easy to describe set of representatives for each of the 162 equivalence classes that make up the sandpile group of R10.",
+      "title": "Chip-Firing and the Sandpile Group of the R10 Matroid",
+      "venue": "arXiv",
+      "status": "published",
+      "doi": "https://arxiv.org/abs/2510.26021"
+    },
+    {
+      "authors": [
+        "Ion, M.",
         "Collins-Thompson, K.",
         "Herbst, P."
       ],
